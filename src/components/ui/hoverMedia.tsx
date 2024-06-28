@@ -1,7 +1,7 @@
 // components/HoverContent.js
 "use client"
 import { useState } from 'react';
-import styles from '../sections/service/hovertext.css';
+import "../sections/service/style/style.css"
 import Image from 'next/image';
 
 const HoverContent = ({ text, imageUrl }) => {
@@ -9,7 +9,7 @@ const HoverContent = ({ text, imageUrl }) => {
 
   return (
     <div
-      className={styles.hoverContainer}
+      className="hoverContainer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -18,8 +18,8 @@ const HoverContent = ({ text, imageUrl }) => {
                     <div className=' absolute'>
 
                         {isHovered && (
-                            <span className={styles.content}>
-                                {imageUrl && <Image src={imageUrl} alt="Hover Content" className={styles.media} width={200} height={300} />}
+                            <span className="content">
+                                {imageUrl && <Image src={imageUrl} alt="Hover Content" className="media" width={200} height={300} />}
                                 {/* {videoUrl && (
                                     <video className={styles.media} controls>
                                         <source src={videoUrl} type="video/mp4" />
@@ -32,7 +32,7 @@ const HoverContent = ({ text, imageUrl }) => {
                 </div>
                 <div className='text-3xl items-start flex justify-start font-extrabold hover:opacity-100  opacity-30 cursor-pointer'>
 
-                <span className={styles.hoverText}>{text}</span>
+                <span className="hoverText">{text}</span>
                 </div>
             </div>
 
