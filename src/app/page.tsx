@@ -50,8 +50,8 @@ export default function Home() {
         </div>
         <div className="h-auto bg-gray-100 text-slate-950 rounded-3xl">
 
-          <div className="  h-auto sm:pt-20 pt-10 font-serif text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold rounded-3xl">
-            <h1 className="w-2/3 text-4xl sm:text-8xl">Top-rated design
+          <div className="  h-auto sm:pt-20 pt-10 p-5 font-serif text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold rounded-3xl">
+            <h1 className="sm:w-2/3 text-4xl sm:text-8xl">Top-rated design
               for fast growing
               companies</h1>
             <p className=" text-slate-950 sm:text-xl sm:w-1/2 font-serif text-center items-end justify-end">
@@ -59,7 +59,7 @@ export default function Home() {
 
             </p>
             <div>
-              <div className="h-full w-full p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
+              <div className="h-full w-full sm:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
                 <div className="h-full w-full bg-slate-950 flex flex-col gap-20 p-5 text-white border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <MdModeStandby className="text-5xl" />
