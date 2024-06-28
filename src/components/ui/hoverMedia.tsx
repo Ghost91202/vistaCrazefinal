@@ -20,12 +20,12 @@ const HoverContent = ({ text, imageUrl, videoUrl }) => {
                         {isHovered && (
                             <span className={styles.content}>
                                 {imageUrl && <Image src={imageUrl} alt="Hover Content" className={styles.media} width={200} height={300} />}
-                                {videoUrl && (
+                                {/* {videoUrl && (
                                     <video className={styles.media} controls>
                                         <source src={videoUrl} type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
-                                )}
+                                )} */}
                             </span>
                         )}
                     </div>
