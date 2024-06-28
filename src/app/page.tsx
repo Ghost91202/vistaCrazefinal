@@ -2,10 +2,10 @@ import { NavbarDemo } from "@/components/navbar/navbar";
 import Hero from "@/components/hero/hero"
 import { Cards } from "@/components/cards/card2";
 import { CardDemo } from "@/components/cards/card";
-import { SpotlightPreview } from "@/components/sections/section1"
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Button } from "@/components/ui/button"
+import IMG from "../../public/profile.jpg"
 
 import CardGroup from "@/components/cards/Techcards"
 import { Footer } from "@/components/footer/footer";
@@ -17,7 +17,8 @@ import { TbArrowsRandom } from "react-icons/tb";
 import { PiMetaLogoDuotone } from "react-icons/pi";
 import { TbBrandApplePodcast } from "react-icons/tb";
 import { GiIronCross } from "react-icons/gi";
-
+import { CardStackDemo } from "@/components/cards/cardbundle";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -50,8 +51,8 @@ export default function Home() {
         </div>
         <div className="h-auto bg-gray-100 text-slate-950 rounded-3xl">
 
-          <div className="  h-auto sm:pt-20 pt-10 p-5 font-serif text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold rounded-3xl">
-            <h1 className="sm:w-2/3 text-4xl sm:text-8xl">Top-rated design
+          <div className="  h-auto sm:pt-20 pt-10 p-5  text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold rounded-3xl">
+            <h1 className="sm:w-2/3 text-4xl sm:text-8xl font-mono">Top-rated design
               for fast growing
               companies</h1>
             <p className=" text-slate-950 sm:text-xl sm:w-1/2 font-serif text-center items-end justify-end">
@@ -180,6 +181,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
+
+
         </div>
         <div className="">
           <div className="border p-10 flex flex-col h-full text-white items-center justify-center border-gray-700 rounded-3xl gap-5 ">
@@ -191,13 +196,13 @@ export default function Home() {
             <section className="flex">
               <div className="flex lg:flex-row flex-col items-center p-10 gap-5 justify-center float-bottom">
                 <div className="flex flex-col items-center">
-                  <Cards text="React"/>
-                  <Cards  text="Next Js 14"/>
+                  <Cards text="React" />
+                  <Cards text="Next Js 14" />
                 </div>
                 <CardDemo />
                 <div className="flex flex-col justify-center gap-0 items-center">
-                  <Cards  text="Angular"/>
-                  <Cards  text="Vue Js"/>
+                  <Cards text="Angular" />
+                  <Cards text="Vue Js" />
                 </div>
               </div>
 
@@ -210,7 +215,39 @@ export default function Home() {
           {/* <FollowingPointer/> */}
         </div>
         <Service />
+        <div className="bg-gray-100 h-auto w-full  ">
+          <div className="grid grid-flow-row grid-cols-1 p-10 gap-10 sm:grid-cols-3 sm:gap-32 sm:p-20">
+            <div className="bg-white p-10 rounded-3xl h-96  flex flex-col  justify-between">
+              <Link href="/" className=" flex items-center ml-40">
+                <Image src={IMG} alt="vistaCraze" width={150} height={150} className="rounded-full " />
+              </Link>
+              <h1 className="text-black ">
+                Karan Sharma
+                <p className="text-black/50">Founder</p>
+              </h1>
 
+            </div>
+            <div className="text-slate-950 flex flex-col justify-center items-center">
+              <h1 className="sm:text-6xl text-4xl font-mono font-bold">VistaCraze</h1>
+              <p className="text-sm font-mono text-center">Made of members with backgrounds at Nike, Apple and Google, Hello Robo team mirrors real-world expertise derived from design industry leaders.</p>
+            </div>
+            <div className="bg-white p-10 rounded-3xl h-96  flex flex-col  justify-between">
+              <Link href="/" className=" flex items-center ml-40">
+                <Image src={IMG} alt="vistaCraze" width={150} height={150} className="rounded-full " />
+              </Link>
+              <h1 className="text-black ">
+                Karan Sharma
+                <p className="text-black/50">Founder</p>
+              </h1>
+
+            </div>
+          </div>
+        </div>
+        <div className="bg-gray-100 w-full text-slate-950  flex items-center flex-col sm:gap-20 justify-center h-auto">
+          <h1 className="text-3xl sm:w-2/3 font-mono font-bold sm:text-6xl text-center flex justify-center items-center sm:mt-20">Smart investments, major results: our partners agree</h1>
+          
+          <CardStackDemo/>
+        </div>
         <Footer />
       </div>
     </main>
