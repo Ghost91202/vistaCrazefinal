@@ -8,7 +8,7 @@ export function Footer() {
       <div className='h-auto text-white pt-10 mt-10  border-t grid'>
 
               <Link href="/">
-                  <Image src={Logo} alt="vistaCraze logo" width={200}/>
+                  <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
           </Link>
           <div>
 

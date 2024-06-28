@@ -4,7 +4,12 @@ import { useState } from 'react';
 import "../sections/service/style/style.css"
 import Image from 'next/image';
 
-const HoverContent = ({ text, imageUrl }) => {
+interface HoverContentProps {
+  text: string;
+  imageUrl: string;
+}
+
+const HoverContent: React.FC<HoverContentProps> = ({ text, imageUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (

@@ -74,7 +74,7 @@ export const Menu = ({
       className="relative border-b items-center text-white border-gray-500  dark:bg-black dark:border-white/[0.2] bg-black shadow-input flex justify-around space-x-4 px-8 py-6 "
       >
         <Link href="/">
-        <Image src={Logo} alt="VistaCraze digital marketing agency" width={180}/>
+        <Image src={Logo} alt="VistaCraze digital marketing agency" width={180} height={100}/>
         </Link>
           <div className="relative border border-transparent dark:bg-black  bg-black shadow-input text-center float-right flex justify-center space-x-8 ">
 
