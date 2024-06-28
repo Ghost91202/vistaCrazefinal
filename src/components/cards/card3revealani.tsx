@@ -3,7 +3,7 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-export function CanvasRevealEffectDemo3({ element }: CanvasRevealEffectDemo3Props)  {
+export function CanvasRevealEffectDemo3({ element }: { element: String; })  {
   const [hovered, setHovered] = React.useState(false);
   return (
     <div
