@@ -5,7 +5,7 @@ import Link from 'next/link'
 import HoverContent  from "@/components/ui/hoverMedia"
 export function Footer() {
   return (
-      <div className='h-auto text-white pt-10 mt-10  border-t grid'>
+      <div className='h-auto text-white pt-10 mt-10 p-10 border-t grid'>
 
               <Link href="/">
                   <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>

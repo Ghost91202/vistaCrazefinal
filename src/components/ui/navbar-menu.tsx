@@ -76,12 +76,12 @@ export const Menu = ({
         <Link href="/">
         <Image src={Logo} alt="VistaCraze digital marketing agency" width={180} height={100}/>
         </Link>
-          <div className="relative border border-transparent dark:bg-black  bg-black shadow-input text-center float-right flex justify-center space-x-8 ">
+          <div className="relative sm:flex hidden border border-transparent dark:bg-black  bg-black shadow-input text-center float-right  justify-center space-x-8 ">
 
       {children}
           </div>
-          <Link href="/contact">
-              contact
+          <Link href="/contact" className=" border border-white hover:bg-blue-800 bg-blue-600  rounded-full p-2">
+              Start Project
           </Link>
     </nav>
   );

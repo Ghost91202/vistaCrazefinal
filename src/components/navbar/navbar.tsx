@@ -45,7 +45,7 @@ function Navbar({ className }: { className?: string }) {
               description="Never write from scratch again. Go from idea to blog in minutes."
             />
             <ProductItem
-              title="Rogue" 
+              title="Rogue"
               href=""
               src={navImg.src}
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"

@@ -6,11 +6,11 @@ import {
   GlowingStarsTitle,
 } from "../ui/glowing-stars";
 
-export function Cards() {
+export function Cards({text}:{text:String}) {
   return (
     <div className="flex  py-2 items-center justify-center antialiased">
       <GlowingStarsBackgroundCard>
-        <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+        <GlowingStarsTitle>{text}</GlowingStarsTitle>
         <div className="flex justify-between items-end">
           <GlowingStarsDescription>
             The power of full-stack to the frontend. Read the release notes.
