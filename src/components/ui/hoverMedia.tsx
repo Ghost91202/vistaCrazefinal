@@ -4,7 +4,7 @@ import { useState } from 'react';
 import styles from '../sections/service/hovertext.css';
 import Image from 'next/image';
 
-const HoverContent = ({ text, imageUrl, videoUrl }) => {
+const HoverContent = ({ text, imageUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
