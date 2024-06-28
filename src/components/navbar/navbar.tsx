@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
-import navi from "../../../public/pexels-photo-326055.jpeg"
+import navImg from "../../../public/pexels-photo-326055.jpeg"
 export function NavbarDemo() {
   return (
     <Navbar className="top-0" />
@@ -47,7 +47,7 @@ function Navbar({ className }: { className?: string }) {
             <ProductItem
               title="Rogue"
               href=""
-              src={navi}
+              src={navImg.src}
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
           </div>
