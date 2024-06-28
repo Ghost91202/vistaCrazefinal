@@ -1,10 +1,14 @@
-"use client";
 import React from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-export function CanvasRevealEffectDemo3({ element }: { element: String; })  {
+
+interface CanvasRevealEffectDemo3Props {
+  element: React.ReactNode; // Adjusted to accept JSX elements
+}
+
+export function CanvasRevealEffectDemo3({ element }: CanvasRevealEffectDemo3Props) {
   const [hovered, setHovered] = React.useState(false);
+
   return (
     <div
       onMouseEnter={() => setHovered(true)}
@@ -13,7 +17,7 @@ export function CanvasRevealEffectDemo3({ element }: { element: String; })  {
     >
       <div>
         {element}
-     </div>
+      </div>
 
       <AnimatePresence>
         {hovered && (
@@ -36,8 +40,9 @@ export function CanvasRevealEffectDemo3({ element }: { element: String; })  {
           </motion.div>
         )}
       </AnimatePresence>
+
       {/* Radial gradient for the cute fade */}
-      <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black/90 dark:from-black dark:via-transparent dark:to-black/90" />
     </div>
   );
 }
