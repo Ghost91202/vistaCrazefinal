@@ -3,14 +3,14 @@ import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation";
 import Image from "next/image";
 import { Button } from '@/components/ui/button'
-
+import { TextRevealCardPreview } from "@/components/hero/textReveal";
 export function HeroScrollDemo() {
   return (
     <div className="flex  flex-col overflow-hidden ">
 
       <ContainerScroll
         titleComponent={
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-full flex-col">
             <Button
                   size={'lg'}
                   className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
@@ -19,12 +19,7 @@ export function HeroScrollDemo() {
                     Start For Free Today
                   </span>
                 </Button>
-            <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
-              Unleash the power of <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
-              </span>
-            </h1>
+            <TextRevealCardPreview/>
           </div>
         }
       >
