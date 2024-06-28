@@ -16,23 +16,23 @@ export function Footer() {
           <div className='grid sm:grid-flow-row sm:grid-cols-5'>
               <HoverContent
           text="Instagram"
-          imageUrl={Logo}
+          imageUrl={Logo.src}
         />
               <HoverContent
           text="FaceBook"
-          imageUrl={Logo}
+          imageUrl={Logo.src}
         />
               <HoverContent
           text="Twitter"
-          imageUrl={Logo}
+          imageUrl={Logo.src}
         />
               <HoverContent
           text="YouTube"
-          imageUrl={Logo}
+          imageUrl={Logo.src}
         />
               <HoverContent
           text="Pinterest"
-          imageUrl={Logo}
+          imageUrl={Logo.src}
         />
             </div>
 
