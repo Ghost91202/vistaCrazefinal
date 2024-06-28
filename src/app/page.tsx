@@ -1,4 +1,3 @@
-import MacbookScrollDemo from "@/components/Macbook"
 import { NavbarDemo } from "@/components/navbar/navbar";
 import { HeroScrollDemo } from "@/components/hero/hero"
 import { Cards } from "@/components/cards/card2";
@@ -6,19 +5,13 @@ import { CardDemo } from "@/components/cards/card";
 import { SpotlightPreview } from "@/components/sections/section1"
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { CanvasRevealEffectDemo3 } from "@//components/cards/card3revealani.tsx"
-import {FollowingPointer} from "@/components/cards/followingPointer"
-import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect"
+
 import CardGroup from "@/components/cards/Techcards"
 import { Footer } from "@/components/footer/footer";
 import Service from "@/components/sections/service/service";
 import { BackgroundBeamsDemo } from "@/components/hero/background";
 
-const items = [
-  <div style={{ backgroundColor: 'lightcoral', height: '300px' }}>Slide 1</div>,
-  <div style={{ backgroundColor: 'lightblue', height: '300px' }}>Slide 2</div>,
-  <div style={{ backgroundColor: 'lightgreen', height: '300px' }}>Slide 3</div>
-];
+
 
 
 export default function Home() {
