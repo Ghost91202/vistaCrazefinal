@@ -9,9 +9,9 @@ interface Props {}
 
 const Service: React.FC<Props> = (props) => {
   return (
-    <div className='flex flex-col  p-20'>
-      <h1 className='lg:text-5xl font-bold text-xl float-right flex items-end justify-end '>Services</h1>
-      <div className='flex flex-col '>
+    <div className='flex flex-col p-10 sm:p-20'>
+      <h1 className='lg:text-5xl font-bold text-2xl  '>Services</h1>
+      <div className='flex flex-col gap-5'>
         <HoverContent text="Branding" imageUrl={Img.src} />
         <HoverContent text="Brand Strategy" imageUrl={Img1.src} />
         <HoverContent text="Motion graphics" imageUrl={Img3.src} />

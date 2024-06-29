@@ -24,7 +24,7 @@ const HoverContent: React.FC<HoverContentProps> = ({ text, imageUrl }) => {
 
                         {isHovered && (
                             <span className="content">
-                                {imageUrl && <Image src={imageUrl} alt="Hover Content" className="media" width={200} height={300} />}
+                                {imageUrl && <Image src={imageUrl} alt="Hover Content" className="media" width={350} height={350} />}
                                 {/* {videoUrl && (
                                     <video className={styles.media} controls>
                                         <source src={videoUrl} type="video/mp4" />
@@ -35,7 +35,7 @@ const HoverContent: React.FC<HoverContentProps> = ({ text, imageUrl }) => {
                         )}
                     </div>
                 </div>
-                <div className='text-3xl items-start flex justify-start font-extrabold hover:opacity-100  opacity-30 cursor-pointer'>
+                <div className='text-xl sm:text-3xl items-start flex sm:justify-start font-extrabold hover:opacity-100  opacity-30 cursor-pointer'>
 
                 <span className="hoverText">{text}</span>
                 </div>

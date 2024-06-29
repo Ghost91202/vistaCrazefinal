@@ -21,7 +21,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/cards/InfiniteCards.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/cards/InfiniteCards.js", "src/components/cards/StickyScrollCard.js"],
   "exclude": ["node_modules"]
 
 }

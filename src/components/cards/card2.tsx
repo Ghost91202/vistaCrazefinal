@@ -5,12 +5,16 @@ import {
   GlowingStarsDescription,
   GlowingStarsTitle,
 } from "../ui/glowing-stars";
+import Image from "next/image";
 
-export function Cards({text}:{text:String}) {
+export function Cards({text, Ico}:{text:string, Ico:JSX.Element}) {
   return (
     <div className="flex  py-2 items-center justify-center antialiased">
       <GlowingStarsBackgroundCard>
-        <GlowingStarsTitle>{text}</GlowingStarsTitle>
+       <div className="flex gap-4 items-center"> <div>
+          {Ico}
+      </div>
+        <GlowingStarsTitle>{text}</GlowingStarsTitle></div>
         <div className="flex justify-between items-end">
           <GlowingStarsDescription>
             The power of full-stack to the frontend. Read the release notes.
