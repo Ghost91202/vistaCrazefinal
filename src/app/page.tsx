@@ -1,6 +1,5 @@
 import NavbarDemo from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-import Service from "@/components/homesections/service/service";
 import { Cards } from "@/components/cards/card2";
 import { CardDemo } from "@/components/cards/card";
 import Link from "next/link";
