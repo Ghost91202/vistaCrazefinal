@@ -27,7 +27,7 @@ const cardData = [
 ];
 
 const Card = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <>
