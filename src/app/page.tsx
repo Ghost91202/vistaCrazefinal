@@ -23,6 +23,10 @@ import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoVue } from "react-icons/io5";
 import Service from "@/components/homesections/service/service";
 import { FlipWordsDemo } from "@/components/assets/FlipWords";
+import { RiWordpressFill } from "react-icons/ri";
+import { RiSeoLine } from "react-icons/ri";
+import { SiGoogleads } from "react-icons/si";
+import { FaMeta } from "react-icons/fa6";
 
 export default function Home() {
 
@@ -36,8 +40,11 @@ export default function Home() {
 
         <BackgroundBeamsDemo />
         <div className="h-full py-20  flex  flex-col items-center justify-center  p-5  gap-10  text-white">
-
-          <FlipWordsDemo />
+          <RiWordpressFill className=" absolute left-30 sm:left-60 top-24 text-9xl opacity-20" />
+          {/* <RiSeoLine className=" absolute left-30 right-40 top-70 text-9xl opacity-20" /> */}
+          <SiGoogleads className=" absolute left-30 sm:right-40 right-70 sm:top-20 text-9xl opacity-20"/>
+          <FaMeta className=" absolute left-30 right-70 top-70 bottom-10 text-9xl opacity-20"/>
+          <FlipWordsDemo/>
           <div className="flex flex-col md:text-2xl text-lg items-start gap-10 -mt-20 sm:w-1/2 text-center  justify-center">
             <span >
               Big multinational companies or small local brands. Partner approach with one universal goal - to create authentic, functional, and beautiful design.
