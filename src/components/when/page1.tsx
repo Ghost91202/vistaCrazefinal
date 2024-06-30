@@ -5,7 +5,14 @@ import { FaRocket, FaRegBuilding } from 'react-icons/fa';
 import { AiOutlineRise } from 'react-icons/ai';
 import rocketBackground from '../../assets/sert.jpg'; // Replace with the correct path to your background image
 
-const cardData = [
+interface CardData {
+  icon: React.ReactNode;
+  title: string;
+  title2: string;
+  description: string;
+}
+
+const cardData: CardData[] = [
   {
     icon: <FaRocket />,
     title: 'For',
@@ -26,7 +33,7 @@ const cardData = [
   },
 ];
 
-const Card = () => {
+const Card: React.FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
