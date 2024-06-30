@@ -21,6 +21,7 @@ import { FaReact } from "react-icons/fa6";
 import { FaAngular } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoVue } from "react-icons/io5";
+import Service from "@/components/homesections/service/service";
 
 export default function Home() {
 
