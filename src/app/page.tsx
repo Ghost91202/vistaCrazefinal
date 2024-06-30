@@ -40,14 +40,14 @@ export default function Home() {
         <div className="h-full py-20  flex  flex-col items-center justify-center  p-5  gap-10  text-white">
 
           <FlipWordsDemo />
-          <div className="flex flex-col md:text-2xl text-lg items-start gap-10 sm:-mt-20 sm:w-1/2 text-center  justify-center">
+          <div className="flex flex-col md:text-2xl text-lg items-start gap-10 -mt-20 sm:w-1/2 text-center  justify-center">
             <span >
               Big multinational companies or small local brands. Partner approach with one universal goal - to create authentic, functional, and beautiful design.
             </span>
 
-            <svg className="animate-bounce w-6 h-6 ...">
-                <IoIosArrowRoundForward className="rotate-90 sm:text-6xl"/>
-            </svg>
+            <div className="animate-bounce mt-10 w-full flex items-center justify-center">
+                <IoIosArrowRoundForward className=" text-4xl border w-10 h-10 flex items-center justify-center  rounded-full bg-gray-500 backdrop-blur-xl sm:text-6xl rotate-90"/>
+            </div>
 
           </div>
 
