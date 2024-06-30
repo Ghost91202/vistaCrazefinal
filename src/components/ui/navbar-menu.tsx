@@ -4,6 +4,19 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/logo.png"
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
+import { Button } from "@/components/ui/button"
+import { IoReorderThreeOutline } from "react-icons/io5";
+
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -25,7 +38,7 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-      <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative ">
 
       <motion.p
         transition={{ duration: 0.3 }}
@@ -72,26 +85,63 @@ export const Menu = ({
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
       className="relative border-b items-center text-white border-gray-500  dark:bg-black/50 dark:border-white/[0.2] bg-black/50 backdrop-blur-2xl shadow-input flex justify-around space-x-4 px-8 py-6 "
-      >
-        <Link href="/">
-        <Image src={Logo} alt="VistaCraze digital marketing agency" width={180} height={100}/>
-        </Link>
-          <div className="relative sm:flex hidden border border-transparent  shadow-input text-center float-right  justify-center space-x-8 ">
+    >
+      <div className="sm:hidden flex">
+        <Drawer>
+          <DrawerTrigger>
+            <IoReorderThreeOutline />
+          </DrawerTrigger>
+          <DrawerContent>
+            <DrawerHeader>
+              <DrawerTitle>Are you absolutely sure?</DrawerTitle>
+              <DrawerDescription>This action cannot be undone.</DrawerDescription>
+            </DrawerHeader>
+            <DrawerFooter>
+              <Button>Submit</Button>
+              <DrawerClose>
+                <Button variant="outline">Cancel</Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+      </div>
 
-      {children}
+      <Link href="/">
+        <Image src={Logo} alt="VistaCraze digital marketing agency" width={150} height={100} />
+      </Link>
+      <div className="relative sm:flex hidden border border-transparent  shadow-input text-center float-right  justify-center space-x-8 ">
+
+        {children}
       </div>
       <div>
 
       </div>
-      <Link href="/contact" className=" border border-gray-600 hover:bg-blue-800 flex gap-2 items-center justify-center rounded-full px-4 py-2">
+       <Drawer>
+          <DrawerTrigger>
+          <div  className="border border-gray-600 hover:bg-blue-800 flex gap-2 items-center justify-center sm:text-base text-sm px-1 py-1 rounded-full sm:px-4 sm:py-2">
 
-          <span className="relative flex h-3 w-3">
-  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
-  <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-600"></span>
-</span>
+        <span className="relative flex h-3 w-3">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-600"></span>
+        </span>
 
-              let&apos;s talk
-          </Link>
+        let&apos;s talk
+      </div>
+          </DrawerTrigger>
+          <DrawerContent>
+            <DrawerHeader>
+              <DrawerTitle>Are you absolutely sure?</DrawerTitle>
+              <DrawerDescription>This action cannot be undone.</DrawerDescription>
+            </DrawerHeader>
+            <DrawerFooter>
+              <Button>Submit</Button>
+              <DrawerClose>
+                <Button variant="outline">Cancel</Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+
     </nav>
   );
 };

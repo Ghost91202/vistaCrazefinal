@@ -6,6 +6,7 @@ import B2b from "../../../public/b2b.png"
 import Healthcare from "../../../public/Healthcare.png"
 import Education from "../../../public/education.png"
 import IGaming from "../../../public/Igaming.png"
+
 export default function NavbarDemo() {
   return (
     <Navbar className="top-0" />
