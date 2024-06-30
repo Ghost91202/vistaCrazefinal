@@ -32,8 +32,6 @@ export default function Home() {
   return (
     <main>
       <NavbarDemo />
-
-
       <div className="absolute inset-0 pt-10 h-full w-full items-center  [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]">
 
         <BackgroundBeamsDemo />
@@ -162,31 +160,31 @@ export default function Home() {
           </div>
           <div>
             {/* ++++++++++++++++++++++++++++++ INDUSTRIES +++++++++++++++++++++++++++ */}
-            <div className="h-screen p-10">
-              <div className="h-full w-full border grid grid-flow-row grid-cols-1 sm:grid-cols-2  rounded-3xl">
-                <div className=" flex flex-col items-center justify-center">
+            <div className=" h-full sm:h-screen p-10">
+              <div className="h-full w-full pt-20 border grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-20 sm:gap-0 rounded-3xl">
+                <div className=" gap-5 flex flex-col items-center justify-center">
                   <h1 className=" font-bold text-4xl font-mono">Industries</h1>
-                  <p className="sm:w-1/2 w-2/3 text-center">Hello Robo dedicated to guiding growing businesses in crypto, AI, and robotics, making complex tech simple and successful.
+                  <p className="sm:w-1/2 w-2/3 text-center">Hello  dedicated to guiding growing businesses in crypto, AI, and robotics, making complex tech simple and successful.
                   </p>
                 </div>
                 <div className="flex justify-end items-end">
                   <div className="absolute mb-20">
-                    <Button className="text-4xl p-10 rounded-full shadow hue-rotate-30 -rotate-90       bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 ..."> SAAS </Button>
+                    <Button className="text-2xl sm:text-4xl p-10 rounded-full shadow hue-rotate-30 -rotate-90       bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 ..."> SAAS </Button>
 
-                    <Button className=" text-3xl p-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white ... rounded-full shadow backdrop-hue-rotate-15 -rotate-12">
+                    <Button className="text-2xl sm:text-3xl p-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white ... rounded-full shadow backdrop-hue-rotate-15 -rotate-12">
                       HealthCare                    </Button>
 
                   </div>
                   <div>
-                    <Button className="text-4xl p-10 rounded-full shadow backdrop-hue-rotate-15 rotate-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white ..."> EGaming </Button>
+                    <Button className="text-2xl sm:text-4xl p-10 rounded-full shadow backdrop-hue-rotate-15 rotate-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white ..."> EGaming </Button>
 
-                    <Button className=" text-3xl p-10 bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 ... rounded-full shadow backdrop-hue-rotate-15 -rotate-12">
+                    <Button className="text-2xl sm:text-3xl p-10 bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 ... rounded-full shadow backdrop-hue-rotate-15 -rotate-12">
                       Robotics                    </Button>
 
                   </div>
-                  <Button className="text-4xl p-10 rounded-full shadow backdrop-hue-rotate-15 rotate-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white ..."> FinTech </Button>
+                  <Button className="text-2xl sm:text-4xl p-10 rounded-full shadow backdrop-hue-rotate-15 rotate-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white ..."> FinTech </Button>
 
-                  <Button className=" text-3xl p-10 bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 ... rounded-full shadow backdrop-hue-rotate-15 -rotate-12">
+                  <Button className="text-2xl  sm:text-3xl p-10 bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 ... rounded-full shadow backdrop-hue-rotate-15 -rotate-12">
                     E-commerce
                   </Button>
 
