@@ -1,14 +1,14 @@
-import React from 'react'
-import About from './components/carousel'
 
-type Props = {}
+'use client';
 
-const page = (props: Props) => {
+import Link from 'next/link';
+
+export default function about() {
   return (
-      <div className='h-screen flex items-center justify-center'>
-          <About/>
+    <div >
+      <div className="text-6xl">
+        about</div>
+      <Link href="/about/team"> <h2 className="text-2xl text-cyan-600 font-bold ">LOGO</h2></Link>
     </div>
   )
 }
-
-export default page

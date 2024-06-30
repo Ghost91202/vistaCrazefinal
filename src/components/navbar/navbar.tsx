@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import navImg from "../../../public/pexels-photo-326055.jpeg"
-export function NavbarDemo() {
+
+export default function NavbarDemo() {
   return (
     <Navbar className="top-0" />
   );

@@ -3,7 +3,7 @@ import Logo from "../../../public/logo.png"
 import Image from 'next/image'
 import Link from 'next/link'
 import HoverContent  from "@/components/ui/hoverMedia"
-export function Footer() {
+export default function Footer() {
   return (
       <div className='h-auto text-white pt-10 mt-10 p-10 border-t grid'>
 
@@ -34,11 +34,7 @@ export function Footer() {
           text="Pinterest"
           imageUrl={Logo.src}
         />
-            </div>
-
-
-
-
+     </div>
       </div>
   )
 }

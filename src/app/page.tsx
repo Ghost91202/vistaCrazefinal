@@ -1,12 +1,12 @@
-import { NavbarDemo } from "@/components/navbar/navbar";
+import NavbarDemo from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import Service from "@/components/homesections/service/service";
 import { Cards } from "@/components/cards/card2";
 import { CardDemo } from "@/components/cards/card";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Button } from "@/components/ui/button"
 import IMG from "../../public/profile.jpg"
-import { Footer } from "@/components/footer/footer";
-import Service from "@/components/sections/service/service";
 import { BackgroundBeamsDemo } from "@/components/hero/background";
 import { MdModeStandby } from "react-icons/md";
 import { CgDesignmodo } from "react-icons/cg";
@@ -231,7 +231,7 @@ export default function Home() {
         <div>
           {/* <FollowingPointer/> */}
         </div>
-        <Service />
+         <Service />
         <div className="bg-gray-100 h-auto w-full  ">
           <div className="grid grid-flow-row grid-cols-1 p-10 gap-10 sm:grid-cols-3 sm:gap-32 sm:p-20">
             <div className="bg-white p-10 rounded-3xl h-96  flex flex-col  justify-between">
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
           </div> */}
         </div>
-        <Footer />
+         <Footer />
       </div>
     </main>
   );

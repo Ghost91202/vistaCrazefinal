@@ -1,0 +1,24 @@
+/* components/HoverContent.module.css */
+.hoverContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.hoverText {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.hoverContainer:hover .hoverText {
+    transform: translateX(-10px);
+}
+
+.content {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+}

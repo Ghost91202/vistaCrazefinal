@@ -1,7 +1,7 @@
 // components/HoverContent.js
 "use client"
 import { useState } from 'react';
-import "../sections/service/style/style.css"
+import "../homeSections/service/style/style.css"
 import Image from 'next/image';
 
 interface HoverContentProps {
