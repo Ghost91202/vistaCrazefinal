@@ -71,17 +71,26 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative border-b items-center text-white border-gray-500  dark:bg-black dark:border-white/[0.2] bg-black shadow-input flex justify-around space-x-4 px-8 py-6 "
+      className="relative border-b items-center text-white border-gray-500  dark:bg-black dark:border-white/[0.2] bg-black/50 backdrop-blur-2xl shadow-input flex justify-around space-x-4 px-8 py-6 "
       >
         <Link href="/">
         <Image src={Logo} alt="VistaCraze digital marketing agency" width={180} height={100}/>
         </Link>
-          <div className="relative sm:flex hidden border border-transparent dark:bg-black  bg-black shadow-input text-center float-right  justify-center space-x-8 ">
+          <div className="relative sm:flex hidden border border-transparent  shadow-input text-center float-right  justify-center space-x-8 ">
 
       {children}
-          </div>
-          <Link href="/contact" className=" border border-white hover:bg-blue-800 bg-blue-600  rounded-full p-2">
-              Start Project
+      </div>
+      <div>
+
+      </div>
+      <Link href="/contact" className=" border border-gray-600 hover:bg-blue-800 flex gap-2 items-center justify-center rounded-full px-4 py-2">
+
+          <span className="relative flex h-3 w-3">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
+  <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-600"></span>
+</span>
+
+              let&apos;s talk
           </Link>
     </nav>
   );

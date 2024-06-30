@@ -43,7 +43,7 @@ const Slider: FC<SliderProps> = ({
         <div className="flex flex-col lg:w-2/5 gap-5">
           <h1 className="lg:text-4xl text-2xl font-medium">{title}</h1>
           <p className="lg:text-xl text-sm">{desc1}</p>
-          <Image src={Img1} alt="digital marketing company" className="lg:w-full lg:h-96 rounded-2xl" />
+          <Image src={Img1} alt="digital marketing company" className="lg:w-full lg:h-96 rounded-2xl" width={400} height={400}/>
         </div>
         <div className="flex flex-col lg:w-3/5 gap-5">
           <h1 className="flex font-medium lg:text-3xl text-2xl">{title2}</h1>

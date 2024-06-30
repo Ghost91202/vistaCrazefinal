@@ -1,4 +1,4 @@
-export default function why( { service } ) {
+export default function why( { service }:{service:String} ) {
     return (
         <div className=" flex flex-col w-screen h-auto gap-20 justify-center lg:p-20">
             <div className=" flex justify-center">

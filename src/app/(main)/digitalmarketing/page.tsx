@@ -9,6 +9,7 @@ import Faq from "../../../components/faq/faq";
 
 import Section2 from "@/components/services/sections/section2";
 import Section3 from "@/components/services/sections/section3";
+import Hero1 from "@/components/hero/hero1";
 export default function Home() {
   const faqData = [
     {
@@ -45,7 +46,17 @@ export default function Home() {
   return (
     <div className="flex flex-col ">
       <Navbar />
-
+       <Hero1
+        head="Product marketing company to put your growth on autopilot"
+        head2="Impress. Convert. Drive loyalty with digital product marketing done right."
+        para="For a successful online presence, each interaction, decision, and piece of content should be purposeful. COAX takes a product-led marketing approach to drive product growth with laser-focused travel, hospitality, and E-commerce marketing."
+        para2="more traffic comes from SEO compared to social media"
+        para3="businesses say organic search brings the best marketing ROI"
+        para4="of SEO leads convert into sales"
+        number="1000%+"
+        number2="49%"
+        number3="14.6%"
+      />
       <Proven
   title1="Proven Digital Marketing Strategies"
   desc1="Explore a collection of proven digital marketing tactics meticulously designed and backed by data. Our strategies are tailored to fortify your online presence and drive tangible results for your business."

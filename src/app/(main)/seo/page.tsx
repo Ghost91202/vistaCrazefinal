@@ -9,6 +9,7 @@ import seoimg from "@/assets/unds.jpg";
 import Section2 from "@/components/services/sections/section2";
 import Section3 from "@/components/services/sections/section3";
 import Faq from "@/components/faq/faq";
+import Hero1 from "@/components/hero/hero1";
 export default function Home() {
   const faqData = [
     {
@@ -45,7 +46,19 @@ export default function Home() {
   return (
     <div className="flex flex-col ">
       <Navbar />
+       <Hero1
+        head="We think products. Digital product development company that goes beyond the basics"
+        head2="Your idea. Our expertise. Product design and development to make it real."
+        para="Trends are temporary. Your product should solve genuine problems and build emotional connection with users. From new product development to expanding into new markets, COAX is your partner in closing the gap between ideas and impact."
+        para2="cost reduction is achieved by focusing on product design"
+        para3="higher chance of success if you launch an MVP first
 
+"
+        para4="of revenue comes from features developed in the first 2 years 1"
+        number="200%"
+        number2="62%"
+        number3="40%"
+      />
       <Proven
   title1="Effective SEO Techniques"
   desc1="Discover a range of tried-and-true SEO techniques, meticulously crafted and supported by data-driven insights. These strategies are customized to enhance your online visibility and generate measurable outcomes for your business."

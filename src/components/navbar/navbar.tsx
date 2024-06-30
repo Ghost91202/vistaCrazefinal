@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
-import navImg from "../../../public/pexels-photo-326055.jpeg"
-
+import B2b from "../../../public/b2b.png"
+import Healthcare from "../../../public/Healthcare.png"
+import Education from "../../../public/education.png"
+import IGaming from "../../../public/Igaming.png"
 export default function NavbarDemo() {
   return (
     <Navbar className="top-0" />
@@ -19,37 +21,38 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
+            <HoveredLink href="/appdevelopment">Web Development</HoveredLink>
+            {/* <HoveredLink href="/interface-design">Interface Design</HoveredLink> */}
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/digitalmarketing">Marketing & Growth </HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
+        <MenuItem setActive={setActive} active={active} item="Industry">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
+              title="B2B"
               href=""
-              src=""
-              description="Prepare for tech interviews like never before."
+              src={B2b.src}
+              description=""
             />
             <ProductItem
-              title="Tailwind Master Kit"
+              title="Education"
               href=""
-              src=""
-              description="Production ready Tailwind css components for your next project"
+              src={Education.src}
+              description=""
             />
             <ProductItem
-              title="Moonbeam"
+              title="HealthCare"
               href=""
-              src=""
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              src={Healthcare.src}
+              description=""
             />
             <ProductItem
-              title="Rogue"
+              title="IGaming"
               href=""
-              src={navImg.src}
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              src={IGaming.src}
+              description=""
             />
           </div>
         </MenuItem>

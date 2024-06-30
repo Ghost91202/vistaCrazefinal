@@ -22,6 +22,7 @@ import { FaAngular } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoVue } from "react-icons/io5";
 import Service from "@/components/homesections/service/service";
+import { FlipWordsDemo } from "@/components/assets/FlipWords";
 
 export default function Home() {
 
@@ -36,17 +37,18 @@ export default function Home() {
       <div className="absolute inset-0 pt-10 h-full w-full items-center  [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]">
 
         <BackgroundBeamsDemo />
-        <div className="h-full py-20  flex sm:flex-row flex-col  p-5 sm:gap-0 gap-20  text-white">
-          <span className="text-5xl md:text-[80px] w-auto font-bold -space-y-0">Back to the simple,
-            intuitive, and inspiring.</span>
-          <div className="flex flex-col md:text-2xl text-lg items-start gap-10 justify-end">
+        <div className="h-full py-20  flex  flex-col items-center justify-center  p-5  gap-10  text-white">
+
+          <FlipWordsDemo />
+          <div className="flex flex-col md:text-2xl text-lg items-start gap-10 sm:-mt-20 sm:w-1/2 text-center  justify-center">
             <span >
               Big multinational companies or small local brands. Partner approach with one universal goal - to create authentic, functional, and beautiful design.
             </span>
-            <Link href="/" className="group flex items-center justify-center gap-5 hover:underline pb-2 p-2 hover:gap-4 transition-all duration-300 ease-out ">
-              <span className="text-2xl font-medium">Let&apos;s talk</span>
-              <IoIosArrowRoundForward className="rounded-full p-1 text-5xl bg-gray-800 group-hover:bg-slate-600 transition-colors duration-800 ease-out" />
-            </Link>
+
+            <svg className="animate-bounce w-6 h-6 ...">
+                <IoIosArrowRoundForward className="rotate-45 sm:text-6xl"/>
+            </svg>
+
           </div>
 
         </div>
@@ -70,7 +72,7 @@ export default function Home() {
                     <span className="text-blue-600 ">
                       Sunshine Coast</span></h1>
                   <p className="sm:w-1/2  font-normal text-sm text-justify  sm:text-lg">Our dedicated team of marketing experts has positioned us as a  <span className="font-bold">leading digital marketing agency.</span> With a proven track record of success, we have the skills, experience, and passion to drive your next marketing campaign to new heights!</p>
-                <Button className="text-black sm:hidden flex rounded-full text-sm  sm:text-3xl sm:p-2 px-1 border"> Our Package...</Button>
+                  <Button className="text-black sm:hidden flex rounded-full text-sm  sm:text-3xl sm:p-2 px-1 border"> Our Package...</Button>
 
 
                 </div>
@@ -210,16 +212,16 @@ export default function Home() {
                   <Cards
                     text="React"
                     Ico={
-                    <FaReact className="text-4xl"/>
+                      <FaReact className="text-4xl" />
 
-                  } />
+                    } />
                   <Cards text="Next Js 14"
-                    Ico={<RiNextjsFill className="text-4xl"/>} />
+                    Ico={<RiNextjsFill className="text-4xl" />} />
                 </div>
                 <CardDemo />
                 <div className="flex flex-col justify-center gap-0 items-center">
-                  <Cards text="Angular" Ico={<FaAngular className="text-4xl"/>} />
-                  <Cards text="Vue Js" Ico={<IoLogoVue className="text-4xl"/>} />
+                  <Cards text="Angular" Ico={<FaAngular className="text-4xl" />} />
+                  <Cards text="Vue Js" Ico={<IoLogoVue className="text-4xl" />} />
                 </div>
               </div>
 
@@ -231,7 +233,7 @@ export default function Home() {
         <div>
           {/* <FollowingPointer/> */}
         </div>
-         <Service />
+        <Service />
         <div className="bg-gray-100 h-auto w-full  ">
           <div className="grid grid-flow-row grid-cols-1 p-10 gap-10 sm:grid-cols-3 sm:gap-32 sm:p-20">
             <div className="bg-white p-10 rounded-3xl h-96  flex flex-col  justify-between">
@@ -280,7 +282,7 @@ export default function Home() {
             </div>
           </div> */}
         </div>
-         <Footer />
+        <Footer />
       </div>
     </main>
   );

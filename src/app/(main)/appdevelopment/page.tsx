@@ -10,6 +10,7 @@ import seoimg from "../../../assets/unds.jpg";
 import Section2 from "@/components/services/sections/section2";
 import Section3 from "@/components/services/sections/section3";
 import Price from "../../../components/services/price/price";
+import Hero1 from "@/components/hero/hero1";
 export default function Home() {
   const faqData = [
     {
@@ -46,7 +47,19 @@ export default function Home() {
   return (
     <div className="flex flex-col ">
       <NavbarDemo />
+      <Hero1
+        head="We think products. Digital product development company that goes beyond the basics"
+        head2="Your idea. Our expertise. Product design and development to make it real."
+        para="Trends are temporary. Your product should solve genuine problems and build emotional connection with users. From new product development to expanding into new markets, COAX is your partner in closing the gap between ideas and impact."
+        para2="cost reduction is achieved by focusing on product design"
+        para3="higher chance of success if you launch an MVP first
 
+"
+        para4="of revenue comes from features developed in the first 2 years 1"
+        number="200%"
+        number2="62%"
+        number3="40%"
+      />
       <Proven
         title1="Proven App Development Strategies"
         desc1="Explore a collection of proven app development tactics, meticulously designed and backed by data. These strategies are tailored to fortify your app's functionality and user experience, driving tangible results for your business."
@@ -60,7 +73,7 @@ export default function Home() {
 
       <Faq1
         faqData={faqData}
-        mainhead="Why youneed Professional App Development Services?"
+        mainhead="Why you need Professional App Development Services?"
       />
       <Drawer
         title="Exploring App Development"
