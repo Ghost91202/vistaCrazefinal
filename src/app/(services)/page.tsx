@@ -1,7 +1,6 @@
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
 import When from "@/components/when/page";
-import ServiceCard from "@/components/servicesslider/sslider";
 import Proven from "@/components/Sections/proven";
 import Drawer from "@/components/drawer/drawer";
 import Faq1 from "@/components/homeFaq/faq2";
@@ -20,14 +19,12 @@ export default function Home() {
     <div className="flex flex-col ">
       <Navbar />
 
-      <Proven />
-      <ServiceCard />
       <Faq1 faqData={faqData} mainhead="empty"/>
       <Drawer title="Understanding SEO Services"
         button="Understand Our Seo Service"
         desc1="Think of SEO as the digital equivalent of attending a high-stakes networking event. In the room (search engine rankings),
             everyone&apos;s jostling for the attention of a few key people (your target audience). Some have the advantage of being well-known, others are newcomers. Like you at a networking event, your website starts as one among many. But just as your interactions at the event can turn you into a &apos;must-meet&apos; figure, our SEO strategies ensure your website becomes a &apos;must-visit&apos; destination on the digital landscape."
-        Img1={seoimg}
+        Img1={seoimg.src}
         title2="Our 5-stage process for effective SEO services:"
         submenu1="1. Research & Plan"
         subdesc1="Just as you would study the guest list and topics before a networking event, we start by understanding your business landscape and competitors. Knowing who and what you&apos;re up against enables us to position you strategically, so you&apos;re not just a face in the crowd but a key player in your field."
@@ -45,7 +42,6 @@ export default function Home() {
         desc1="Learn The Proven Strategies Your Competitors Are Using To Dominate The Market."
         desc2="Are you tired of spending money on marketing strategies or digital channels that you&apos;re unsure will be effective and provide a return on investment? Have you invested in marketing campaigns and hoped for positive results, but have been disappointed? We have the solutions for all of your concerns. Our strategies have generated over 2,480 page 1 Google rankings, grown organic traffic by more than 140% and delivered more than 8,000+ high-quality leads, helping businesses like yours to steal market share from their competitors and dominate the online space in just a matter of months!"
       />
-      <Section3 />
       {/* <Price/> */}
 
     <Footer/>
