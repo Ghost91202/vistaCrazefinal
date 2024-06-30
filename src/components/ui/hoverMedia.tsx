@@ -2,7 +2,7 @@
 "use client"
 import React from 'react';
 import { useState } from 'react';
-import "../homeSections/service/style/style.css"
+import "../homesections/service/style/style.css"
 import Image from 'next/image';
 
 interface HoverContentProps {
