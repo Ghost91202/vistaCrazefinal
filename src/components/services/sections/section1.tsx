@@ -1,5 +1,6 @@
-import Slider from "../../servicesslider/Swiperslide"
-export default function section1(  ) {
+
+
+export default function section1() {
 
     return (
         <div className="  bg-blue-800 flex flex-col gap-10 lg:h-auto lg:p-20 items-center text-white">
@@ -21,7 +22,6 @@ export default function section1(  ) {
                 </div>
             </div>
             <div>
-                <Slider/>
             </div>
         </div>
     )
