@@ -46,7 +46,7 @@ export default function Home() {
             </span>
 
             <svg className="animate-bounce w-6 h-6 ...">
-                <IoIosArrowRoundForward className="rotate-45 sm:text-6xl"/>
+                <IoIosArrowRoundForward className="rotate-90 sm:text-6xl"/>
             </svg>
 
           </div>

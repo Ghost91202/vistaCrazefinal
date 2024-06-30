@@ -71,7 +71,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative border-b items-center text-white border-gray-500  dark:bg-black dark:border-white/[0.2] bg-black/50 backdrop-blur-2xl shadow-input flex justify-around space-x-4 px-8 py-6 "
+      className="relative border-b items-center text-white border-gray-500  dark:bg-black/50 dark:border-white/[0.2] bg-black/50 backdrop-blur-2xl shadow-input flex justify-around space-x-4 px-8 py-6 "
       >
         <Link href="/">
         <Image src={Logo} alt="VistaCraze digital marketing agency" width={180} height={100}/>
