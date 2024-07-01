@@ -27,6 +27,8 @@ import { RiWordpressFill } from "react-icons/ri";
 import { RiSeoLine } from "react-icons/ri";
 import { SiGoogleads } from "react-icons/si";
 import { FaMeta } from "react-icons/fa6";
+import Stickycards from "@/components/cards/stickycards";
+import Stickycard2 from "@/components/cards/stickycard2";
 
 export default function Home() {
 
@@ -34,7 +36,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <main className="bg-gray-300">
       <NavbarDemo />
       <div className="absolute inset-0 pt-10 h-full w-full items-center  [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]">
 
@@ -57,10 +59,11 @@ export default function Home() {
           </div>
 
         </div>
+        <Stickycards />
         <div className="h-auto bg-gray-100 text-slate-950 rounded-3xl">
 
           <div className="  h-auto sm:pt-20 pt-10 p-5 gap-5 text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold rounded-3xl">
-            <h1 className="sm:w-2/3 text-4xl sm:text-8xl font-mono">Top-rated design
+            <h1 className="sm:w-2/3 text-4xl sm:text-8xl font-sans">Top-rated design
               for <span className=" bg-blue-600 text-white rotate-45 ">fast</span> growing
               companies</h1>
             <p className=" text-slate-950 font-normal text-lg  sm:w-1/2  text-center items-end justify-end">
@@ -72,7 +75,7 @@ export default function Home() {
 
                 <div className=" flex flex-col sm:flex-row h-auto p-10 gap-10 sm:gap-20 items-start sm:items-center sm:justify-center">
 
-                  <h1 className=" text-slate-950 text-start  sm:text-6xl font-mono text-3xl ">Digital marketing
+                  <h1 className=" text-slate-950 text-start  sm:text-6xl font-sans text-3xl ">Digital marketing
                     <br />
                     <span className="text-blue-600 ">
                       Sunshine Coast</span></h1>
@@ -84,7 +87,7 @@ export default function Home() {
                 <div className="flex flex-col gap-20 sm:mb-0  mb-20 items-center justify-center">
                   <Button className="text-black sm:flex hidden  rounded-full text-xl sm:text-3xl sm:p-2 px-2 border"> Our Package...</Button>
                   <div className="flex flex-col text-center p-10 sm:w-2/3 sm:items-center sm:justify-center gap-10">
-                    <h1 className="text-3xl sm:text-4xl text-start sm:text-center font-mono ">Digital services to establish, build
+                    <h1 className="text-3xl sm:text-4xl text-start sm:text-center font-sans ">Digital services to establish, build
                       or grow your business...</h1>
                     <p className=" font-normal text-justify sm:text-lg">With in-house digital marketing experts based on the coast… we&apos;ve got you covered!</p>
                     <p className=" font-normal text-justify sm:text-lg">Whether you&apos;re starting digital marketing for the first time, our looking to elevate upon an existing foundation, our team will work with you. From SEO to paid media and web design, not to mention our killer content services – everything we do is geared towards supporting your business goals.</p>
@@ -95,7 +98,7 @@ export default function Home() {
                 <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col gap-20 p-5 text-white border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <MdModeStandby className="text-5xl" />
-                    <h1 className="text-4xl font-mono">
+                    <h1 className="text-4xl font-sans">
                       Google Ads
                     </h1>
 
@@ -108,7 +111,7 @@ export default function Home() {
                 <div className="h-full w-full  flex flex-col  hover:bg-slate-950 group hover:text-white gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <CgDesignmodo className="text-5xl" />
-                    <h1 className="text-4xl font-mono">
+                    <h1 className="text-4xl font-sans">
                       Web Design
                     </h1>
 
@@ -121,7 +124,7 @@ export default function Home() {
                 <div className="h-full w-full  flex flex-col hover:bg-slate-950 group hover:text-white gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <TbArrowsRandom className="text-5xl" />
-                    <h1 className="text-4xl font-mono">
+                    <h1 className="text-4xl font-sans">
                       SEO Services
                     </h1>
 
@@ -134,7 +137,7 @@ export default function Home() {
                 <div className="h-full w-full  flex flex-col hover:bg-slate-950 group hover:text-white gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <PiMetaLogoDuotone className="text-5xl" />
-                    <h1 className="text-4xl font-mono">
+                    <h1 className="text-4xl font-sans">
                       Meta Marketing
                     </h1>
 
@@ -150,7 +153,7 @@ export default function Home() {
                 <div className="h-full w-full  flex flex-col hover:bg-slate-950 group hover:text-white gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <GiIronCross className="text-5xl" />
-                    <h1 className="text-4xl font-mono">
+                    <h1 className="text-4xl font-sans">
                       CRO
                     </h1>
 
@@ -170,7 +173,7 @@ export default function Home() {
             <div className=" h-full sm:h-screen p-10">
               <div className="h-full w-full pt-20 border grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-20 sm:gap-0 rounded-3xl">
                 <div className=" gap-5 flex flex-col items-center justify-center">
-                  <h1 className=" font-bold text-4xl font-mono">Industries</h1>
+                  <h1 className=" font-bold text-4xl font-sans">Industries</h1>
                   <p className="sm:w-1/2 w-2/3 text-center">Hello  dedicated to guiding growing businesses in crypto, AI, and robotics, making complex tech simple and successful.
                   </p>
                 </div>
@@ -252,8 +255,8 @@ export default function Home() {
 
             </div>
             <div className="text-slate-950 flex flex-col justify-center items-center">
-              <h1 className="sm:text-6xl text-4xl font-mono font-bold">VistaCraze</h1>
-              <p className="text-sm font-mono text-center">Made of members with backgrounds at Nike, Apple and Google, Hello Robo team mirrors real-world expertise derived from design industry leaders.</p>
+              <h1 className="sm:text-6xl text-4xl font-sans font-bold">VistaCraze</h1>
+              <p className="text-sm font-sans text-center">Made of members with backgrounds at Nike, Apple and Google, Hello Robo team mirrors real-world expertise derived from design industry leaders.</p>
             </div>
             <div className="bg-white p-10 rounded-3xl h-96  flex flex-col  justify-between">
               <Link href="/" className=" flex items-center ml-40">
@@ -268,9 +271,9 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-gray-100 w-full text-slate-950  flex items-center flex-col sm:gap-20 justify-center h-auto">
-          <h1 className="text-3xl sm:w-2/3 font-mono font-bold sm:text-6xl text-center flex justify-center items-center sm:mt-20">Smart investments, major results: our partners agree</h1>
+          <h1 className="text-3xl sm:w-2/3 font-sans font-bold sm:text-6xl text-center flex justify-center items-center sm:mt-20">Smart investments, major results: our partners agree</h1>
 
-          <CardStackDemo />
+          {/* <CardStackDemo /> */}
 
           {/* <StickyScrollRevealDemo/> */}
 

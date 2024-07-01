@@ -1,19 +1,16 @@
 "use client";
+import Bgblur from "@/components/bgblur/blurbg"
+import Stickycard2 from "@/components/cards/stickycard2";
+import NavbarDemo from "@/components/navbar/navbar";
 
-import React, { useState } from 'react';
+export default function Home() {
 
-export default function Counter() {
-  const [ count, setCount ] = useState( 0 );
-
-  const incrementCount = () => setCount( count + 1 );
-  const decrementCount = () => setCount( Math.max( 0, count - 1 ) ); // Prevent negative values
 
   return (
     <div >
-      <h1 className="text-black">Counter</h1>
-      <p>Current count: {count}</p>
-      <button onClick={incrementCount}>Increment</button>
-      <button onClick={decrementCount}>Decrement</button>
+      <NavbarDemo />
+      <Bgblur />
+      <Stickycard2/>
     </div>
   );
 }

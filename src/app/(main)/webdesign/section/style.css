@@ -1,0 +1,14 @@
+.bg{
+    background: rgb(63, 94, 251);
+        background: -moz-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(50, 74, 198, 1) 24%, rgba(0, 0, 0, 1) 80%);
+        background: -webkit-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(50, 74, 198, 1) 24%, rgba(0, 0, 0, 1) 80%);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(50, 74, 198, 1) 24%, rgba(0, 0, 0, 1) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb", endColorstr="#000000", GradientType=1);
+}
+.bg2{
+    background: rgb(0, 0, 0);
+        background: -moz-radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 117, 255, 1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 117, 255, 1) 100%);
+        background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 117, 255, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#0075ff", GradientType=1);
+}
