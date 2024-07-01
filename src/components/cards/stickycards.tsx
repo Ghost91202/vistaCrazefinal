@@ -53,7 +53,7 @@ const Stickycards = (props: Props) => {
                             <div className='bg-white p-5 sm:p-16   rounded-2xl  w-full flex flex-col gap-5'>
 
                                 <h1 className='sm:text-4xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>seo</h1>
-                                <p className='text-sm sm:text-md'>Boost your online visibility with Brand Vision's premier SEO services. Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement. Unleash your potential and outshine competitors with our tailored SEO solutions.</p>
+                                <p className='text-sm sm:text-md'>Boost your online visibility with Brand Vision&apos;s premier SEO services. Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement. Unleash your potential and outshine competitors with our tailored SEO solutions.</p>
 
                                 <div>
                                     <Image src={Seo1} alt='vistacraze' />
@@ -78,7 +78,7 @@ const Stickycards = (props: Props) => {
 
                                 <h1 className='sm:text-4xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Visual Branding</h1>
                             </div>
-                            <p>Elevate your brand's visual identity with Brand Vision, Toronto's award-winning agency. From logos to color palettes, our expert team crafts cohesive and impactful branding that resonates with your audience. Let us define your business across all channels, ensuring memorable and distinct visual branding for success.</p>
+                            <p>Elevate your brand&apos;s visual identity with Brand Vision, Toronto&apos;s award-winning agency. From logos to color palettes, our expert team crafts cohesive and impactful branding that resonates with your audience. Let us define your business across all channels, ensuring memorable and distinct visual branding for success.</p>
                             <p>Every web design project at Brand Vision stands out as unique, receiving unparalleled attention and care. Our team, composed of award-winning web designers and web developers, is renowned for its ability to craft visually striking websites. These sites are not only a feast for the eyes but also excel in functionality, effectively meeting their intended objectives.</p>
 
                             <div className=' gap-5 flex font-sans flex-col'>
@@ -101,7 +101,7 @@ const Stickycards = (props: Props) => {
 
                                 <h1 className='sm:text-4xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Brand Research & Strategy</h1>
                             </div>
-                            <p>At Brand Vision, our brand research and strategy services form the cornerstone of effective branding. We conduct in-depth analysis of competitors, market trends, and target audiences to inform decision-making. Our strategic framework includes developing brand personas, tone, voice, and mission statements, ensuring consistent and impactful brand communication aligned with clients' business objectives.</p>
+                            <p>At Brand Vision, our brand research and strategy services form the cornerstone of effective branding. We conduct in-depth analysis of competitors, market trends, and target audiences to inform decision-making. Our strategic framework includes developing brand personas, tone, voice, and mission statements, ensuring consistent and impactful brand communication aligned with clients&apos; business objectives.</p>
 
 
                             <div className=' gap-5 flex font-sans flex-col'>
@@ -140,7 +140,7 @@ const Stickycards = (props: Props) => {
                                 Graphic
                                 Design
                             </h1>
-                            <p>We craft impactful marketing visuals and illustrations to ensure your brand's success and recognition.</p>
+                            <p>We craft impactful marketing visuals and illustrations to ensure your brand&apos;s success and recognition.</p>
 
 
                             <div className='border-t border-gray-200 pt-10'>
@@ -157,7 +157,7 @@ const Stickycards = (props: Props) => {
 
                             <div className='border-t border-gray-200 pt-10'>
 
-                                <Link href='/' className=' border rounded-full border-gray-200 sm:text-sm px-3 text-xs bg-gray-200 w-44 text-black font-medium p-1 px-3 '>Learn more </Link>
+                                <Link href='/' className=' border rounded-full border-gray-200 sm:text-sm text-xs bg-gray-200 w-44 text-black font-medium p-1 px-3 '>Learn more </Link>
                             </div>
                         </div>
                         <div className='bg-white p-4 justify-between  rounded-2xl  w-full flex flex-col gap-5'>
@@ -171,7 +171,7 @@ const Stickycards = (props: Props) => {
 
                             <div className='border-t border-gray-200 pt-10'>
 
-                                <Link href='/' className=' border rounded-full border-gray-200 sm:text-sm px-3 text-xs bg-gray-200 w-44 text-black font-medium p-1 px-3 '>Learn more </Link>
+                                <Link href='/' className=' border rounded-full border-gray-200 sm:text-sm text-xs bg-gray-200 w-44 text-black font-medium p-1 px-3 '>Learn more </Link>
                             </div>
                         </div>
                     </div>

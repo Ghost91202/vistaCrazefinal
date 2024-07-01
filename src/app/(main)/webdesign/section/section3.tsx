@@ -16,9 +16,9 @@ const section3 = (props: Props) => {
                     Methodology</h1>
                 <div className=' flex sticky top-24 gap-2 sm:gap-4'>
                     <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 rounded-s-full backdrop-blur-3xl'>Research</span>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Research</span>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Research</span>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 rounded-e-full backdrop-blur-3xl'>Research</span>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Design</span>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Testing</span>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 rounded-e-full backdrop-blur-3xl'>Revision</span>
                 </div>
                 <div className='h-[700vh] sm:h-[400vh] sm:p-20 flex flex-col gap-10 p-3'>
                     <h1 className='sm:text-4xl text-xl font-semibold sm:w-1/2'>Research: The Foundation of Insightful Design</h1>
@@ -141,7 +141,7 @@ const section3 = (props: Props) => {
                     <div className='sm:mt-44 flex flex-col gap-10 sm:gap-20'>
                         <div className='h-auto flex flex-col sm:flex-row gap-10'>
                             <h1 className='sm:text-5xl text-xl font- sm:w-2/3'>Testing: Crafting User-Centric Interfaces</h1>
-                            <p className='sm:w-1/2'>In the testing phase at Brand Vision, our focus is on rigorous validation to ensure that our designs perfectly align with user expectations and business objectives. We employ a diverse array of testing methodologies to gather empirical data and user feedback, crucial for refining usability and enhancing the user experience. Here's an overview of the different types of testing we conduct:</p>
+                            <p className='sm:w-1/2'>In the testing phase at Brand Vision, our focus is on rigorous validation to ensure that our designs perfectly align with user expectations and business objectives. We employ a diverse array of testing methodologies to gather empirical data and user feedback, crucial for refining usability and enhancing the user experience. Here&apos;s an overview of the different types of testing we conduct:</p>
 
                         </div>
                         <div className=''>

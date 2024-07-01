@@ -16,7 +16,7 @@ const stickycard2 = (props: Props) => {
             <div className=' flex flex-col gap-10 p-5 sm:p-20'>
               <div className='bg-gray-100 rounded-full p-2 w-fit'>UX/UI</div>
                <h1 className='sm:text-5xl text-xl font-semibold'>What is UX Design?</h1>
-          <p className='text-gray-800/60'>User Experience (UX) Design, on the other hand, goes deeper into the user&apos;s interaction with your product. It is a holistic approach that considers the entire journey a user takes to solve a problem or fulfill a need. UX design involves research to understand user behaviors, needs, and motivations and uses this insight to design a coherent, contextually relevant experience that is not only functional but also user-friendly and accessible.</p>
+          <p className='text-gray-800/60'>User Experience UX Design, on the other hand, goes deeper into the user&apos;s interaction with your product. It is a holistic approach that considers the entire journey a user takes to solve a problem or fulfill a need. UX design involves research to understand user behaviors, needs, and motivations and uses this insight to design a coherent, contextually relevant experience that is not only functional but also user-friendly and accessible.</p>
             </div>
             <div className='sm:p-0 p-5'>
             <Image src={UXUI} alt="vistacraze uiux page " className='rounded-xl'/>
@@ -28,7 +28,7 @@ const stickycard2 = (props: Props) => {
             <div className=' flex flex-col gap-10 p-5 sm:p-20'>
               <div className='sm:bg-gray-100 bg-gray-200 sm:mt-0 mt-10 rounded-full p-2 w-fit'>UX/UI</div>
                <h1 className='sm:text-5xl text-xl font-semibold'>What is UX Design?</h1>
-          <p className='text-gray-800/60'>User Experience (UX) Design, on the other hand, goes deeper into the user&apos;s interaction with your product. It is a holistic approach that considers the entire journey a user takes to solve a problem or fulfill a need. UX design involves research to understand user behaviors, needs, and motivations and uses this insight to design a coherent, contextually relevant experience that is not only functional but also user-friendly and accessible.</p>
+          <p className='text-gray-800/60'>User Experience UX Design, on the other hand, goes deeper into the user&apos;s interaction with your product. It is a holistic approach that considers the entire journey a user takes to solve a problem or fulfill a need. UX design involves research to understand user behaviors, needs, and motivations and uses this insight to design a coherent, contextually relevant experience that is not only functional but also user-friendly and accessible.</p>
             </div>
             <div className='sm:p-20 sm:bg-white sm:mt-20 p-5 sm:rounded-2xl'>
             <Image src={UXUI2} alt="vistacraze uiux page " className='rounded-xl'/>
