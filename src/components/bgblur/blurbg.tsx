@@ -8,23 +8,23 @@ type Props = {}
 
 const Blurbg = (props: Props) => {
     return (
-        <div className='relative h-auto'>
+        <div className='relative h-screen overflow-hidden'>
             <div className=' absolute h-screen overflow-hidden'>
-                <Image src={BgIMG1} alt='vi' />
+                <Image src={BgIMG1} alt='vi'  className='h-screen'/>
 
             </div>
             <div className='w-screen  h-screen overflow-hidden backdrop-blur-3xl top-1  absolute'>
 
-                <Image src={BgIMG} alt="vi" width={1000} height={800} className='z-40 absolute top-20 flex rounded-2xl left-0 justify-center items-center backdrop-blur-3xl' />
+                <Image src={BgIMG} alt="vi" width={1000} height={800} className='z-40 absolute top-20 flex rounded-2xl -left-20 sm:left-0 justify-center items-center backdrop-blur-3xl' />
             </div>
 
-            <div className='absolute top-72 right-10'>
-                <div className='flex flex-col text-end gap-5 w-96'> <h1 className='sm:text-4xl bottom-9 top-44'>UI/UX Design Agency</h1>
+            <div className='absolute bottom-0 right-10 pb-5'>
+                <div className='flex flex-col text-end gap-5 w-96'> <h1 className='sm:text-4xl text2xl font-semibold bottom-9 top-44'>UI/UX Design Agency</h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>User Interface and User Experience Design Agency
                     </p>
                     <p>Vistacraze is an award-winning UI/UX Agency that focuses on creating effective designs based on research and in-depth testing.
                     </p>
-                    <div className=' border border-white/40 rounded-full px-3 w-fit mt-20 p-2'>
+                    <div className=' border border-white/40 rounded-full px-3 w-fit sm:mt-20 p-2'>
                         Scroll to explore
                     </div>
                 </div>

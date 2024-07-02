@@ -12,13 +12,13 @@ import { TiSocialFacebook } from "react-icons/ti";
 
 export default function Footer() {
   return (
-      <div className='h-screen bg text-white flex p-5 sm:p-20 pb-48 flex-col gap-10'>
+      <div className='h-auto bg text-white flex p-5 sm:p-20 pb-48 flex-col gap-10'>
 
               <Link href="/">
                   <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
       </Link>
 
-        <h3 className='sm:w-1/2'>We are Brand Vision, an award-winning marketing agency that will offer you transparency and creativity. Our goal is to nurture your vision and provide innovative, custom solutions for your marketing needs.
+        <h3 className='sm:w-1/2'>We are Vistacraze,Marketing agency that will offer you transparency and creativity. Our goal is to nurture your vision and provide innovative, custom solutions for your marketing needs.
 
       </h3>
       <div className='border-b flex gap-5 flex-col border-gray-300 pb-20'>
