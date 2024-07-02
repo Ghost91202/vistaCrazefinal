@@ -20,7 +20,7 @@ const section3 = (props: Props) => {
                     <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Testing</span>
                     <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 rounded-e-full backdrop-blur-3xl'>Revision</span>
                 </div>
-                <div className='h-[700vh] sm:h-[400vh] sm:p-20 flex flex-col gap-10 p-3'>
+                <div className='h-auto sm:h-[400vh] sm:p-20 flex flex-col gap-10 p-3'>
                     <h1 className='sm:text-4xl text-xl font-semibold sm:w-1/2'>Research: The Foundation of Insightful Design</h1>
                     <p className='sm:w-2/3'>In the research phase, our goal is to derive a profound understanding of the user environment and needs through a series of targeted, high-quality research methods:</p>
                     <div className=' gap-10 grid grid-flow-row grid-cols-1 sm:grid-cols-4 '>
