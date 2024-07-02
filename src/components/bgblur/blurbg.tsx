@@ -3,7 +3,7 @@ import React from 'react'
 import BgIMG from "../../../public/webdev.png"
 import BgIMG1 from "../../../public/14579711_5488082.jpg"
 import NavbarDemo from '../navbar/navbar'
-
+import "./style.css"
 type Props = {}
 
 const Blurbg = (props: Props) => {
@@ -13,13 +13,14 @@ const Blurbg = (props: Props) => {
                 <Image src={BgIMG1} alt='vi'  className='h-screen'/>
 
             </div>
-            <div className='w-screen  h-screen overflow-hidden backdrop-blur-3xl top-1  absolute'>
+            <div className='w-screen z-0  h-screen overflow-hidden  top-1  absolute'>
 
-                <Image src={BgIMG} alt="vi" width={1000} height={800} className='z-40 absolute top-20 flex rounded-2xl -left-20 sm:left-0 justify-center items-center backdrop-blur-3xl' />
+                <Image src={BgIMG} alt="vi" width={1000} className=' sm:h-auto h-[100vh]  z-40 absolute top-20 flex rounded-2xl  sm:left-0 sm:justify-center sm:items-center' />
             </div>
 
-            <div className='absolute bottom-0 right-10 pb-5'>
-                <div className='flex flex-col text-end gap-5 w-96'> <h1 className='sm:text-4xl text2xl font-semibold bottom-9 top-44'>UI/UX Design Agency</h1>
+            <div className='absolute z-10 bottom-0 right-0  sm:right-10 pb-5'>
+                <div className='flex flex-col text-end gap-5 w-96'>
+                    <h1 className='sm:text-4xl text-2xl font-semibold bottom-9 top-44'>UI/UX Design Agency</h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>User Interface and User Experience Design Agency
                     </p>
                     <p>Vistacraze is an award-winning UI/UX Agency that focuses on creating effective designs based on research and in-depth testing.
