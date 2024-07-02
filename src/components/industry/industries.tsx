@@ -23,7 +23,7 @@ const industries = (props: Props) => {
                   <Image src={Ngo} alt='vistacraze Industries page' className='rounded-md'/>
                   <div className='p-5 flex flex-col gap-5'>
                       <h1 className='text-md font-semibold'>Not-For-profit</h1>
-                      <p className=' font-medium'>All NFP'S receive discount as a token  of our support</p>
+                      <p className=' font-medium'>All NFP&apos;S receive discount as a token  of our support</p>
                   </div>
               </div>
               <div className='bg-gray-100 p-4 rounded-md flex flex-col items-center justify-center'>
@@ -37,7 +37,7 @@ const industries = (props: Props) => {
                   <Image src={Intertnmt} alt='vistacraze Industries page' className='rounded-md'/>
                   <div className='p-5 flex flex-col gap-5'>
                       <h1 className='text-md font-semibold'>Professional Services</h1>
-                      <p className=' font-medium'>All NFP'S receive discount as a token  of our support</p>
+                      <p className=' font-medium'>All NFP&apos;S receive discount as a token  of our support</p>
                   </div>
               </div>
               <div className='bg-gray-100 p-4 rounded-md flex flex-col items-center justify-center'>
