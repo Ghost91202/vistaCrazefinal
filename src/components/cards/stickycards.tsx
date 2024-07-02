@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Seo1 from "../../../public/seo.svg"
 import B2B from "../../../public/b2b.png"
+import { BsArrowRightShort } from "react-icons/bs";
 
 type Props = {}
 
@@ -12,18 +13,18 @@ const Stickycards = (props: Props) => {
         <div className='bg-gray-200 font-sans text-black/80 h-auto'>
             <div className='  flex flex-col sm:flex-row '>
                 <div className=" flex flex-col gap-10  h-full p-5 sm:m-20 w-full pt-10 sm:sticky sm:top-40 ">
-                    <div className='bg-gray-300 rounded-md text-xs sm:text-md w-fit p-1 px-4 text-black'>
+                    <div className='bg-gray-300 rounded-md text-xs font-medium sm:text-md w-fit p-1 px-4 text-black'>
                         OUR SERVICES
                     </div>
-                    <div className="font-semibold text-lg sm:text-xl">Creative Solutions Crafted
+                    <div className="font-semibold text-lg sm:text-xl text-black">Creative Solutions Crafted
                         To Help You Achieve The
                         Perfect Digital Presence
                     </div>
-                    <Link href="/" className='w-fit sm:p-2 p-1 rounded-full bg-blue-600 text-white text-md  px-3'>Request a Proposal</Link>
-                    <Link href="/" className='underline text-semibold pb-2'>Contact Us </Link>
+                    <Link href="/" className='w-fit sm:p-2 p-1 flex gap-4 justify-center items-center rounded-full bg-blue-600 text-white text-md  px-3'>Request a Proposal <BsArrowRightShort/></Link>
+                    <Link href="/" className='border-b w-fit  flex gap-4 justify-center items-center text-semibold pb-2'>Contact Us <BsArrowRightShort/></Link>
                 </div>
-                <div className="sm:h-[320vh] h-auto sm:overflow-y-auto p-5 flex flex-col gap-5 pb-20  relative ">
-                    <h1 className=' sm:mt-20 sm:text-5xl text-xl font-semibold sm:font-bold p-5'>How can we help you?</h1>
+                <div className="sm:h-[320vh] h-auto sm:overflow-y-auto flex flex-col gap-5 pb-20  relative ">
+                    <h1 className=' sm:mt-20 sm:text-5xl text-2xl font-semibold sm:font-bold p-5'>How can we help you?</h1>
                     <div className='grid grid-flow-row gap-10 grid-cols-1 sm:p-0   sm:grid-cols-2 mt-10'>
                         <div className='bg-white p-5 sm:p-16   rounded-2xl h-auto w-full flex flex-col gap-10'>
                             <div>

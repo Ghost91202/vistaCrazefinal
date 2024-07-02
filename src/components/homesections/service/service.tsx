@@ -9,7 +9,7 @@ interface Props {}
 
 const Service: React.FC<Props> = (props) => {
   return (
-    <div className='flex flex-col p-10 sm:p-20'>
+    <div className='flex flex-col p-10 sm:p-20 bg-black'>
       <h1 className='lg:text-5xl font-bold text-2xl  '>Services</h1>
       <div className='flex flex-col gap-5'>
         <HoverContent text="Branding" imageUrl={Img.src} />
