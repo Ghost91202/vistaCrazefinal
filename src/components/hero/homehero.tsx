@@ -15,7 +15,7 @@ const Blurbg = (props: Props) => {
             </div>
             <div className='w-screen  h-screen overflow-hidden   sm:left-40 sm:right-0 z-0 absolute'>
 
-                <Image src={BgIMG} alt="vi" width={1000}  className='z-40 absolute sm:h-auto w-auto top-28 bottom-0 sm:left-40 flex rounded-2xl  justify-center items-center ' />
+                <Image src={BgIMG} alt="vi" width={1000}  className='z-40 absolute sm:h-auto w-auto  sm:w-auto  h-[50vh] top-28 bottom-0 sm:left-40 flex rounded-2xl -left-20 sm:justify-center sm:items-center ' />
             </div>
                 <div className='absolute bottom-0  left-0 z-10 flex  justify-between bg2 w-screen pb-20 sm:pb-0 p-10'>
                 <div className='flex flex-col text-start gap-5 w-96'>
