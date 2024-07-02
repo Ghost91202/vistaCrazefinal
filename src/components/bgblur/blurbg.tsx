@@ -25,7 +25,7 @@ const Blurbg = (props: Props) => {
                     </p>
                     <p>Vistacraze is an award-winning UI/UX Agency that focuses on creating effective designs based on research and in-depth testing.
                     </p>
-                    <div className=' border border-white/40 rounded-full px-3 w-fit sm:mt-20 p-2'>
+                    <div className=' border border-white/40 rounded-full px-3 w-fit sm:mt-20 sm:text-md flex text-sm items-end  justify-end right-0 p-2'>
                         Scroll to explore
                     </div>
                 </div>

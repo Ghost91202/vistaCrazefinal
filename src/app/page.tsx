@@ -11,6 +11,8 @@ import React from "../../public/React.png"
 import Stickycards from "@/components/cards/stickycards";
 import Blurbg from "@/components/hero/homehero";
 import Industries from "@/components/industry/industries";
+import Infinitecarousel from "@/components/carousel/infinitecarousel";
+import Testimonials from "@/components/testimonials/testimonials";
 
 
 
@@ -23,7 +25,6 @@ export default function Home() {
     <main className="bg-gray-300">
       <NavbarDemo />
       <div >
-
         {/* <BackgroundBeamsDemo /> */}
         {/* <div className="h-full py-20  flex  flex-col items-center justify-center  p-5  gap-10  text-white">
           <RiWordpressFill className=" absolute left-30 sm:left-60 top-24 text-9xl opacity-20" />
@@ -43,7 +44,9 @@ export default function Home() {
           </div>
 
         </div> */}
-        <Blurbg/>
+        <Blurbg />
+              {/* <Infinitecarousel/> */}
+
         <Stickycards />
         <div className="h-auto bg-gray-100 text-slate-950 ">
 
@@ -145,7 +148,8 @@ export default function Home() {
 
           </div>
         </div>
-        <Industries/>
+        <Industries />
+        <Testimonials/>
         {/* <Service /> */}
         <Footer />
       </div>

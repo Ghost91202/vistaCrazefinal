@@ -8,7 +8,7 @@ type Props = {}
 
 const Blurbg = (props: Props) => {
     return (
-        <div className='relative h-auto'>
+        <div className='relative h-auto text-white'>
             <div className=' absolute h-screen overflow-hidden'>
                 <Image src={BgIMG1} alt='vi' className='h-screen' />
 
