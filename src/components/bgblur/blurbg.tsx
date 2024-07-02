@@ -15,10 +15,10 @@ const Blurbg = (props: Props) => {
             </div>
             <div className='w-screen z-0  h-screen overflow-hidden  top-1  absolute'>
 
-                <Image src={BgIMG} alt="vi" width={1000} className=' sm:h-auto h-[100vh]  z-40 absolute top-20 flex rounded-2xl  sm:left-0 sm:justify-center sm:items-center' />
+                <Image src={BgIMG} alt="vi" width={1000} className=' sm:h-auto h-[70vh]  z-40 absolute bottom-0  sm:top-20 flex rounded-2xl  sm:left-0 sm:justify-center sm:items-center' />
             </div>
 
-            <div className='absolute z-10 bottom-0 right-0  sm:right-10 pb-5'>
+            <div className='absolute z-10 bottom-0 right-0  sm:right-10 p-2 sm:pb-5 pb-14'>
                 <div className='flex flex-col text-end gap-5 w-96'>
                     <h1 className='sm:text-4xl text-2xl font-semibold bottom-9 top-44'>UI/UX Design Agency</h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>User Interface and User Experience Design Agency
