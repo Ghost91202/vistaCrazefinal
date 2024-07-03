@@ -20,7 +20,7 @@ const ImageZoomIn: React.FC = () => {
         scale: 1.3,
         scrollTrigger: {
           trigger: imageRef.current,
-          start: 'top center',
+          start: 'top bottom',
           end: 'bottom center',
           scrub: true
         }
@@ -29,12 +29,12 @@ const ImageZoomIn: React.FC = () => {
   }, []);
 
   return (
-    <div ref={imageRef} className="relative w-full h-auto ">
+    <div ref={imageRef} className="relative bg-white flex items-center justify-center w-full h-auto ">
       <Image
         src={ExampleImage}
         alt="Zoomable Image"
 
-        className="p-20 -mt-32 rounded-3xl"
+        className="xl:p-20 lg:p-10 p-10 -mt-32 lg:w-[90vw] rounded-3xl"
       />
     </div>
   );

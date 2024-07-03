@@ -5,6 +5,11 @@ import TextReveal from '@/components/gsap/TextReveal'
 import NavbarDemo from '@/components/navbar/navbar'
 import Section1 from './section/section1'
 import Section2 from './section/section2'
+import Section3 from './section/section3'
+import Industries from '@/components/industry/industries'
+import Testimonials from '@/components/testimonials/testimonials'
+import Faq from '@/components/faq/faq'
+import Footer from '@/components/footer/footer'
 
 type Props = {}
 
@@ -16,7 +21,12 @@ const Home = (props: Props) => {
       <ImageZoom />
       <div className='relative'></div>
       <Section1 />
-      <Section2/>
+      <Section2 />
+      <Section3 />
+      <Industries />
+      <Testimonials />
+      <Faq />
+      <Footer/>
     </div>
   )
 }
