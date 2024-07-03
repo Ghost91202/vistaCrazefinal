@@ -87,7 +87,7 @@ export default function Footer() {
         <div className='grid grid-flow-row grid-cols-3 gap-10 sm:grid-cols-6 w-full sm:px-32  items-center justify-between'>
       <Link href="/kanpur">Kanpur</Link>
       <Link href="/delhi">Delhi</Link>
-      <Link href="/banglore">Banglore</Link>
+      <Link href="/Bangalore">Bangalore</Link>
       <Link href="/Lacknow">Lacknow</Link>
       <Link href="/Chennai">Chennai</Link>
       <Link href="/Mumbai">Mumbai</Link>

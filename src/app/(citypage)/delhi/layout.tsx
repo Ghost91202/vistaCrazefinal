@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/provider/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "digital Marketing agency in kanpur VistaCraze digital marketing agency",
+  title: "digital Marketing agency in Delhi VistaCraze digital marketing agency",
   description: "  Bing Ads,  google ads,  FaceBook ads youTube Ads",
 };
 
