@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import ProfileImage from '../../../public/brand.jpg'; // Replace with your image path
 
-const CardSlider: React.FC = () => {
+const Testimonials: React.FC = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const cards = [
@@ -110,4 +110,4 @@ Hear From Our Clients.</h1>
     );
 };
 
-export default CardSlider;
+export default Testimonials;
