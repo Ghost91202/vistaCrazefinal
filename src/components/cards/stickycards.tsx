@@ -12,7 +12,7 @@ const Stickycards = (props: Props) => {
     return (
         <div className='bg-gray-200 font-sans text-black/80 h-auto'>
             <div className='  flex flex-col sm:flex-row '>
-                <div className=" flex flex-col lg:gap-5 xl:gap-10  h-full p-5 sm:m-20 lg:m-5 lg:w-72 pt-10 sticky top-40 ">
+                <div className=" flex flex-col lg:gap-5 xl:gap-10  h-full p-5 sm:m-20 lg:m-5 lg:w-72 pt-10 gap-5 sticky top-40 ">
                     <div className='bg-gray-300 rounded-md text-xs font-medium sm:text-md w-fit  p-1 px-4 text-black'>
                         OUR SERVICES
                     </div>
@@ -26,7 +26,7 @@ const Stickycards = (props: Props) => {
                 <div className="xl:h-fit h-auto sm:overflow-y-auto flex flex-col gap-5 pb-20  relative ">
                     <h1 className=' sm:mt-20 lg:text-4xl xl:text-5xl  text-2xl font-semibold sm:font-bold p-5'>How can we help you?</h1>
                     <div className='grid grid-flow-row gap-10 grid-cols-1 sm:p-0   sm:grid-cols-2 mt-10'>
-                        <div className='bg-white p-5 lg:p-4 xl:p-16    rounded-2xl  h-auto w-full flex flex-col lg:gap-5 xl:gap-10'>
+                        <div className='bg-white p-5 lg:p-4 xl:p-16    rounded-2xl  h-auto w-full flex flex-col gap-5 lg:gap-5 xl:gap-10'>
                             <div>
 
                                 <h1 className='xl:text-4xl lg:text-2xl sm:text-xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Web Design & Development</h1>
@@ -50,7 +50,7 @@ const Stickycards = (props: Props) => {
                                 <Link href='/' className='  sm:text-sm px-3 text-xs text-slate-600  p-1'> View works</Link>
                             </div>
                         </div>
-                        <div className='flex flex-col w-full lg:gap-5 xl:gap-10'>
+                        <div className='flex flex-col w-full gap-5 lg:gap-5 xl:gap-10'>
                             <div className='bg-white p-5 lg:p-4 xl:p-16    rounded-2xl  w-full flex flex-col gap-5'>
 
                                 <h1 className='xl:text-4xl lg:text-2xl sm:text-xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>seo</h1>
@@ -74,7 +74,7 @@ const Stickycards = (props: Props) => {
                             </div>
 
                         </div>
-                        <div className='bg-white p-5 lg:p-4 xl:p-16    rounded-2xl h-auto w-full flex flex-col lg:gap-5 xl:gap-10'>
+                        <div className='bg-white p-5 lg:p-4 xl:p-16    rounded-2xl h-auto w-full gap-5 flex flex-col lg:gap-5 xl:gap-10'>
                             <div>
 
                                 <h1 className='xl:text-4xl lg:text-2xl sm:text-xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Visual Branding</h1>
@@ -97,7 +97,7 @@ const Stickycards = (props: Props) => {
                                 <Link href='/' className=' border rounded-full border-gray-300 sm:text-sm px-3 text-xs bg-gray-300 text-black/80 p-1'> Learn More</Link>
                             </div>
                         </div>
-                        <div className='bg-white p-5 lg:p-4 xl:p-16  justify-between  rounded-2xl h-auto w-full flex flex-col lg:gap-5 xl:gap-10'>
+                        <div className='bg-white p-5 lg:p-4 xl:p-16  justify-between  rounded-2xl gap-5 h-auto w-full flex flex-col lg:gap-5 xl:gap-10'>
                             <div>
 
                                 <h1 className='xl:text-4xl lg:text-2xl sm:text-xl text-lg font-semibold sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Brand Research & Strategy</h1>
@@ -123,7 +123,7 @@ const Stickycards = (props: Props) => {
                         </div>
 
                     </div>
-                    <div className=' grid grid-flow-row  grid-cols-1 lg:grid-cols-2 h-fit gap-5 xl:grid-cols-4'>
+                    <div className=' grid grid-flow-row   grid-cols-1 lg:grid-cols-2 h-fit gap-5 xl:grid-cols-4'>
                         <div className='bg-white p-4  justify-between  rounded-2xl  w-full flex flex-col gap-5'>
 
                             <h1 className='sm:text-xl text-lg font-semibold sm:font-bold  border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Consultation & Audit</h1>

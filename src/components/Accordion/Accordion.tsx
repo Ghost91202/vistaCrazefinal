@@ -23,14 +23,14 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className="border-b border-gray-200">
           <button
-            className="w-full text-left py-4 px-4 flex justify-between items-center"
+            className="w-full text-left py-4 xl:text-base text-sm lg:text-md  px-2 flex justify-between items-center"
             onClick={() => handleToggle(index)}
           >
             <span>{item.title}</span>
             <span>{activeIndex === index ? '-' : '+'}</span>
           </button>
           {activeIndex === index && (
-            <div className="p-4 bg-gray-100">
+            <div className="p-4 xl:text-base text-sm lg:text-md bg-gray-100">
               {item.content}
             </div>
           )}

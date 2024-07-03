@@ -12,7 +12,7 @@ import { TiSocialFacebook } from "react-icons/ti";
 
 export default function Footer() {
   return (
-      <div className='h-auto bg text-white flex p-5 sm:p-20 pb-48 flex-col gap-10'>
+      <div className='h-auto bg text-white flex p-5 xl:p-20 xl:pb-48 flex-col gap-10'>
 
               <Link href="/">
                   <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
@@ -88,13 +88,13 @@ export default function Footer() {
       <Link href="/">Kanpur</Link>
       <Link href="/">Delhi</Link>
       <Link href="/">Banglore</Link>
-      <Link href="/">Lakhnow</Link>
+      <Link href="/">Lacknow</Link>
       <Link href="/">Chennai</Link>
       <Link href="/">Mumbai</Link>
       </div>
       </div>
 
-      <h6 className='flex items-center  justify-center pb-10'>© All Copyright Reserved by VistaCraze Marketing.</h6>
+      <h6 className='flex items-center  justify-center xl:pb-10'>© All Copyright Reserved by VistaCraze Marketing.</h6>
       </div>
   )
 }

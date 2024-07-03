@@ -35,11 +35,11 @@ const Tabs: React.FC = () => {
                 </Link>
             </div>
             <div {...swipeHandlers} className="ring-offset-transparent">
-                <div className="flex border-b border-gray-200">
+                <div className="flex border-b xl:text-base text-xs border-gray-200">
                     {tabs.map((tab, index) => (
                         <button
                             key={index}
-                            className={`py-2 px-4 ${activeTab === index ? 'border-b-2 border-blue-500' : ''}`}
+                            className={`py-2 lg:px-3 px-2 xl:px-4 ${activeTab === index ? 'border-b-2 border-blue-500' : ''}`}
                             onClick={() => setActiveTab(index)}
                         >
                             {tab.label}
