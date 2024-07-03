@@ -1,5 +1,5 @@
 import React from 'react'
-import "../section/style.css"
+import "./style.css"
 import { IoIosCheckmark } from "react-icons/io";
 import Image from 'next/image';
 import SCetch from "../../../../../public/scetch.png"
