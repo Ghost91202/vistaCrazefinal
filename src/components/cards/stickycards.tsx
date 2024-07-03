@@ -12,7 +12,7 @@ const Stickycards = (props: Props) => {
     return (
         <div className='bg-gray-200 font-sans text-black/80 h-auto'>
             <div className='  flex flex-col sm:flex-row '>
-                <div className=" flex flex-col lg:gap-5 xl:gap-10  h-full p-5 sm:m-20 lg:m-5 lg:w-72 pt-10 sticky  sm:top-40 ">
+                <div className=" flex flex-col lg:gap-5 xl:gap-10  h-full p-5 sm:m-20 lg:m-5 lg:w-72 pt-10 sticky top-40 ">
                     <div className='bg-gray-300 rounded-md text-xs font-medium sm:text-md w-fit  p-1 px-4 text-black'>
                         OUR SERVICES
                     </div>
@@ -23,7 +23,7 @@ const Stickycards = (props: Props) => {
                     <Link href="/" className='w-fit sm:p-2 p-1 flex gap-4 justify-center items-center rounded-full bg-blue-600 text-white text-md  px-3 lg:w-60'>Request a Proposal <BsArrowRightShort/></Link>
                     <Link href="/" className='border-b w-fit  flex gap-4 justify-center items-center text-semibold pb-2'>Contact Us <BsArrowRightShort/></Link>
                 </div>
-                <div className="xl:h-[260vh] h-auto sm:overflow-y-auto flex flex-col gap-5 pb-20  relative ">
+                <div className="xl:h-fit h-auto sm:overflow-y-auto flex flex-col gap-5 pb-20  relative ">
                     <h1 className=' sm:mt-20 lg:text-4xl xl:text-5xl  text-2xl font-semibold sm:font-bold p-5'>How can we help you?</h1>
                     <div className='grid grid-flow-row gap-10 grid-cols-1 sm:p-0   sm:grid-cols-2 mt-10'>
                         <div className='bg-white p-5 lg:p-4 xl:p-16    rounded-2xl  h-auto w-full flex flex-col lg:gap-5 xl:gap-10'>

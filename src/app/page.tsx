@@ -13,6 +13,7 @@ import Blurbg from "@/components/hero/homehero";
 import Industries from "@/components/industry/industries";
 import Infinitecarousel from "@/components/carousel/infinitecarousel";
 import Testimonials from "@/components/testimonials/testimonials";
+import  Tabs  from "@/components/faq/faq";
 
 
 
@@ -150,7 +151,7 @@ export default function Home() {
         </div>
         <Industries />
         <Testimonials/>
-        {/* <Service /> */}
+        <Tabs />
         <Footer />
       </div>
     </main>
