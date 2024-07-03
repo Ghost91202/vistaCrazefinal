@@ -21,8 +21,8 @@ const Tabs: React.FC = () => {
     });
 
     return (
-        <div className="flex gap-10 xl:p-20 lg:p-10 p-5 lg:pl-10 xxl sm:flex-row flex-col bg-white text-black">
-            <div className="lg:pt-20 justify-center xl:pl-0 xl:w-1/3 lg:w-1/3 flex flex-col gap-10">
+        <div className="flex gap-10 xl:p-20 lg:p-10 p-5 lg:pl-10 xxl sm:flex-row flex-col justify-around bg-white text-black">
+            <div className=" justify-center xl:pl-0 xl:w-1/3 lg:w-1/3 flex flex-col gap-10">
                 <span className="bg-slate-100 w-fit text-sm px-3 py-1">FAQ&apos;S</span>
                 <h1 className="xl:text-3xl lg:text-2xl font-semibold">
                     Answers To Frequently Asked Questions
