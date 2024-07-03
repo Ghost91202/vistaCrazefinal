@@ -12,7 +12,7 @@ import { TiSocialFacebook } from "react-icons/ti";
 
 export default function Footer() {
   return (
-      <div className='h-auto bg text-white flex p-5 xl:p-10 flex-col gap-10'>
+      <div className='h-auto footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
 
               <Link href="/">
                   <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
