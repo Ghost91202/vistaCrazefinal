@@ -72,7 +72,7 @@ Hear From Our Clients.</h1>
                         ))}
                         </div>
                         <div className=' flex xl:hidden lg:hidden '>
-                            {cards.slice(slideIndex * 1, slideIndex * 1 + 3).map((card) => (
+                            {cards.slice(slideIndex * 1, slideIndex * 1 + 1).map((card) => (
                             <div key={card.id} className="w-full flex flex-col gap-5 sm:w-1/2 lg:w-1/3 p-2">
 
                                 <div className="p-6 flex flex-col gap-5 bg-white m-4 rounded-lg shadow-lg">

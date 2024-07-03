@@ -21,7 +21,7 @@ const seoHero = (props: Props) => {
                   <span>Effient</span></div>
               <div className='flex items-center justify-center gap-10'>
                   <Image src={Googlereview} alt='google review vistacraze' className='lg:w-[10vw] ' width={100}/>
-                  <Image src={Trustpilot} alt='google review vistacraze' className='lg:w-[10vw]' width={200} />
+                  <Image src={Trustpilot} alt='google review vistacraze' className='lg:w-[10vw]' width={100} />
 
               </div>
               <div>
