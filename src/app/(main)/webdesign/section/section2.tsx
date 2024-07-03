@@ -7,8 +7,9 @@ const section2 = (props: Props) => {
   return (
     <div className='flex h-auto relative flex-col xl:gap-20 p-5 gap-10 xl:p-20 bg-black'>
       <h1 className='xl:text-6xl text-4xl lg:hidden  text-white
-                         font-semibold'>Custom websites,
-backed by strategy'</h1>
+                         font-semibold'>
+Websites That
+Push New Limits</h1>
       <h1 className='xl:text-6xl xl:w-1/2  lg:flex hidden font-semibold'>
         <TextReveal text='Websites That
               Push New Limits'/></h1>

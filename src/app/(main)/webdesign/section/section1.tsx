@@ -13,7 +13,7 @@ const section1 = (props: Props) => {
                     <div className='flex flex-col gap-10'>
                          <h1 className='xl:text-6xl text-4xl lg:hidden  text-white
                          font-semibold'>Custom websites,
-backed by strategy'</h1>
+backed by strategy</h1>
                         <span className='xl:text-6xl text-4xl lg:flex hidden text-white
                          font-semibold'>
 
