@@ -13,11 +13,11 @@ const industries = (props: Props) => {
       <div className='flex flex-col bg-gray-50 text-black items-center justify-center p-5 sm:p-10'>
           <div className='flex flex-col gap-10 items-center  justify-center'>
               <span className='bg-slate-200 font-medium text-xs sm:text-sm p-1 rounded-md px-3'>INDUSTRIES</span>
-              <h1  className='sm:text-6xl text-2xl  sm:w-1/2 text-center font-semibold'>Vistacraze Collaborates
+              <h1  className='sm:text-6xl text-2xl  xl:w-2/3 text-center font-semibold'>Vistacraze Collaborates
                   With Most Industries</h1>
-              <p className='sm:w-1/2 text-center'>As a company with over a decade of experience, we at Vistacraze are proud to have worked with many outstanding businesses and industries worldwide. These partnerships have allowed us to expand our knowledge, skills, and expertise, and have helped us to continuously improve our services and deliver excellent results for our clients.</p>
+              <p className='xl:w-1/2 text-center'>As a company with over a decade of experience, we at Vistacraze are proud to have worked with many outstanding businesses and industries worldwide. These partnerships have allowed us to expand our knowledge, skills, and expertise, and have helped us to continuously improve our services and deliver excellent results for our clients.</p>
           </div>
-          <div className='grid grid-cols-1 gap-5 sm:grid-cols-3 sm:p-20'>
+          <div className='grid grid-cols-1 gap-5 lg:pt-10 sm:grid-cols-3 xl:p-20'>
 
               <div className='bg-gray-100 p-4 rounded-md flex flex-col items-center justify-center'>
                   <Image src={Ngo} alt='vistacraze Industries page' className='rounded-md'/>

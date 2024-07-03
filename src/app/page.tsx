@@ -22,7 +22,7 @@ export default function Home() {
 
 
   return (
-    <main className="bg-gray-300">
+    <main className="w-[100vw] overflow-x-hidden">
       <NavbarDemo />
       <div >
         {/* <BackgroundBeamsDemo /> */}
@@ -69,12 +69,12 @@ export default function Home() {
                     <h1 className="text-3xl sm:text-4xl text-start sm:text-center font-sans ">Digital services to establish, build
                       or grow your business...</h1>
                     <p className=" font-normal text-justify sm:text-lg">With in-house digital marketing experts based on the coast… we&apos;ve got you covered!</p>
-                    <p className="text-md font-normal text-gray-600 sm:text-lg sm:w-2/3">Whether you&apos;re starting digital marketing for the first time, our looking to elevate upon an existing foundation, our team will work with you. From SEO to paid media and web design, not to mention our killer content services – everything we do is geared towards supporting your business goals.</p>
+                    <p className="text-md font-normal text-gray-600 sm:text-lg  xl:w-2/3">Whether you&apos;re starting digital marketing for the first time, our looking to elevate upon an existing foundation, our team will work with you. From SEO to paid media and web design, not to mention our killer content services – everything we do is geared towards supporting your business goals.</p>
                   </div>
                 </div>
               </div>
-              <div className="h-full w-full sm:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
-                <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col gap-20 p-5 text-white border rounded-3xl ">
+              <div className="h-full w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
+                <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col lg:gap-4 justify-between xl:gap-20 p-5 text-white border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <MdModeStandby className="text-5xl" />
                     <h1 className="text-4xl font-sans">
@@ -87,7 +87,7 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col   group  gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col   group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <CgDesignmodo className="text-5xl" />
                     <h1 className="text-4xl font-sans">
@@ -100,7 +100,7 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col  group  gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col  group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <TbArrowsRandom className="text-5xl" />
                     <h1 className="text-4xl font-sans">
@@ -113,7 +113,7 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col  group  gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col  group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <PiMetaLogoDuotone className="text-5xl" />
                     <h1 className="text-4xl font-sans">
@@ -129,7 +129,7 @@ export default function Home() {
                   </Button>
                 </div>
                 <ThreeDCardDemo />
-                <div className="h-full w-full  flex flex-col  group  gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col  group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <GiIronCross className="text-5xl" />
                     <h1 className="text-4xl font-sans">
