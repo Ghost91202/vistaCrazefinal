@@ -33,7 +33,7 @@ const TextReveal: React.FC<{ text: string }> = ({ text }) => {
   }, [text]);
 
   return (
-    <div ref={textRef} className="text-3xl font-bold p-5">
+    <div ref={textRef}>
       {text.split(' ').map((word, index) => (
         <span key={index} className="word inline-block mr-2">
           {word}

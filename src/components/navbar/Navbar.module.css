@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menuItem {
+    position: relative;
+    padding: 10px 20px;
+    color: #fff;
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.drawer {
+    position: absolute;
+    top: 100%;
+    left: auto;
+    width: 100vw;
+
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.drawer.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
