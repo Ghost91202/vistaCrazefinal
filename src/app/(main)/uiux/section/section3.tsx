@@ -8,7 +8,7 @@ type Props = {}
 
 const section3 = (props: Props) => {
     return (
-        <div className='h-auto bg bg-black'>
+        <div className='h-auto sectionbg bg-black'>
             <div className=' flex flex-col gap-10 items-center pt-20 justify-center'>
                 <span className='bg-gray-800/80 p-1 px-4 rounded-full w-fit text-white'>UX/UI</span>
                 <h1 className='sm:text-7xl text-2xl  font-semibold text-center'>Our UI/UX
@@ -133,8 +133,8 @@ const section3 = (props: Props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-gray-800 rounded-xl flex items-end justify-end'>
-                            <Image src={SCetch} alt="vistacraze" className='' width={650} />
+                        <div className=' rounded-2xl flex items-end justify-end'>
+                            <Image src={SCetch} alt="vistacraze" width={650} className="rounded-xl "/>
                         </div>
 
                     </div>

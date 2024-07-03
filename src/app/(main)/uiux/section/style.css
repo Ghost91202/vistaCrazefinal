@@ -1,4 +1,4 @@
-.bg{
+.sectionbg{
     background: rgb(63, 94, 251);
         background: -moz-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(50, 74, 198, 1) 24%, rgba(0, 0, 0, 1) 80%);
         background: -webkit-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(50, 74, 198, 1) 24%, rgba(0, 0, 0, 1) 80%);

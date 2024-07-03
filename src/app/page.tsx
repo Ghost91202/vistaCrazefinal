@@ -14,7 +14,7 @@ import Industries from "@/components/industry/industries";
 import Infinitecarousel from "@/components/carousel/infinitecarousel";
 import Testimonials from "@/components/testimonials/testimonials";
 import  Tabs  from "@/components/faq/faq";
-
+import "./globals.css"
 
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main className="w-[100vw] overflow-x-hidden">
       <NavbarDemo />
-      <div >
+      <div className="bg-white">
         {/* <BackgroundBeamsDemo /> */}
         {/* <div className="h-full py-20  flex  flex-col items-center justify-center  p-5  gap-10  text-white">
           <RiWordpressFill className=" absolute left-30 sm:left-60 top-24 text-9xl opacity-20" />
@@ -49,7 +49,7 @@ export default function Home() {
               {/* <Infinitecarousel/> */}
 
         <Stickycards />
-        <div className="h-auto bg-gray-100 text-slate-950 ">
+        <div className="h-auto  bg-gray-100 text-slate-950 ">
 
           <div className="  h-auto sm:pt-20 pt-10 p-5 gap-5 text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold">
             <div>
@@ -74,7 +74,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="h-full w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
+              <div className="h-full cardsbg w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
                 <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col lg:gap-4 justify-between xl:gap-20 p-5 text-white border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <MdModeStandby className="text-5xl" />
