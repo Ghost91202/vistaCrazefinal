@@ -2,14 +2,18 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
-
+import { FiAlignRight } from "react-icons/fi";
 
 import Link from "next/link";
-import { IoReorderThreeOutline } from "react-icons/io5";
-import { Button } from "@/components/ui/button"
+
 import Image from "next/image";
 import Logo from "../../../public/logo.png"
+import Drawer2 from "../drawer/drawer2";
+// import component 👇
+import Drawer from 'react-modern-drawer'
 
+//import styles 👇
+import 'react-modern-drawer/dist/index.css'
 
 
 export default function NavbarDemo() {
@@ -20,11 +24,15 @@ export default function NavbarDemo() {
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+   const [isOpen, setIsOpen] = React.useState(false)
+    const toggleDrawer = () => {
+        setIsOpen((prevState) => !prevState)
+    }
   return (
     <div
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
-      <div className="flex flex-row w-screen items-center justify-between px-5 pt-4 hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
+      <div className="flex flex-row w-screen items-center justify-between px-5 pt-4 sm:p-0 p-2 hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
         <Link href="/">
           <Image src={Logo} alt="VistaCraze digital marketing agency" width={150} height={100} />
         </Link>
@@ -83,18 +91,27 @@ function Navbar({ className }: { className?: string }) {
           <Link href="/" className="flex items-center py-auto hover:underline">Contact</Link>
 
         </Menu>
-        <Link href="/Contact" className="text-white border rounded-full gap-2 flex items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+        <Link href="/Contact" className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
           <span className="relative flex h-3 w-3">
   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
   <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
 </span>
 
-          Request a praposal</Link>
+  Request a praposal</Link>
         <div className="sm:hidden flex">
-
+                              <button onClick={toggleDrawer}><FiAlignRight className="text-2xl"/></button>
         </div>
 
       </div>
+
+            <Drawer
+                open={isOpen}
+                onClose={toggleDrawer}
+                direction='top'
+                className='bla bla bla z-0'
+            >
+                <div>Hello World</div>
+            </Drawer>
     </div>
   );
 }
