@@ -150,7 +150,7 @@ export default function Home() {
 
           </div>
         </div>
-              <Navbar />
+              {/* <Navbar /> */}
 
         <Industries />
         <Testimonials/>
