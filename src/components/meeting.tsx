@@ -2,7 +2,11 @@
 
   import { getCalApi } from "@calcom/embed-react";
   import { useEffect } from "react";
-  export default function Meeting({title}{title:String}) {
+interface MeetingProps {
+  title: string;
+}
+
+export default function Meeting({ title }: MeetingProps) {
 	useEffect(()=>{
 	  (async function () {
 		const cal = await getCalApi({});
