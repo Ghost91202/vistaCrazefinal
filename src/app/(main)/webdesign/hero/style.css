@@ -1,9 +1,5 @@
 .webbg{
-background: rgb(0, 129, 247);
-    background: -moz-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
-    background: -webkit-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
-    background: linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0081f7", endColorstr="#000000", GradientType=1);
+background-image: linear-gradient(to bottom, #000000, #29131e, #461d3f, #5b2e6a, #60459e, #594db8, #4757d3, #0062f0, #0058f2, #004df3, #1641f3, #2831f2);
 }
 .webbg2{
 background: rgb(0, 129, 247);
