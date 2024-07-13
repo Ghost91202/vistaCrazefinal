@@ -50,12 +50,12 @@ export default function Footer() {
           Services
         </h5>
         <div className='flex flex-col gap-2'>
-          <Link href="/">All Services</Link>
-        <Link href="/">Web Design </Link>
-        <Link href="/">Branding</Link>
-        <Link href="/">UI UX</Link>
-        <Link href="/">Consultattion and Audit</Link>
-        <Link href="/">SEO</Link>
+          <Link href="/services">All Services</Link>
+        <Link href="/webdesign">Web Design </Link>
+        <Link href="/uiux">Branding</Link>
+        <Link href="/uiux">UI UX</Link>
+        {/* <Link href="/">Consultattion and Audit</Link> */}
+        <Link href="/seo">SEO</Link>
         </div>
       </div>
       <div className='flex flex-col gap-10'>
@@ -64,10 +64,9 @@ export default function Footer() {
         </h5>
         <div className='flex flex-col gap-2'>
           <Link href="/">Insights</Link>
-        <Link href="/">Career</Link>
-        <Link href="/">FAQs</Link>
-        <Link href="/">Privacy Policy</Link>
-        <Link href="/">Sitemap</Link>
+        <Link href="/career">Career</Link>
+        <Link href="#faq">FAQs</Link>
+        <Link href="/privacy">Privacy Policy</Link>
         </div>
       </div>
       <div className='flex flex-col gap-10'>

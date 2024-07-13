@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/provider/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VistaCraze Digital Marketing Agency - SEO, Google Ads, Facebook Ads, uiux",
+  title: "All services  || VistaCraze Digital Marketing Agency - SEO, Google Ads, Facebook Ads",
   description: "Boost your business with VistaCraze's SEO, Google Ads, Facebook Ads, Bing Ads, and YouTube Ads services. Expert digital marketing in Kanpur.",
 };
 
@@ -21,9 +21,10 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="dark"
             enableSystem
-            disableTransitionOnChange
-        >{children}
-        </ThemeProvider>      </body>
+                  disableTransitionOnChange>
+                  {children}
+              </ThemeProvider>
+          </body>
     </html>
   );
 }

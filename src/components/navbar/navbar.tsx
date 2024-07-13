@@ -22,7 +22,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 reltive items-center flex w-screen  z-50", className)}
+      className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
       <div className="flex flex-row w-screen items-center justify-between px-5 pt-4 hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
         <Link href="/">
@@ -83,7 +83,13 @@ function Navbar({ className }: { className?: string }) {
           <Link href="/" className="flex items-center py-auto hover:underline">Contact</Link>
 
         </Menu>
-        <Link href="/Contact" className="text-white border rounded-full flex items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">Request a praposal</Link>
+        <Link href="/Contact" className="text-white border rounded-full gap-2 flex items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+          <span className="relative flex h-3 w-3">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+  <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
+
+          Request a praposal</Link>
         <div className="sm:hidden flex">
 
         </div>
