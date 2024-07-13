@@ -12,7 +12,7 @@ type Props = {}
 
 const Seosection3 = (props: Props) => {
   return (
-      <div className='bg-slate-950 h-auto lg:pb-20 lg:h-screen seosection3 flex flex-col lg:p-20 p-5 gap-20 lg:gap-20 justify-between'>
+      <div className='bg-slate-950 h-auto text-white lg:pb-20 lg:h-screen seosection3 flex flex-col lg:p-20 p-5 gap-20 lg:gap-20 justify-between'>
           <div className=' flex gap-10 flex-col'>
 
           <span className='bg-gray-700/40 w-fit px-3 py-1 rounded-md'>

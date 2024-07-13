@@ -93,7 +93,7 @@ function Navbar({ className }: { className?: string }) {
           <Link href="/contact" className="flex items-center py-auto hover:underline">Contact</Link>
           <Link href="#cities" className="flex items-center py-auto hover:underline">City</Link>
         </Menu>
-        <Link href="/"  className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+        <Link href="#"  className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
@@ -115,18 +115,24 @@ function Navbar({ className }: { className?: string }) {
           direction='right'
           className='bla bla bla z-0'
         >
-          <div className="flex h-full pb-5 items-center flex-col text-black justify-between">
+          <div className="flex h-full pb-5 items-start flex-col text-black">
 
-            <div className=" flex flex-col p-10 text-3xl gap-5">
+            <div className=" flex flex-col p-2 pt-10 text-2xl gap-5">
 
               <Link href="/" className="border-b  pb-5">About</Link>
-              <Link href="/" className="border-b  pb-5">All services</Link>
+              <span className="font-semibold" >All services
+                <div className="  flex flex-col pl-4 p-2 gap-3">
+                   <Link href="/webdesign" className="border-b font-normal    pb-5">Web Design</Link>
+              <Link href="/seo" className="border-b font-normal   pb-5">Marketing services</Link>
+              <Link href="/uiux" className="border-b font-normal    pb-5">Branding</Link>
+             </div>
+              </span>
               <Link href="/" className="border-b  pb-5">Contact</Link>
               <Link href="/" className="border-b  pb-5">Our package</Link>
               <Link href="/" className="border-b  pb-5">About</Link>
 
             </div>
-             <Link href="/"  className="text-black  border rounded-full gap-2   items-center h-8 border-gray-300 justify-center px-3 flex text-2xl   py-2">
+             <Link href="#"  className="text-black  border rounded-full gap-2 mt-10  items-center h-8 border-gray-300 justify-center px-3 flex text-2xl   py-2">
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>

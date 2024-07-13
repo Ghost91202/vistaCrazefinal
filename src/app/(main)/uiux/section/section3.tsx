@@ -8,20 +8,20 @@ type Props = {}
 
 const section3 = (props: Props) => {
     return (
-        <div className='h-auto sectionbg bg-black'>
+        <div className='h-auto sectionbg bg-black text-white'>
             <div className=' flex flex-col gap-10 items-center pt-20 justify-center'>
                 <span className='bg-gray-800/80 p-1 px-4 rounded-full w-fit text-white'>UX/UI</span>
                 <h1 className='sm:text-7xl text-2xl  font-semibold text-center'>Our UI/UX
                     <br />
                     Methodology</h1>
-                <div className=' flex sticky top-24 gap-2 sm:gap-4'>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 rounded-s-full backdrop-blur-3xl'>Research</span>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Design</span>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 backdrop-blur-3xl'>Testing</span>
-                    <span className='bg-black/20 p-1 sm:p-5 px-2 sm:px-16 rounded-e-full backdrop-blur-3xl'>Revision</span>
+                <div className=' flex sticky top-24 gap-2 text-white sm:gap-4'>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2 border sm:px-16 rounded-s-full backdrop-blur-3xl'>Research</span>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2ḍ border   sm:px-16 backdrop-blur-3xl'>Design</span>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2  border sm:px-16 backdrop-blur-3xl'>Testing</span>
+                    <span className='bg-black/20 p-1 sm:p-5 px-2  border sm:px-16 rounded-e-full backdrop-blur-3xl'>Revision</span>
                 </div>
                 <div className='h-auto sm:h-[44 0vh] sm:p-20 flex flex-col gap-10 p-3'>
-                    <h1 className='sm:text-4xl text-xl font-semibold sm:w-1/2'>Research: The Foundation of Insightful Design</h1>
+                    <h1 className='sm:text-4xl text-xl text-white font-semibold sm:w-1/2'>Research: The Foundation of Insightful Design</h1>
                     <p className='sm:w-2/3'>In the research phase, our goal is to derive a profound understanding of the user environment and needs through a series of targeted, high-quality research methods:</p>
                     <div className=' gap-10 grid grid-flow-row grid-cols-1 sm:grid-cols-4 '>
                         <div className='flex gap-5'>
@@ -29,7 +29,7 @@ const section3 = (props: Props) => {
                                 <IoIosCheckmark className='text-green-600 rounded-full border border-green-800 text-3xl ' />
                             </div>
                             <div className='flex flex-col gap-5'>
-                                <h3 className='sm:text-lg text-md font-semibold'>Ethnographic Studies</h3>
+                                <h3 className='sm:text-lg text-md text-white font-semibold'>Ethnographic Studies</h3>
                                 <p>Conducting real-world observations to capture authentic interactions and contexts of use.</p>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const section3 = (props: Props) => {
                                 <IoIosCheckmark className='text-green-600 rounded-full border border-green-800 text-3xl ' />
                             </div>
                             <div className='flex flex-col gap-5'>
-                                <h3 className='sm:text-lg text-md font-semibold'>Surveys</h3>
+                                <h3 className='sm:text-lg text-md text-white font-semibold'>Surveys</h3>
                                 <p>Utilizing both closed and open-ended questions to collect a broad spectrum of data from a diverse user base.</p>
                             </div>
                         </div>
