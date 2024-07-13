@@ -2,8 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
-import Logo from "../../../public/logo.png"
+
 
 
 const transition = {
@@ -42,15 +41,15 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && (
-            <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 ">
+            <div className="absolute top-[calc(100%_+_0.4rem)]  transform -translate-x-1/2 ">
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="bg-white dark:bg-slate-950 backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl -pt-5"
+                className="bg-white dark:bg-slate-950 backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl "
               >
                 <motion.div
                   layout // layout ensures smooth animation
-                  className="w-max h-full pt-0 p-4"
+                  className="w-max h-full "
                 >
                   {children}
                 </motion.div>
