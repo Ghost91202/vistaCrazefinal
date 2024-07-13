@@ -89,8 +89,9 @@ function Navbar({ className }: { className?: string }) {
             <Link href="/" >About</Link>
           </div>
 
-          <Link href="/contact" className="flex items-center py-auto hover:underline">Contact</Link>
 
+          <Link href="/contact" className="flex items-center py-auto hover:underline">Contact</Link>
+          <Link href="#cities" className="flex items-center py-auto hover:underline">City</Link>
         </Menu>
         <Link href="/"  className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
           <span className="relative flex h-3 w-3">

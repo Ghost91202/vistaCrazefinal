@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
       </div>
 
-      <div className=' border-t border-gray-300/40 flex items-center justify-center border-b p-5'>
+      <div className=' border-t border-gray-300/40 flex items-center justify-center border-b p-5' id="cities">
         <div className='grid grid-flow-row grid-cols-3 gap-10 sm:grid-cols-6 w-full sm:px-32  items-center justify-between'>
       <Link href="/kanpur">Kanpur</Link>
       <Link href="/delhi">Delhi</Link>
