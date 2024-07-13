@@ -6,7 +6,7 @@ type Props = {}
 
 const hero = (props: Props) => {
   return (
-    <div className='bg xl:h-screen text-white lg:h-[70vh] h-[50vh] flex flex-col items-center justify-center gap-10'>
+    <div className='webbg xl:h-screen text-white lg:h-[70vh] h-[50vh] flex flex-col items-center justify-center gap-10'>
       <h1 className='flex xl:text-8xl lg:text-6xl text-4xl xl:w-1/2 text-center font-semibold'>Website Design &
         Development Agency</h1>
       <div className='flex items-center gap-10'>

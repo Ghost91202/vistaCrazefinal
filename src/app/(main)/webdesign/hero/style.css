@@ -1,11 +1,11 @@
-.bg{
+.webbg{
 background: rgb(0, 129, 247);
     background: -moz-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
     background: -webkit-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
     background: linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0081f7", endColorstr="#000000", GradientType=1);
 }
-.bg2{
+.webbg2{
 background: rgb(0, 129, 247);
     background: -moz-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
     background: -webkit-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
