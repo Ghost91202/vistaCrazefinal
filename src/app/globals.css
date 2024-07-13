@@ -11,6 +11,11 @@
 *::-webkit-scrollbar {
   display: none !important;
 }
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 
 .bg-radial-gradient {
   background-image: radial-gradient(circle at 10% 20%,
@@ -81,4 +86,53 @@ background: rgb(0, 117, 255);
   background: -webkit-radial-gradient(circle, rgba(0, 117, 255, 0.8772759103641457) 3%, rgba(0, 0, 0, 0) 37%);
   background: radial-gradient(circle, rgba(0, 117, 255, 0.8772759103641457) 3%, rgba(0, 0, 0, 0) 37%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0075ff", endColorstr="#000000", GradientType=1);
+}
+
+
+
+
+/* styles/globals.css */
+.demo {
+  overflow-x: hidden;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.s1 {
+  height: 100px;
+}
+
+.s2 {
+  height: 200px;
+}
+
+.s0 {
+  height: 0;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  margin: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.outline {
+  border: 2px solid white;
+}
+
+.animate4 {
+  position: relative;
+}
+
+.viewsource {
+  color: #fff;
 }

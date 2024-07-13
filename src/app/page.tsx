@@ -1,3 +1,4 @@
+import React from "react";
 import NavbarDemo from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import { Button } from "@/components/ui/button"
@@ -7,18 +8,16 @@ import { TbArrowsRandom } from "react-icons/tb";
 import { PiMetaLogoDuotone } from "react-icons/pi";
 import { GiIronCross } from "react-icons/gi";
 import { ThreeDCardDemo } from "@/components/cards/3dcard";
-import React from "../../public/React.png"
 import Stickycards from "@/components/cards/stickycards";
 import Blurbg from "@/components/hero/homehero";
 import Industries from "@/components/industry/industries";
-import Infinitecarousel from "@/components/carousel/infinitecarousel";
 import Testimonials from "@/components/testimonials/testimonials";
 import  Tabs  from "@/components/faq/faq";
 import "./globals.css"
-import Navbar from "@/components/Navbar";
 
 
 export default function Home() {
+
 
 
 
@@ -75,7 +74,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="h-full cardsbg w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
+              <div className="h-full  w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
                 <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col lg:gap-4 justify-between xl:gap-20 p-5 text-white border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <MdModeStandby className="text-5xl" />
