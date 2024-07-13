@@ -32,7 +32,7 @@ function Navbar({ className }: { className?: string }) {
     <div
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
-      <div className="flex flex-row w-screen items-center justify-between px-5 pt-4 sm:p-0 p-2 hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
+      <div className="flex flex-row w-screen items-center justify-between px-5 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
         <Link href="/">
           <Image src={Logo} alt="VistaCraze digital marketing agency" width={150} height={100} />
         </Link>
@@ -104,6 +104,9 @@ function Navbar({ className }: { className?: string }) {
 
       </div>
 
+      <div className="z-0 flex ">
+
+
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}
@@ -112,6 +115,7 @@ function Navbar({ className }: { className?: string }) {
             >
                 <div>Hello World</div>
             </Drawer>
+      </div>
     </div>
   );
 }
