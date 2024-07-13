@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Seo1 from "../../../public/seo.svg"
 import B2B from "../../../public/b2b.png"
 import { BsArrowRightShort } from "react-icons/bs";
+import Meeting from '../meeting'
 
 type Props = {}
 
@@ -20,7 +21,7 @@ const Stickycards = (props: Props) => {
                         To Help You Achieve The
                         Perfect Digital Presence
                     </div>
-                    <Link href="/" className='w-fit sm:p-2 p-1 flex gap-4 justify-center items-center rounded-full bg-blue-600 text-white text-md  px-3 lg:w-60'>Request a Proposal <BsArrowRightShort/></Link>
+                    <Link href="/" className='w-fit sm:p-2 p-1 flex gap-4 justify-center items-center rounded-full bg-blue-600 text-white text-md  px-3 lg:w-60'><Meeting title="Request a Proposal"/>  <BsArrowRightShort/></Link>
                     <Link href="/" className='border-b w-fit  flex gap-4 justify-center items-center text-semibold pb-2'>Contact Us <BsArrowRightShort/></Link>
                 </div>
                 <div className="xl:h-fit h-auto sm:overflow-y-auto flex flex-col gap-5 pb-20  relative ">

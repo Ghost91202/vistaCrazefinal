@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="h-full  w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
-                <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col lg:gap-4 justify-between xl:gap-20 p-5 text-white border rounded-3xl ">
+                <div className="h-full w-full bg-slate-950 group hover:bg-blue-600 flex flex-col lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <MdModeStandby className="text-5xl" />
                     <h1 className="text-4xl font-sans">
@@ -68,7 +68,7 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border hover:border-white rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <CgDesignmodo className="text-5xl group-hover:text-white" />
                     <h1 className="text-4xl font-sans group-hover:text-white">
@@ -81,7 +81,7 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border hover:border-white rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <TbArrowsRandom className="text-5xl group-hover:text-white" />
                     <h1 className="text-4xl font-sans group-hover:text-white">
@@ -94,7 +94,7 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border hover:border-white rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <PiMetaLogoDuotone className="text-5xl group-hover:text-white" />
                     <h1 className="text-4xl font-sans group-hover:text-white">
@@ -110,7 +110,7 @@ export default function Home() {
                   </Button>
                 </div>
                 <ThreeDCardDemo />
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border hover:border-white rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
                     <GiIronCross className="text-5xl group-hover:text-white" />
                     <h1 className="text-4xl font-sans group-hover:text-white">

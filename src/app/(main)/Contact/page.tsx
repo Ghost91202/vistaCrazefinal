@@ -24,7 +24,7 @@ const Blurbg = (props: Props) => {
                     </p>
 
                     <Link href="/" className='text-sm  sm:text-md  px-3 w-fit sm:mb-10 p-2'>
-                    Contact Us To Discuss Your Inquiry And We'll Get Back To You Shortly
+                    Contact Us To Discuss Your Inquiry And We&apos;ll Get Back To You Shortly
                     </Link>
                 </div>
                 <div className='sm:w-1/3 md:w-1/2 xl:w-1/3 font-semibold  items-start gap-10 flex-col justify-end hidden sm:flex pb-20'>

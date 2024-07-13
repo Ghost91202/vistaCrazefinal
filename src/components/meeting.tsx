@@ -2,7 +2,7 @@
 
   import { getCalApi } from "@calcom/embed-react";
   import { useEffect } from "react";
-  export default function Meeting() {
+  export default function Meeting({title}, {title:String}) {
 	useEffect(()=>{
 	  (async function () {
 		const cal = await getCalApi({});
@@ -13,5 +13,5 @@
 	  data-cal-link="vista-craze-jht82p/15min"
 
 	  data-cal-config='{"layout":"month_view"}'
-	  >Schedule a call</button>;
+	  >{title}</button>;
   };

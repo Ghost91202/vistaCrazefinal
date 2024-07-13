@@ -86,19 +86,19 @@ function Navbar({ className }: { className?: string }) {
           </MenuItem>
           <div className="flex items-center justify-center text-white hover:underline">
 
-            <HoveredLink href="/">About</HoveredLink>
+            <Link href="/" >About</Link>
           </div>
 
           <Link href="/contact" className="flex items-center py-auto hover:underline">Contact</Link>
 
         </Menu>
-        <Link href="/" target="blank" className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+        <Link href="/"  className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
           </span>
 
-          <Meeting /></Link>
+          <Meeting title="schedule a Call"/></Link>
         <div className="sm:hidden flex">
           <button onClick={toggleDrawer}><FiAlignRight className="text-2xl" /></button>
         </div>
@@ -111,10 +111,29 @@ function Navbar({ className }: { className?: string }) {
         <Drawer
           open={isOpen}
           onClose={toggleDrawer}
-          direction='top'
+          direction='right'
           className='bla bla bla z-0'
         >
-          <div>Hello World</div>
+          <div className="flex h-full pb-5 items-center flex-col text-black justify-between">
+
+            <div className=" flex flex-col p-10 text-3xl gap-5">
+
+              <Link href="/" className="border-b  pb-5">About</Link>
+              <Link href="/" className="border-b  pb-5">All services</Link>
+              <Link href="/" className="border-b  pb-5">Contact</Link>
+              <Link href="/" className="border-b  pb-5">Our package</Link>
+              <Link href="/" className="border-b  pb-5">About</Link>
+
+            </div>
+             <Link href="/"  className="text-black  border rounded-full gap-2   items-center h-8 border-gray-300 justify-center px-3 flex text-2xl   py-2">
+          <span className="relative flex h-3 w-3">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+          </span>
+
+              <Meeting title="schedule a Call"/>
+            </Link>
+          </div>
         </Drawer>
       </div>
     </div>
