@@ -15,6 +15,7 @@ import Infinitecarousel from "@/components/carousel/infinitecarousel";
 import Testimonials from "@/components/testimonials/testimonials";
 import  Tabs  from "@/components/faq/faq";
 import "./globals.css"
+import Navbar from "@/components/Navbar";
 
 
 export default function Home() {
@@ -149,6 +150,8 @@ export default function Home() {
 
           </div>
         </div>
+              <Navbar />
+
         <Industries />
         <Testimonials/>
         <Tabs />

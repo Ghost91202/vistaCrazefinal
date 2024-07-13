@@ -85,8 +85,10 @@ const config = {
           "100%": {
             opacity: "1",
             transform: "translate(-50%,-40%) scale(1)",
-          },
+           },
+
         },
+         
       },
       animation: {
                 spotlight: "spotlight 2s ease .75s 1 forwards",

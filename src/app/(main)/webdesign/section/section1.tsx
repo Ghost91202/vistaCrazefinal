@@ -7,7 +7,7 @@ type Props = {}
 
 const section1 = (props: Props) => {
     return (
-        <div className='h-auto relative bg-white xl:pb-0 p-5 lg:p-10 xl:p-20'>
+        <div className='h-auto relative text-white bg-white xl:pb-0 p-5 lg:p-10 xl:p-20'>
             <div className='bg2 h-full rounded-2xl '>
                 <div className='grid grid-flow-row lg:grid-cols-2 p-5 xl:grid-cols-2 xl:p-20 xl:gap-20 gap-10 border-b border-gray-300/40'>
                     <div className='flex flex-col gap-10'>

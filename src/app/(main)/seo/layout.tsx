@@ -4,9 +4,10 @@ import { ThemeProvider } from "@/provider/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SEO  || VistaCraze digital marketing agency Kanpur",
-  description: "  Bing Ads,  google ads,  FaceBook ads youTube Ads",
+  title: "VistaCraze Digital Marketing Agency - SEO, Google Ads, Facebook Ads",
+  description: "Boost your business with VistaCraze's SEO, Google Ads, Facebook Ads, Bing Ads, and YouTube Ads services. Expert digital marketing in Kanpur.",
 };
+
 
 export default function RootLayout({
   children,
