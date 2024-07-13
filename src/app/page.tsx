@@ -68,41 +68,41 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col   group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
-                    <CgDesignmodo className="text-5xl" />
-                    <h1 className="text-4xl font-sans">
+                    <CgDesignmodo className="text-5xl group-hover:text-white" />
+                    <h1 className="text-4xl font-sans group-hover:text-white">
                       Web Design
                     </h1>
 
                   </div>
-                  <p className="text-md sm:text-lg font-light  text-start">The foundation of virtually all your marketing, a strong UI/UX designed website, backed by a flawless user journey is essential to business growth.</p>
-                  <Button className="w-32 hover:bg-blue-600   hover:border-none mt-10 border rounded-full">
+                  <p className="text-md sm:text-lg font-light  text-start group-hover:text-white">The foundation of virtually all your marketing, a strong UI/UX designed website, backed by a flawless user journey is essential to business growth.</p>
+                  <Button className="w-32 hover:bg-blue-600    hover:border-none mt-10 border rounded-full">
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col  group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
-                    <TbArrowsRandom className="text-5xl" />
-                    <h1 className="text-4xl font-sans">
+                    <TbArrowsRandom className="text-5xl group-hover:text-white" />
+                    <h1 className="text-4xl font-sans group-hover:text-white">
                       SEO Services
                     </h1>
 
                   </div>
-                  <p className="text-md sm:text-lg font-light  text-start">Implementing a data-based Search Engine Optimisation Strategy is considered by industry experts, as the best investment for long term marketing return. </p>
+                  <p className="text-md sm:text-lg font-light  text-start group-hover:text-white">Implementing a data-based Search Engine Optimisation Strategy is considered by industry experts, as the best investment for long term marketing return. </p>
                   <Button className="w-32 hover:bg-blue-600   hover:border-none mt-10 border rounded-full">
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col  group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
-                    <PiMetaLogoDuotone className="text-5xl" />
-                    <h1 className="text-4xl font-sans">
+                    <PiMetaLogoDuotone className="text-5xl group-hover:text-white" />
+                    <h1 className="text-4xl font-sans group-hover:text-white">
                       Meta Marketing
                     </h1>
 
                   </div>
-                  <p className="text-md sm:text-lg font-light  text-start">Leverage the power of social media to maximise your online presence and connect with potential customers through Meta Marketing.
+                  <p className="text-md sm:text-lg font-light group-hover:text-white text-start">Leverage the power of social media to maximise your online presence and connect with potential customers through Meta Marketing.
 
                   </p>
                   <Button className="w-32 hover:bg-blue-600   hover:border-none mt-10 border rounded-full">
@@ -110,15 +110,15 @@ export default function Home() {
                   </Button>
                 </div>
                 <ThreeDCardDemo />
-                <div className="h-full w-full  flex flex-col  group  lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-blue-500 lg:gap-4 justify-between xl:gap-20 p-5 text-slate-950 border rounded-3xl ">
                   <div className="flex flex-col items-start justify-start ">
-                    <GiIronCross className="text-5xl" />
-                    <h1 className="text-4xl font-sans">
+                    <GiIronCross className="text-5xl group-hover:text-white" />
+                    <h1 className="text-4xl font-sans group-hover:text-white">
                       CRO
                     </h1>
 
                   </div>
-                  <p className="text-md sm:text-lg font-light  text-start">Conversion Rate Optimisation becomes critical when you&apos;re looking to convert high intent traffic, into customers by elevating user experience.</p>
+                  <p className="text-md sm:text-lg font-light group-hover:text-white text-start">Conversion Rate Optimisation becomes critical when you&apos;re looking to convert high intent traffic, into customers by elevating user experience.</p>
                   <Button className="w-32 hover:bg-blue-600   hover:border-none mt-10 border rounded-full">
                     Read More
                   </Button>
