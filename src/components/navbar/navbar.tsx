@@ -25,10 +25,10 @@ export default function NavbarDemo() {
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
-   const [isOpen, setIsOpen] = React.useState(false)
-    const toggleDrawer = () => {
-        setIsOpen((prevState) => !prevState)
-    }
+  const [isOpen, setIsOpen] = React.useState(false)
+  const toggleDrawer = () => {
+    setIsOpen((prevState) => !prevState)
+  }
   return (
     <div
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
@@ -84,23 +84,23 @@ function Navbar({ className }: { className?: string }) {
               />
             </div>
           </MenuItem>
-          <div className="flex items-center justify-center hover:underline">
+          <div className="flex items-center justify-center text-white hover:underline">
 
             <HoveredLink href="/">About</HoveredLink>
           </div>
 
-          <Link href="/" className="flex items-center py-auto hover:underline">Contact</Link>
+          <Link href="/contact" className="flex items-center py-auto hover:underline">Contact</Link>
 
         </Menu>
         <Link href="/" target="blank" className="text-white sm:flex hidden border rounded-full gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
           <span className="relative flex h-3 w-3">
-  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-  <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+          </span>
 
-  <Meeting/></Link>
+          <Meeting /></Link>
         <div className="sm:hidden flex">
-             <button onClick={toggleDrawer}><FiAlignRight className="text-2xl"/></button>
+          <button onClick={toggleDrawer}><FiAlignRight className="text-2xl" /></button>
         </div>
 
       </div>
@@ -108,14 +108,14 @@ function Navbar({ className }: { className?: string }) {
       <div className="z-0 flex ">
 
 
-            <Drawer
-                open={isOpen}
-                onClose={toggleDrawer}
-                direction='top'
-                className='bla bla bla z-0'
-            >
-                <div>Hello World</div>
-            </Drawer>
+        <Drawer
+          open={isOpen}
+          onClose={toggleDrawer}
+          direction='top'
+          className='bla bla bla z-0'
+        >
+          <div>Hello World</div>
+        </Drawer>
       </div>
     </div>
   );
