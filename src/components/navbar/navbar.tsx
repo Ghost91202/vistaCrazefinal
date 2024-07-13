@@ -42,39 +42,39 @@ function Navbar({ className }: { className?: string }) {
 
          <Link href="/" className="flex items-center py-auto">About</Link>
         <MenuItem setActive={setActive} active={active} item="Services ">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          <div className="  text-sm text-start grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="WebSite "
-              href="/Webdesign"
-              Listitems1="Web"
-              Listitems2=""
-              Listitems3=""
-              Listitems4=""
+              href="/webdesign"
+              Listitems1="Web design"
+              Listitems2=" website development"
+              Listitems3="shopify development"
+              Listitems4="Wordpress development"
               Listitems5=""
               Listitems6=""
                   />
             <ProductItem
-              title="Education"
-              href=""
-              Listitems1=""
-              Listitems2=""
-              Listitems3=""
-              Listitems4=""
+              title="Marketing"
+              href="/seo"
+              Listitems1="SEO"
+              Listitems2="SMM"
+              Listitems3="Google Ads"
+              Listitems4="FaceBook Ads"
+              Listitems5="Instagram Marketing"
+              Listitems6="linkedin Ads"
+                  />
+            <ProductItem
+              title="Branding"
+              href="/uiux"
+              Listitems1="Branding"
+              Listitems2="Logo design "
+              Listitems3="UI & UX"
+              Listitems4="Branding strategy"
               Listitems5=""
               Listitems6=""
                   />
             <ProductItem
-              title="HealthCare"
-              href=""
-              Listitems1=""
-              Listitems2=""
-              Listitems3=""
-              Listitems4=""
-              Listitems5=""
-              Listitems6=""
-                  />
-            <ProductItem
-              title="IGaming"
+              title=""
               href=""
               Listitems1=""
               Listitems2=""
@@ -84,20 +84,18 @@ function Navbar({ className }: { className?: string }) {
               Listitems6=""
                   />
           </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Company">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/">Our Package</HoveredLink>
-            <HoveredLink href="/">Team</HoveredLink>
+          </MenuItem>
+          <div className="flex items-center justify-center hover:underline">
 
+          <HoveredLink href="/">About</HoveredLink>
           </div>
-        </MenuItem>
-                <Link href="/" className="flex items-center py-auto">Contact</Link>
+
+                <Link href="/" className="flex items-center py-auto hover:underline">Contact</Link>
 
         </Menu>
          <Link href="/Contact" className="text-white">Request a praposal</Link>
         <div className="sm:hidden flex">
-      
+
         </div>
 
  </div>
