@@ -29,7 +29,7 @@ export default function Home() {
       <div className=" text-white">
         <Blurbg />
         <Stickycards />
-        <div className="h-auto relative z-10   bg-black text-gray-950 ">
+        <div className="h-auto relative z-10  bg-black text-gray-950 ">
 
           <div className="  h-auto sm:pt-20 pt-10 p-5 gap-5 text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold">
             <div>
@@ -55,10 +55,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="h-full  w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
-                <div className="h-full w-full bg-violet-600 group hover:bg-violet-600 flex flex-col lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex flex-col items-start justify-start ">
+                <div className="h-full w-full bg-violet-600 group hover:bg-violet-600 flex flex-col gap-5 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
+                  <div className="flex gap-2 sm:flex-colitems-start justify-start ">
                     <MdModeStandby className="text-5xl" />
-                    <h1 className="text-4xl font-sans">
+                    <h1 className="text-3xl font-sans">
                       Google Ads
                     </h1>
 
@@ -68,10 +68,10 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-violet-500  lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex flex-col items-start justify-start ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500  lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
+                  <div className="flex gap-2 sm:flex-colitems-start justify-start ">
                     <CgDesignmodo className="text-5xl group-hover:text-white" />
-                    <h1 className="text-4xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font-sans group-hover:text-white">
                       Web Design
                     </h1>
 
@@ -81,10 +81,10 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex flex-col items-start justify-start ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
+                  <div className="flex gap-2 sm:flex-col items-start justify-start ">
                     <TbArrowsRandom className="text-5xl group-hover:text-white" />
-                    <h1 className="text-4xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font-sans group-hover:text-white">
                       SEO Services
                     </h1>
 
@@ -94,10 +94,10 @@ export default function Home() {
                     Read More
                   </Button>
                 </div>
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex flex-col items-start justify-start ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
+                  <div className="flex gap-2 sm:flex-col items-start justify-start ">
                     <PiMetaLogoDuotone className="text-5xl group-hover:text-white" />
-                    <h1 className="text-4xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font-sans group-hover:text-white">
                       Meta Marketing
                     </h1>
 
@@ -110,10 +110,10 @@ export default function Home() {
                   </Button>
                 </div>
                 <ThreeDCardDemo />
-                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200  group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex flex-col items-start justify-start ">
+                <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
+                  <div className="flex gap-2 sm:flex-col items-start justify-start ">
                     <GiIronCross className="text-5xl group-hover:text-white" />
-                    <h1 className="text-4xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font-sans group-hover:text-white">
                       CRO
                     </h1>
 
