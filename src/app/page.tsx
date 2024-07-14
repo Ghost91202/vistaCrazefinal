@@ -29,7 +29,7 @@ export default function Home() {
       <div className=" text-white">
         <Blurbg />
         <Stickycards />
-        <div className="h-auto  bg-black text-gray-950 ">
+        <div className="h-auto relative z-10   bg-black text-gray-950 ">
 
           <div className="  h-auto sm:pt-20 pt-10 p-5 gap-5 text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold">
             <div>

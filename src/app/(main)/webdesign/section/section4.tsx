@@ -7,12 +7,12 @@ type Props = {}
 
 const section4 = (props: Props) => {
   return (
-      <div className=' bg-black flex flex-col sm:gap-20 gap-10 sm:p-10 p-5 items-center justify-center'>
+      <div className=' bg-black relative z-10 flex flex-col sm:gap-20 gap-10 sm:p-10 p-5 items-center justify-center'>
           <h1 className='text-3xl  sm:text-7xl text-center w-1/2'>
               Subscribe for
 Exceptional Design
           </h1>
-          <div className='grid grid-flow-row p-5 grid-cols-3 gap-10'>
+          <div className='grid grid-flow-row p-5 grid-cols-1 sm:grid-cols-3 gap-10'>
  <div className='flex flex-col sm:p-10  gap-5 bg-white text-black  items-start justify-center rounded-3xl '>
               <h1 className=' sm:text-4xl text-start text-2xl '>Choose Your PLan</h1>
               <h2>Choose the perfect plan for your brand. Need a custom solution? DM us.</h2>

@@ -7,7 +7,7 @@ type Props = {}
 
 const section2 = (props: Props) => {
   return (
-      <div className='bg-slate-950 h-auto flex flex-col items-center pt-20 text-white justify-center'>
+      <div className='bg-slate-950 relative z-10 h-auto flex flex-col items-center pt-20 text-white justify-center'>
           <div className=' flex flex-col gap-10 items-center justify-center'>
               <span className='bg-gray-800/80 p-1 px-4 rounded-full w-fit text-white'>UX/UI</span>
               <h1 className='sm:text-7xl text-2xl text-white  font-semibold'>The Interplay of UI and UX</h1>

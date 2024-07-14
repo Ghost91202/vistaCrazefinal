@@ -12,15 +12,15 @@ import { TiSocialFacebook } from "react-icons/ti";
 
 export default function Footer() {
   return (
-      <div className='h-auto w-full bottom-0 -z-10 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
+    <div className='relative z-0'>
+
+      <div className='h-screen w-full  bottom-0 -z-1 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
 
               <Link href="/">
                   <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
       </Link>
 
-        <h3 className='sm:w-1/2'>We are Vistacraze,Marketing agency that will offer you transparency and creativity. Our goal is to nurture your vision and provide innovative, custom solutions for your marketing needs.
 
-      </h3>
       <div className='border-b flex gap-5 flex-col border-gray-300 pb-20'>
         <h2>follow Us:</h2>
         <div className='flex items-center  gap-3'>
@@ -95,5 +95,6 @@ export default function Footer() {
 
       <h6 className='flex items-center  justify-center xl:pb-10'>© All Copyright Reserved by VistaCraze Marketing.</h6>
       </div>
+    </div>
   )
 }

@@ -9,7 +9,7 @@ type Props = {}
 
 const seoHero = (props: Props) => {
   return (
-      <div className='relative h-[50vh] lg:h-screen'>
+      <div className='relative z-10 h-[50vh] lg:h-screen'>
 
           <Image src={SeoImg} alt=" seo vistacraze digital marketing agency "  className='absolute z-0 h-[50vh] lg:h-screen  '/>
           <div className='flex top-32    sm:top-44 lg:top-32 xl:top-24 z-10 absolute text-white flex-col items-center gap-5  lg:gap-10 lg:p-20 justify-center'>

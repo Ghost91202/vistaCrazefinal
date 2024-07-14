@@ -29,7 +29,7 @@ const ImageZoomIn: React.FC = () => {
   }, []);
 
   return (
-    <div ref={imageRef} className="relative bg-white flex items-center justify-center w-full h-auto ">
+    <div ref={imageRef} className="relative z-10 bg-white flex items-center justify-center w-full h-auto ">
       <Image
         src={ExampleImage}
         alt="Zoomable Image"

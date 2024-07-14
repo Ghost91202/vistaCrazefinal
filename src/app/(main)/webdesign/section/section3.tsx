@@ -7,7 +7,7 @@ type Props = {}
 
 const section3 = (props: Props) => {
     return (
-        <div className='flex flex-col bg-white text-black gap-10 p-5 lg:p-20 xl:p-20'>
+        <div className='flex flex-col relative z-10 bg-white text-black gap-10 p-5 lg:p-20 xl:p-20'>
             <div className='flex xl:flex-row justify-between gap-10 flex-col  lg:flex-row'>
                 <div className='flex flex-col gap-10'>
                     <h1 className='xl:text-4xl lg:text-3xl font-semibold text-2xl'> Our Services</h1>

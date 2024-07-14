@@ -38,7 +38,7 @@ const Testimonials: React.FC = () => {
     }, []);
 
     return (
-        <div className="relative w-full bg-gray-100 text-black flex flex-col gap-10 overflow-hidden p-5 lg:p-5 xl:p-10">
+        <div className="relative z-10 w-full bg-gray-100 text-black flex flex-col gap-10 overflow-hidden p-5 lg:p-5 xl:p-10">
             <div className='flex flex-col gap-5'>
                 <span className='text-sm w-fit px-3 py-1 bg-slate-200 rounded-md'>Testimonials</span>
                 <h1 className='xl:w-1/2 lg:w-1/2 text-2xl lg:text-4xl  xl:text-5xl font-semibold'>Never Convinced?

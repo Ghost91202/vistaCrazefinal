@@ -10,7 +10,7 @@ type Props = {}
 
 const industries = (props: Props) => {
   return (
-      <div className='flex flex-col bg-gray-50 text-black items-center justify-center p-5 sm:p-10'>
+      <div className=' relative z-10 flex flex-col bg-gray-50 text-black items-center justify-center p-5 sm:p-10'>
           <div className='flex flex-col gap-10 items-center  justify-center'>
               <span className='bg-slate-200 text-violet-600 font-medium text-md sm:text-lg p-1 rounded-md px-3'>INDUSTRIES</span>
               <h1 className='sm:text-6xl text-2xl  xl:w-2/3 text-center font-semibold'>Vistacraze <span className='text-violet-600'>

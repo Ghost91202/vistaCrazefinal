@@ -8,7 +8,7 @@ type Props = {}
 
 const section3 = (props: Props) => {
     return (
-        <div className='h-auto sectionbg bg-black text-white'>
+        <div className='h-auto relative z-10 sectionbg bg-black text-white'>
             <div className=' flex flex-col gap-10 items-center pt-20 justify-center'>
                 <span className='bg-gray-800/80 p-1 px-4 rounded-full w-fit text-white'>UX/UI</span>
                 <h1 className='sm:text-7xl text-2xl  font-semibold text-center'>Our UI/UX
