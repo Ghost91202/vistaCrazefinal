@@ -31,7 +31,7 @@ const page = (props: Props) => {
        <div className='flex flex-col gap-10 p-10'>
            <h1 className='sm:text-5xl  flex gap-2 items-center'>
                   <span className='px-2 bg-gray-700 rounded-full text-sm font-semibold text-violet-600'>ABOUT FOUNDER</span>Meet The Founder</h1>
-                  <h1 className='text-white/50 sm:text-3xl text-xl '>Karan Sharma, <span className='text-white'>the heart</span> of Vistacraze Marketing agency.  Karan's passion for innovation and dedication to clients have guided our journey. His strategic vision, client-centered approach, and knack for creative solutions shape our commitment to excellence.</h1>
+                  <h1 className='text-white/50 sm:text-3xl text-xl '>Karan Sharma, <span className='text-white'>the heart</span> of Vistacraze Marketing agency.  Karan&apos;s passion for innovation and dedication to clients have guided our journey. His strategic vision, client-centered approach, and knack for creative solutions shape our commitment to excellence.</h1>
         </div>
     </div>
   )
