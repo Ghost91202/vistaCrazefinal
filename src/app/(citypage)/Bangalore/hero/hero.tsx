@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 // import BgIMG from "../../../public/hero img.png"
 import BgIMG1 from "../../../../../public/bangalore.jpg"
-import "../../../../"
+import "./style.css"
 import Link from 'next/link'
 type Props = {}
 

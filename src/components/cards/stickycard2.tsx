@@ -9,8 +9,8 @@ type Props = {}
 const stickycard2 = (props: Props) => {
   return (
     <div className='bg-gray-100  w-screen font-sans text-black/80 h-auto' id='sticky'>
-      <div className="container h-auto xl:h-[150vh] sm:w-[60rem] ">
-            <div className="sm:sticky bg-white/70 lg:h-fit xl:h-screen w-screen one">
+      <div className="container h-auto xl:h-[150vh]   sm:w-[60rem] ">
+            <div className="sm:sticky bg-white/70 sticky top-10 lg:h-fit xl:h-screen w-screen one">
           <div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2'>
             <div className=' flex flex-col gap-10 p-5 sm:p-20'>
               <div className='bg-gray-100 rounded-full p-2 w-fit'>UX/UI</div>
@@ -22,7 +22,7 @@ const stickycard2 = (props: Props) => {
             </div>
          </div>
             </div>
-            <div className="sm:sticky top-5 bg-white/70 sm:backdrop-blur-3xl lg:h-fit xl:h-screen w-screen two">
+            <div className="sm:sticky top-5 bg-white/70 pb-10 sm:backdrop-blur-3xl lg:h-fit xl:h-screen w-screen two">
                <div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2'>
             <div className=' flex flex-col gap-10 p-5 sm:p-20'>
               <div className='sm:bg-gray-100 bg-gray-200 sm:mt-0 mt-10 rounded-full p-2 w-fit'>UX/UI</div>
