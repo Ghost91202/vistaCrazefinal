@@ -98,7 +98,7 @@ const Stickycards = (props: Props) => {
                         </div>
 
                     </div>
-                    <div className=' grid grid-flow-row   grid-cols-1 lg:grid-cols-2 h-fit gap-5 xl:grid-cols-4'>
+                    {/* <div className=' grid grid-flow-row   grid-cols-1 lg:grid-cols-2 h-fit gap-5 xl:grid-cols-4'>
                         <div className='bg-black/10 border  p-4  justify-between  rounded-2xl  w-full flex flex-col gap-5'>
 
                             <h1 className='sm:text-xl text-lg sm:font-bold  border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Consultation & Audit</h1>
@@ -150,7 +150,7 @@ const Stickycards = (props: Props) => {
                                 <Link href='/' className=' border rounded-full border-gray-200 sm:text-md text-xs  w-44  font-medium p-1 px-3 bg-violet-700 '>Learn more </Link>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

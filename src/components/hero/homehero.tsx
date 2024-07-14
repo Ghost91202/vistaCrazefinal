@@ -9,12 +9,12 @@ type Props = {}
 const Blurbg = (props: Props) => {
     return (
         <div className='relative h-auto w-screen overflow-x-hidden text-white'>
-            <div className=' relative h-auto'>
+            <div className=' relative h-screen overflow-hidden sm:h-auto'>
                 <Image src={BgIMG1} alt='vi' className='sm:h-auto h-screen' />
 
             </div>
 
-                <div className='absolute sm:top-40 top-96  left-0 z-10 flex flex-col  justify-between  w-screen gap-10 sm:gap-5 pb-20 sm:pb-0 p-5 sm:p-20'>
+                <div className='absolute sm:top-40 top-96  left-0 z-10 flex flex-col  justify-between  w-screen gap-10 sm:gap-5 sm:pb-0 p-5 sm:p-20'>
                 <div className='flex flex-col text-start gap-5 lg:w-96 xl:w-1/2'>
                     <h1 className='lg:text-5xl xl:text-6xl 2xl:text-7xl md:text-3xl md:bottom-0  text-3xl   bottom-9 '>Empower Business with modern technology solutions
 </h1>
