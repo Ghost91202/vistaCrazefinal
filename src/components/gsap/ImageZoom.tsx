@@ -34,7 +34,7 @@ const ImageZoomIn: React.FC = () => {
         src={ExampleImage}
         alt="Zoomable Image"
 
-        className="xl:p-20 lg:p-10 p-10 -mt-32 lg:w-[90vw] rounded-3xl"
+        className="xl:p-20 lg:p-10 p-10 sm:-mt-32 lg:w-[90vw] rounded-3xl"
       />
     </div>
   );

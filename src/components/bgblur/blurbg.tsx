@@ -9,7 +9,7 @@ type Props = {}
 
 const Blurbg = (props: Props) => {
     return (
-        <div className='relative z-10 h-screen overflow-hidden text-white'>
+        <div className='relative bg-black z-10 h-screen overflow-hidden text-white'>
             <div className=' absolute h-screen overflow-hidden'>
                 <Image src={BgIMG1} alt='vi'  className='h-screen'/>
 
@@ -34,9 +34,7 @@ const Blurbg = (props: Props) => {
                 </div>
 
             </div>
-            <div className='relative h-screen'>
-
-            </div>
+            
         </div>
     )
 }
