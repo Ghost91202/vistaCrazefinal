@@ -8,8 +8,7 @@ import Link from "next/link";
 
 import Image from "next/image";
 import Logo from "../../../public/logo.png"
-import Drawer2 from "../drawer/drawer2";
-// import component 👇
+import Fevicon from "../../../public/fevicon.png"
 import Drawer from 'react-modern-drawer'
 
 //import styles 👇
@@ -33,9 +32,10 @@ function Navbar({ className }: { className?: string }) {
     <div
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
-      <div className="flex flex-row w-screen items-center justify-between px-5 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
-        <Link href="/">
-          <Image src={Logo} alt="VistaCraze digital marketing agency" width={150} height={100} />
+      <div className="flex flex-row w-screen items-center justify-between px-20 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
+        <Link href="/" className="flex gap-2">
+          {/* <Image src={Logo} alt="VistaCraze digital marketing agency" width={200} height={100} /> */}
+          <Image src={Fevicon} alt="VistaCraze digital marketing agency" width={60} height={100}  className="sm:flex"/>
         </Link>
 
         <Menu setActive={setActive} >
