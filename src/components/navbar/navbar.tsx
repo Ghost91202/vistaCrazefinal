@@ -33,9 +33,10 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
       <div className="flex flex-row w-screen items-center justify-between px-10 sm:px-20 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
-        <Link href="/" className="flex gap-2">
+        <Link href="/" className="flex gap-2 items-start">
           {/* <Image src={Logo} alt="VistaCraze digital marketing agency" width={200} height={100} /> */}
-          <Image src={Fevicon} alt="VistaCraze digital marketing agency" width={60} height={100}  className="sm:flex"/>
+          <Image src={Fevicon} alt="VistaCraze digital marketing agency" width={60} height={100} className="sm:flex" />
+          <h1 className="sm:text-3xl -ml-5 -mt-1 flex flex-col font-mono">Vista <span className="absolute ml-4 mt-7 text-violet-600">Craze</span></h1>
         </Link>
 
         <Menu setActive={setActive} >
@@ -86,11 +87,11 @@ function Navbar({ className }: { className?: string }) {
           </MenuItem>
           <div className="flex items-center justify-center text-white hover:underline">
 
-            <Link href="/" >About</Link>
+            <Link href="/About" >About</Link>
           </div>
 
 
-          <Link href="/contact" className="flex items-center py-auto hover:underline">Contact</Link>
+          <Link href="/Contact" className="flex items-center py-auto hover:underline">Contact</Link>
           <Link href="#cities" className="flex items-center py-auto hover:underline">City</Link>
         </Menu>
         <Link href="#"  className="text-white sm:flex hidden border rounded-md gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">

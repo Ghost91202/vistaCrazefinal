@@ -1,29 +1,20 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { ThemeProvider } from "@/provider/theme-provider"
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VistaCraze Digital Marketing Agency - SEO, Google Ads, Facebook Ads",
-  description: "Boost your business with VistaCraze's SEO, Google Ads, Facebook Ads, Bing Ads, and YouTube Ads services. Expert digital marketing in Kanpur.",
+    title: "SEO",
+    description: "vistacraze digital marketing agency we provide SEO, Google Ads, Facebook Ads, YouTube Ads, webdeveopment, App development",
 };
 
-
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en" >
-      <body className={inter.className}>
-<ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-        >{children}
-        </ThemeProvider>      </body>
-    </html>
-  );
+    return (
+        <div>
+            {children}
+
+        </div>
+
+    );
 }

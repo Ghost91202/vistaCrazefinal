@@ -11,8 +11,8 @@ type Props = {}
 const Stickycards = (props: Props) => {
     return (
         <div className='bg-black relative z-10  sm:mt-0 font-sans  h-auto'>
-            <div className='  flex flex-col gap-10 sm:gap-20 sm:pt-52  items-center sm:p-20 '>
-                 <div className='text-4xl  sm:text-9xl  text-violet-600 '>
+            <div className='  flex flex-col gap-10 sm:gap-20 sm:pt-40  items-center sm:p-20 '>
+                 <div className='text-4xl  sm:text-9xl  text-white font-bold font-mono  opacity-20 '>
                         OUR SERVICES
                     </div>
                 <div className="xl:h-fit h-auto flex flex-col gap-5   relative ">
