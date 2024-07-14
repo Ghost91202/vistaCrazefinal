@@ -25,7 +25,7 @@ Your Vision</h1>
           </div> <div className='flex flex-col sm:p-10  gap-5 bg-white text-black  items-center justify-center rounded-3xl '>
               <h1 className=' sm:text-4xl text-2xl '>Review, Revise
 and Enjoy</h1>
-              <h2>Your vision is our mission — we'll refine until you're delighted and satisfied.</h2>
+              <h2>Your vision is our mission — we&apos;ll refine until you&apos;re delighted and satisfied.</h2>
             <Image src={reviwui} alt='vistacraze web design '/>
           </div>
          </div>
