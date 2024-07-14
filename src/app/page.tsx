@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main className="w-[100vw] overflow-x-hidden">
       <NavbarDemo />
-      <div className="bg-black text-white">
+      <div className=" text-white">
         <Blurbg />
         <Stickycards />
         <div className="h-auto  bg-black text-gray-950 ">

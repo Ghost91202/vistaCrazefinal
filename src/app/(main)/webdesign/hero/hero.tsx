@@ -7,7 +7,7 @@ type Props = {}
 
 const hero = (props: Props) => {
   return (
-    <div className='bg-black  text-white h-screen  grid grid-flow-row grid-cols-1 sm:grid-cols-2 sm:p-20 items-center justify-center p-5 sm:gap-10'>
+    <div className='bg-black z-1 text-white h-screen  grid grid-flow-row grid-cols-1 sm:grid-cols-2 sm:p-20 items-center justify-center p-5 sm:gap-10'>
       <div className='flex flex-col sm:mt-0 mt-20 gap-10'>
         <h1 className='text-5xl lg:text-7xl '>
           Unlimited Design, One Monthly Price

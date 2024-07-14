@@ -7,7 +7,7 @@ type Props = {}
 
 const section1 = (props: Props) => {
     return (
-        <div className='h-auto relative text-white bg-white xl:pb-0 p-5 lg:p-10 mb-10 xl:p-20'>
+        <div className='h-auto relative text-white bg-black  xl:pb-0 p-5 lg:p-10 xl:p-20'>
             <div className='webbg2 pb-10 h-full rounded-2xl '>
                 <div className='grid grid-flow-row lg:grid-cols-2 p-5 xl:grid-cols-2 xl:p-20 xl:gap-20 gap-10 border-b border-gray-300/40'>
                     <div className='flex flex-col gap-10'>
@@ -27,9 +27,9 @@ backed by strategy'/>
 
                         </div>
                     </div>
-                    <div className='text-sm flex flex-col gap-10'>
+                    <div className='text-lg flex flex-col gap-10'>
                         <p>A strong online presence is essential to ensure the success of any business as it impacts how your audience perceives your brand. In order to maximize growth, a business needs to clearly differentiate itself from the vast sea of competition.  At Brand Vision, we specialize in designing websites that are not only visually stunning but also user-friendly, ensuring your brand makes an unforgettable impression.</p>
-                        <p>Our team of award-winning web designers and expert web developers is passionate about modern web design and deeply understands the psychology of user experience. This combination results in a perfect blend of aesthetic appeal and functional excellence, all designed to help you achieve your business objectives through your website.</p>
+
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import Accordion from '@/components/Accordion/Accordion2'
+import Meeting from '@/components/meeting'
 import Link from 'next/link'
 import React from 'react'
 
@@ -11,8 +12,8 @@ const section3 = (props: Props) => {
                 <div className='flex flex-col gap-10'>
                     <h1 className='xl:text-4xl lg:text-3xl font-semibold text-2xl'> Our Services</h1>
                     <div className='flex items-center gap-10'>
-                        <Link href="/" className='bg-blue-600 text-white rounded-full px-3 py-1 '>Request a Proposal</Link>
-                        <Link href="/" className='border-b pb-1 border-gray-300'>Contact US</Link>
+                        <Link href="#" className=' bg-violet-600 text-white rounded-full px-3 py-1 '>Request a Proposal</Link>
+                        <Link href="#" className='border-b pb-1 border-gray-300'>Contact US</Link>
 
                     </div>
                 </div>

@@ -10,6 +10,7 @@ import Industries from '@/components/industry/industries'
 import Testimonials from '@/components/testimonials/testimonials'
 import Faq from '@/components/faq/faq'
 import Footer from '@/components/footer/footer'
+import Section4 from './section/section4'
 
 type Props = {}
 
@@ -22,7 +23,8 @@ const Home = (props: Props) => {
       <div className='relative'></div>
       <Section1 />
       <Section2 />
-      <Section3 />
+      {/* <Section3 /> */}
+      <Section4/>
       <Industries />
       <Testimonials />
       <Faq />

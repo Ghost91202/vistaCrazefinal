@@ -6,9 +6,9 @@ background: linear-gradient(175deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(0,
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#002cff",GradientType=1);
 }
 .webbg2{
-background: rgb(0, 129, 247);
-    background: -moz-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
-    background: -webkit-linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
-    background: linear-gradient(4deg, rgba(0, 129, 247, 1) 0%, rgba(0, 0, 0, 1) 55%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0081f7", endColorstr="#000000", GradientType=1);
+background: rgb(123, 0, 255);
+    background: -moz-linear-gradient(0deg, rgba(123, 0, 255, 1) 7%, rgba(3, 0, 28, 0.9613095238095238) 73%, rgba(0, 13, 70, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(123, 0, 255, 1) 7%, rgba(3, 0, 28, 0.9613095238095238) 73%, rgba(0, 13, 70, 1) 100%);
+    background: linear-gradient(0deg, rgba(123, 0, 255, 1) 7%, rgba(3, 0, 28, 0.9613095238095238) 73%, rgba(0, 13, 70, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b00ff", endColorstr="#000d46", GradientType=1);
 }
