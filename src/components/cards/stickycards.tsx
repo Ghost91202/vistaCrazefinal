@@ -11,16 +11,13 @@ type Props = {}
 const Stickycards = (props: Props) => {
     return (
         <div className='bg-black relative z-10  sm:mt-0 font-sans  h-auto'>
-            <div className='  flex flex-col sm:p-20 '>
-                <div className="  flex flex-col lg:gap-5 xl:gap-10  h-auto p-5 sm:m-20 lg:m-5 items-center  gap-5  ">
-                    <div className='text-4xl  rounded-md  sm:text-9xl backdrop-blur-2xl  text-violet-600 '>
+            <div className='  flex flex-col gap-10 sm:gap-20 sm:pt-52  items-center sm:p-20 '>
+                 <div className='text-4xl  sm:text-9xl  text-violet-600 '>
                         OUR SERVICES
                     </div>
-
-                </div>
-                <div className="xl:h-fit h-auto sm:overflow-y-auto flex flex-col gap-5 pb-20  relative ">
+                <div className="xl:h-fit h-auto flex flex-col gap-5   relative ">
                     {/* <h1 className=' sm:mt-20 lg:text-4xl xl:text-5xl  text-2xl sm:font-bold p-5'>How can we help you?</h1> */}
-                    <div className='grid grid-flow-row gap-10 grid-cols-1 sm:p-0   sm:grid-cols-3 mt-10'>
+                    <div className='grid grid-flow-row gap-10 grid-cols-1 sm:p-0   sm:grid-cols-3'>
                         <div className='bg-black/10 backdrop-blur-3xl border   p-5 lg:p-4 xl:p-10 flex flex-col justify-between   rounded-2xl  h-auto w-full gap-5 lg:gap-5 xl:gap-10'>
                             <div className='flex flex-col gap-10'>
 

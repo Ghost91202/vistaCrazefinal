@@ -21,7 +21,7 @@ export default function Footer() {
       </Link>
 
 
-      <div className='border-b flex gap-5 flex-col border-gray-300 pb-5 sm:pb-20'>
+      <div className='border-b flex gap-5 flex-col border-gray-300 pb-5 sm:pb-10'>
         <h2>follow Us:</h2>
         <div className='flex items-center  gap-3'>
           <Link href="/"><RiInstagramFill className='text-pink-500 bg-white rounded-full text-3xl p-1' /></Link>
