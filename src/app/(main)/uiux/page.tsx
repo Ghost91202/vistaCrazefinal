@@ -6,7 +6,7 @@ import Section2 from "./section/section2";
 import Section3 from "./section/section3";
 import Footer from "@/components/footer/footer";
 import Industries from "@/components/industry/industries";
-
+import Faq from "@/components/faq/faq"
 export default function Home() {
 
 
@@ -18,6 +18,7 @@ export default function Home() {
       <Section2 />
       <Section3 />
       <Industries />
+      <Faq/>
       <Footer/>
     </div>
   );
