@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
 
                 <Image src={BgIMG} alt="vi" width={900}  className='z-40 absolute sm:h-auto w-auto  sm:w-auto  h-[40vh] lg:-left-32 top-28 bottom-0 2xl:left-96 flex rounded-2xl ' />
             </div> */}
-                <div className='absolute bottom-0  left-0 z-10 flex  justify-between bg2 w-screen gap-10 pb-20 sm:pb-0 p-10'>
+                <div className='absolute bottom-0  left-0 z-10 flex  justify-between lackbg2 w-screen gap-10 pb-20 sm:pb-0 p-10'>
                 <div className='flex flex-col text-start gap-5 lg:w-96 xl:w-1/2'>
                     <h1 className='lg:text-5xl xl:text-7xl 2xl:text-7xl md:text-3xl md:bottom-0  text-3xl  font-semibold bottom-9 '>Lacknow Marketing Agency</h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>
