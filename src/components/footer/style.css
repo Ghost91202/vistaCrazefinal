@@ -1,7 +1,7 @@
 .footerbg{
-background: rgb(2, 0, 36);
-    background: -moz-linear-gradient(175deg, rgba(2, 0, 36, 1) 0%, rgba(5, 3, 65, 0.9725140056022409) 44%, rgba(6, 2, 255, 1) 82%, rgba(1, 1, 228, 1) 94%, rgba(12, 12, 250, 1) 100%);
-    background: -webkit-linear-gradient(175deg, rgba(2, 0, 36, 1) 0%, rgba(5, 3, 65, 0.9725140056022409) 44%, rgba(6, 2, 255, 1) 82%, rgba(1, 1, 228, 1) 94%, rgba(12, 12, 250, 1) 100%);
-    background: linear-gradient(175deg, rgba(2, 0, 36, 1) 0%, rgba(5, 3, 65, 0.9725140056022409) 44%, rgba(6, 2, 255, 1) 82%, rgba(1, 1, 228, 1) 94%, rgba(12, 12, 250, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#0c0cfa", GradientType=1);
+background: rgb(123, 0, 255);
+    background: -moz-linear-gradient(0deg, rgba(123, 0, 255, 1) 7%, rgba(3, 0, 28, 0.9613095238095238) 73%, rgba(0, 13, 70, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(123, 0, 255, 1) 7%, rgba(3, 0, 28, 0.9613095238095238) 73%, rgba(0, 13, 70, 1) 100%);
+    background: linear-gradient(0deg, rgba(123, 0, 255, 1) 7%, rgba(3, 0, 28, 0.9613095238095238) 73%, rgba(0, 13, 70, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b00ff", endColorstr="#000d46", GradientType=1);
 }

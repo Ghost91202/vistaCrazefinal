@@ -21,7 +21,7 @@ const Blurbg = (props: Props) => {
                     <p className='sm:text-md  pb-10 border-b border-white/30'>
                     </p>
 
-                    <Link href="/" className='text-sm  sm:text-md bg-violet-600 rounded-full px-3 w-fit sm:mb-10 p-2'>
+                    <Link href="/" className='text-sm  sm:text-md bg-violet-600 rounded-md px-3 w-fit sm:mb-10 p-2'>
                        Request a Proposal
                     </Link>
                 </div>
