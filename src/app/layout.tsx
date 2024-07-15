@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/provider/theme-provider";
+import NavbarDemo from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +26,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <NavbarDemo/>
           {children}
+          <Footer/>
         </ThemeProvider>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1DCDT8Q0X"></script>
         <script

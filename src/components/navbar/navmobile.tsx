@@ -35,16 +35,16 @@ const RightDrawer: React.FC = () => {
            <RxCross2/>
           </button>
 
-          <Link href="/Contact" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Home <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
+          <Link href="/" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Home <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
           <h1 className='text-violet-600 font-semibold'>All Services</h1>
           <div className='flex flex-col text-xl items-start pl-4'>
 
-           <Link href="/Contact" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Web Design  <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
-           <Link href="/Contact" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Web Development <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
-           <Link href="/Contact" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Home <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
-           <Link href="/" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Home <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
+           <Link href="/webdesign" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Web Design  <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
+           <Link href="/webdesign" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Web Development <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
+           <Link href="/uiux" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>UIUX <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
+           <Link href="/seo" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>seo <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
           </div>
-         <Link href="/Contact" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>About<IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
+         <Link href="/About" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>About<IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
         <Link href="/Contact" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>
       Contact
       <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' />

@@ -25,7 +25,6 @@ export default function Home() {
 
   return (
     <main className="w-[100vw] overflow-x-hidden">
-      <NavbarDemo />
       <div className=" text-white">
         <Blurbg />
         <Stickycards />
@@ -133,7 +132,6 @@ export default function Home() {
         <Industries />
         <Testimonials/>
         <Tabs />
-        <Footer />
       </div>
     </main>
   );

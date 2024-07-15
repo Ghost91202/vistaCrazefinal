@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <div className='relative z-0'>
 
-      <div className='h-auto w-full  bottom-0 -z-1 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
+      <div className='h-screen w-full  bottom-0 -z-1 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
 
               <Link href="/">
                   <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
