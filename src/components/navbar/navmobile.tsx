@@ -37,7 +37,7 @@ const RightDrawer: React.FC = () => {
 
           <Link href="/" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Home <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
           <h1 className='text-violet-600 font-semibold'>All Services</h1>
-          <div className='flex flex-col text-xl items-start pl-4'>
+          <div className='flex flex-col gap-5 text-xl items-start pl-4'>
 
            <Link href="/webdesign" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Web Design  <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
            <Link href="/webdesign" className='flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700'>Web Development <IoIosArrowRoundForward className='flex  items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2' /></Link>
