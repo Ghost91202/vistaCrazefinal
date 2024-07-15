@@ -23,7 +23,7 @@ const RightDrawer: React.FC = () => {
        <IoIosMenu className='text-2xl '/>
       </button>
       <div
-        className={`fixed  top-0 right-0 w-64 h-screen bg-black text-white shadow-lg transform ${
+        className={`fixed z-50 top-0 right-0 w-64 h-screen bg-black text-white shadow-lg transform ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 ease-in-out`}
       >
