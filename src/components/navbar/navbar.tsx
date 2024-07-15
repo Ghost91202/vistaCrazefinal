@@ -1,19 +1,17 @@
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
+import {  Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
-import { FiAlignRight } from "react-icons/fi";
 
 import Link from "next/link";
 
 import Image from "next/image";
-import Logo from "../../../public/logo.png"
 import Fevicon from "../../../public/fevicon.png"
-import Drawer from 'react-modern-drawer'
 
 //import styles 👇
 import 'react-modern-drawer/dist/index.css'
 import Meeting from "../meeting";
+import  DrawerPlacement  from "./navmobile";
 
 
 export default function NavbarDemo() {
@@ -32,11 +30,11 @@ function Navbar({ className }: { className?: string }) {
     <div
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
-      <div className="flex flex-row w-screen items-center justify-between px-10 sm:px-20 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
+      <div className="flex flex-row w-screen items-center justify-between  sm:px-20 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
         <Link href="/" className="flex gap-2 items-start">
           {/* <Image src={Logo} alt="VistaCraze digital marketing agency" width={200} height={100} /> */}
           <Image src={Fevicon} alt="VistaCraze digital marketing agency" width={60} height={100} className="sm:flex" />
-          <h1 className="sm:text-3xl -ml-5 -mt-1 flex flex-col font-mono">Vista <span className="absolute ml-4 mt-7 text-violet-600">Craze</span></h1>
+          <h1 className="sm:text-3xl text-2xl  -ml-5 -mt-1 flex flex-col font-mono">Vista <span className="absolute ml-4 mt-7 text-violet-600">Craze</span></h1>
         </Link>
 
         <Menu setActive={setActive} >
@@ -101,8 +99,10 @@ function Navbar({ className }: { className?: string }) {
           </span>
 
           <Meeting title="schedule a Call"/></Link>
+
         <div className="sm:hidden flex">
-          <button onClick={toggleDrawer}><FiAlignRight className="text-2xl" /></button>
+
+        <DrawerPlacement />
         </div>
 
       </div>
@@ -110,7 +110,7 @@ function Navbar({ className }: { className?: string }) {
       <div className="z-0 flex ">
 
 
-        <Drawer
+        {/* <Drawer
           open={isOpen}
           onClose={toggleDrawer}
           direction='right'
@@ -142,7 +142,7 @@ function Navbar({ className }: { className?: string }) {
               <Meeting title="schedule a Call"/>
             </Link>
           </div>
-        </Drawer>
+        </Drawer> */}
       </div>
     </div>
   );
