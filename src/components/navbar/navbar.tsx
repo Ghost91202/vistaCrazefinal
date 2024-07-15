@@ -114,7 +114,7 @@ function Navbar({ className }: { className?: string }) {
           open={isOpen}
           onClose={toggleDrawer}
           direction='right'
-          className='bla bla bla z-0'
+          className='bla bla bla z-0 bg-red-400'
         >
           <div className="flex h-full pb-5 items-start flex-col text-black">
 
