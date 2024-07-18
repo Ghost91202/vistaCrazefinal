@@ -1,5 +1,4 @@
-import NavbarDemo from "@/components/navbar/navbar";
-import Footer from "@/components/footer/footer";
+
 import { Button } from "@/components/ui/button"
 import { MdModeStandby } from "react-icons/md";
 import { CgDesignmodo } from "react-icons/cg";
@@ -7,14 +6,12 @@ import { TbArrowsRandom } from "react-icons/tb";
 import { PiMetaLogoDuotone } from "react-icons/pi";
 import { GiIronCross } from "react-icons/gi";
 import { ThreeDCardDemo } from "@/components/cards/3dcard";
-import React from "../../../../public/React.png"
 import Stickycards from "@/components/cards/stickycards";
-import Blurbg from "@/components/hero/homehero";
 import Industries from "@/components/industry/industries";
-import Infinitecarousel from "@/components/carousel/infinitecarousel";
 import Testimonials from "@/components/testimonials/testimonials";
 import  Tabs  from "@/components/faq/faq";
 import Hero from "./hero/hero";
+import Head from 'next/head';
 
 
 
@@ -24,8 +21,22 @@ export default function Home() {
 
 
   return (
-    <main className="w-[100vw] overflow-x-hidden">
-      <NavbarDemo />
+    <>
+       <Head>
+      <title>Digital marketing agency in banglore</title>
+      <meta name="description" content="This is my awesome Next.js website." />
+      <meta name="SEO DIgital marketing agency" content="next.js, SEO, web development" />
+
+         <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://www.Vistacraze.in",
+          "@type": "WebSite",
+          "name": " Digital marketing agency in banglore ",
+          "url": "https://www.Vistacraze.in",
+        })}
+      </script>
+      </Head>
+    <main className="w-[100vw] relative z-50 overflow-x-hidden">
       <div >
         {/* <BackgroundBeamsDemo /> */}
         {/* <div className="h-full py-20  flex  flex-col items-center justify-center  p-5  gap-10  text-white">
@@ -153,8 +164,8 @@ export default function Home() {
         <Industries />
         <Testimonials/>
         <Tabs />
-        <Footer />
       </div>
     </main>
+    </>
   );
 }
