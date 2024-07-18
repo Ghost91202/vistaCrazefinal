@@ -11,13 +11,30 @@ import Testimonials from '@/components/testimonials/testimonials'
 import Faq from '@/components/faq/faq'
 import Footer from '@/components/footer/footer'
 import Section4 from './section/section4'
+import Head from 'next/head'
 
 type Props = {}
 
 const Home = (props: Props) => {
   return (
+    <>
+
+      <Head>
+      <title>Web designing | vistacraze Digital marketing agency</title>
+      <meta name="description" content="This is my awesome Next.js website." />
+      <meta name="Vistacraze DIgital marketing agency" content="next.js, SEO, web development" />
+
+         <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://www.Vistacraze.in",
+          "@type": "WebSite",
+          "name": "vistacraze Digital marketing agency  ",
+          "url": "https://www.Vistacraze.in",
+        })}
+      </script>
+      </Head>
+
     <div className='w-screen overflow-x-hidden'>
-      <NavbarDemo/>
       <Hero />
       <ImageZoom />
       <div className='relative'></div>
@@ -28,8 +45,8 @@ const Home = (props: Props) => {
       <Industries />
       <Testimonials />
       <Faq />
-      <Footer/>
     </div>
+    </>
   )
 }
 

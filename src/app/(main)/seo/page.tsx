@@ -7,25 +7,38 @@ import NavbarDemo from '@/components/navbar/navbar'
 import Seosection2 from '@/components/Sections/seosection2'
 import Seosection3 from '@/components/Sections/seosection3'
 import Testimonials from '@/components/testimonials/testimonials'
-
-
-
-import React from 'react'
+import Head from 'next/head'
 
 type Props = {}
 
 const Home = (props: Props) => {
   return (
+    <>
+
+       <Head>
+      <title>SEO page Digital marketing agency</title>
+      <meta name="description" content="This is my awesome Next.js website." />
+      <meta name="Vistacraze DIgital marketing agency" content="next.js, SEO, web development" />
+
+         <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://www.Vistacraze.in",
+          "@type": "WebSite",
+          "name": "vistacraze Digital marketing agency  ",
+          "url": "https://www.Vistacraze.in",
+        })}
+      </script>
+      </Head>
+
     <div >
-       <NavbarDemo/>
           <SeoHero />
           <Seosection2 />
           <Seosection3 />
           <Industries/>
           <Testimonials />
           <Faq />
-          <Footer/>
     </div>
+    </>
   )
 }
 

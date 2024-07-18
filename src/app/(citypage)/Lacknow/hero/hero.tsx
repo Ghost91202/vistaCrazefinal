@@ -8,7 +8,7 @@ type Props = {}
 
 const Hero = (props: Props) => {
     return (
-        <div className='relative h-auto w-screen overflow-x-hidden text-white'>
+        <div className='relative z-50 h-auto w-screen overflow-x-hidden text-white'>
             <div className=' absolute h-screen overflow-hidden'>
                 <Image src={BgIMG1} alt='vi' className='h-screen w-screen ' />
 

@@ -2,10 +2,29 @@ import Image from 'next/image'
 import React from 'react'
 import Aboutimg from "../../../../public/About.jpg"
 import Accordion from '@/components/Accordion/Accordion'
+import Head from 'next/head'
+
 type Props = {}
 
 const page = (props: Props) => {
   return (
+    <>
+
+       <Head>
+      <title>About  vistacraze Digital marketing agency </title>
+      <meta name="description" content="This is my awesome Next.js website." />
+      <meta name="Vistacraze DIgital marketing agency" content="next.js, SEO, web development" />
+
+         <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://www.Vistacraze.in",
+          "@type": "WebSite",
+          "name": " Digital marketing agency in banglore ",
+          "url": "https://www.Vistacraze.in",
+        })}
+      </script>
+      </Head>
+
       <div className='relative z-10 mb-[100vh] bg-black/80 backdrop-blur-3xl '>
           <div className='p-10'>
 
@@ -34,6 +53,7 @@ const page = (props: Props) => {
                   <h1 className='text-white/50 sm:text-3xl text-xl '>Karan Sharma, <span className='text-white'>the heart</span> of Vistacraze Marketing agency.  Karan&apos;s passion for innovation and dedication to clients have guided our journey. His strategic vision, client-centered approach, and knack for creative solutions shape our commitment to excellence.</h1>
         </div>
     </div>
+    </>
   )
 }
 

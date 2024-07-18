@@ -1,14 +1,30 @@
 import Image from 'next/image'
-import React from 'react'
 import BgIMG1 from "../../../../public/blue-texture_1253-162.jpg"
 import Link from 'next/link'
 import NavbarDemo from '@/components/navbar/navbar'
-import Footer from '@/components/footer/footer'
+import Head from 'next/head'
+
 
 type Props = {}
 
 const Blurbg = (props: Props) => {
     return (
+        <>
+             <Head>
+      <title>Digital marketing agency in banglore</title>
+      <meta name="description" content="This is my awesome Next.js website." />
+      <meta name="SEO DIgital marketing agency" content="next.js, SEO, web development" />
+
+         <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://www.Vistacraze.in",
+          "@type": "WebSite",
+          "name": " Digital marketing agency in banglore ",
+          "url": "https://www.Vistacraze.in",
+        })}
+      </script>
+            </Head>
+            
         <div>
              <NavbarDemo/>
         <div className='relative h-auto w-screen overflow-x-hidden bg-black  text-white'>
@@ -41,6 +57,7 @@ const Blurbg = (props: Props) => {
         </div>
             {/* <Footer/> */}
            </div>
+        </>
     )
 }
 
