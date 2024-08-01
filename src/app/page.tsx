@@ -130,8 +130,8 @@ export default function Home() {
         </div>
 {/* <Drawer2/> */}
         <Industries />
-        <Testimonials/>
-        <Tabs />
+        {/* <Testimonials/> */}
+        {/* <Tabs /> */}
       </div>
     </main>
   );
