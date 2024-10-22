@@ -89,7 +89,7 @@ function Navbar({ className }: { className?: string }) {
           </div>
 
 
-          <Link href="/Contact" className="flex items-center py-auto hover:underline">Contact</Link>
+          {/* <Link href="/Contact" className="flex items-center py-auto hover:underline">Contact</Link> */}
           <Link href="#cities" className="flex items-center py-auto hover:underline">City</Link>
         </Menu>
         <Link href="#"  className="text-white sm:flex hidden border rounded-md gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
