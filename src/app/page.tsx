@@ -128,10 +128,10 @@ export default function Home() {
 
           </div>
         </div>
-{/* <Drawer2/> */}
+<Drawer2/>
         <Industries />
         {/* <Testimonials/> */}
-        {/* <Tabs /> */}
+        <Tabs />
       </div>
     </main>
   );
