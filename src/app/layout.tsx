@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-black w-screen overflow-x-hidden ">
+    <html lang="en" className="bg-white w-screen overflow-x-hidden ">
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

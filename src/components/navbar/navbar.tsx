@@ -6,7 +6,7 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 
 import Image from "next/image";
-import Fevicon from "../../../public/fevicon.png"
+import Fevicon from "../../../public/logo.jpg"
 
 //import styles 👇
 import 'react-modern-drawer/dist/index.css'
@@ -33,8 +33,8 @@ function Navbar({ className }: { className?: string }) {
       <div className="flex flex-row w-screen items-center justify-between  sm:px-20 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
         <Link href="/" className="flex gap-2 items-start">
           {/* <Image src={Logo} alt="Kravion  digital marketing agency" width={200} height={100} /> */}
-          <Image src={Fevicon} alt="Kravion  digital marketing agency" width={60} height={100} className="sm:flex" />
-          <h1 className="sm:text-3xl text-2xl  -ml-5 -mt-1 flex flex-col font-mono">Vista <span className="absolute ml-4 mt-7 text-violet-600">Craze</span></h1>
+          <Image src={Fevicon} alt="Kravion  digital marketing agency" width={40} height={100} className="sm:flex rounded-lg" />
+          <h1 className="sm:text-3xl text-2xl  flex flex-col font-mono">kravion</h1>
         </Link>
 
         <Menu setActive={setActive} >

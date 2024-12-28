@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../../public/logo.png"
+import Logo from "../../../public/logo.jpg"
 import Image from 'next/image'
 import Link from 'next/link'
 import "./style.css"
@@ -14,10 +14,11 @@ export default function Footer() {
   return (
     <div className='relative z-0'>
 
-      <div className='h-screen w-full  bottom-0 -z-1 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
+      <div className='h-auto w-full  bottom-0 -z-1 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
 
-              <Link href="/">
-                  <Image src={Logo.src} alt="Kravion  logo" width={200} height={100}/>
+              <Link href="/" className='flex items-center gap-2 text-center'>
+                  <Image src={Logo.src} alt="Kravion  marketing agency" width={50} height={100} className='rounded-lg'/>
+                 <h2 className=' text-xl font-semibold'> Kravion marketing agency</h2>
       </Link>
 
 
