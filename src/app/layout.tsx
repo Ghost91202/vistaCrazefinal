@@ -8,7 +8,7 @@ import Footer from "@/components/footer/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VistaCraze Digital Marketing Agency",
+  title: "Kravion  Digital Marketing Agency",
   description: "SEO, Google Ads, Facebook Ads, YouTube Ads",
 };
 

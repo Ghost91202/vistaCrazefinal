@@ -134,7 +134,7 @@ const section3 = (props: Props) => {
                             </div>
                         </div>
                         <div className=' rounded-2xl flex items-end justify-end'>
-                            <Image src={SCetch} alt="vistacraze" width={650} className="rounded-xl "/>
+                            <Image src={SCetch} alt="Kravion " width={650} className="rounded-xl "/>
                         </div>
 
                     </div>
@@ -222,7 +222,7 @@ const section3 = (props: Props) => {
                             <p>Our revising phase is characterized by iterative enhancements based on user feedback and test results. This stage ensures that each design element is not only aesthetically pleasing but also highly functional and user-friendly. Continuous improvements are applied until the highest standards of usability and user satisfaction are met.</p>
 
                         </div>
-                        <Image src={ Uxui7} width={1500} alt='vistacraze'/>
+                        <Image src={ Uxui7} width={1500} alt='Kravion '/>
                     </div>
                 </div>
             </div>

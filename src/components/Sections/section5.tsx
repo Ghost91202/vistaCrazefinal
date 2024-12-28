@@ -15,7 +15,7 @@ export default function section5() {
             </div>
             <div className="flex flex-col lg:flex-row gap-10">
                 <div>
-                    <Image src={sec53} alt="vistaCraze" className=" h-96 rounded-lg" />
+                    <Image src={sec53} alt="Kravion " className=" h-96 rounded-lg" />
                     <div className=" flex flex-col font-extrabold pl-2 mb-20 absolute z-10 text-white lg:text-6xl justify-end ">
                 <div className="absolute">
                     <h1>T </h1>
@@ -30,7 +30,7 @@ export default function section5() {
             </div>
                 </div>
                 <div>
-                    <Image src={sec52} alt="vistaCraze" className=" lg:h-3/4 lg:w-72 rounded-lg" />
+                    <Image src={sec52} alt="Kravion " className=" lg:h-3/4 lg:w-72 rounded-lg" />
                     <div className=" flex flex-col font-extrabold pl-2 mb-20 absolute z-10 text-white lg:text-6xl justify-end ">
                 <div className="absolute">
                     <h1>L </h1>
@@ -44,7 +44,7 @@ export default function section5() {
             </div>
                 </div>
                 <div>
-                    <Image src={sec5} alt="vistaCraze" className=" h-full w-72 rounded-lg" />
+                    <Image src={sec5} alt="Kravion " className=" h-full w-72 rounded-lg" />
                     <div className=" flex flex-col font-extrabold pl-2 mb-20 absolute z-10 text-white lg:text-6xl justify-end ">
                 <div className="absolute">
                     <h1>G </h1>

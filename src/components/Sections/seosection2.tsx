@@ -47,7 +47,7 @@ const seosection2 = (props: Props) => {
                 </div>
             </div>
             <div className='lg:h-2/3 h-[30vh]  relative overflow-hidden  bg-blue-700/40 rounded-lg p-20'>
-                {/* <Image src={Seo} alt=' vistacraze digital marketing agency' className='rounded-xl z-10 absolute lg:w-[35vw] w-[75vw] h-[40vh] lg:h-[50vh]' /> */}
+                {/* <Image src={Seo} alt=' Kravion  digital marketing agency' className='rounded-xl z-10 absolute lg:w-[35vw] w-[75vw] h-[40vh] lg:h-[50vh]' /> */}
                 <span className='bg-blue-800/20 absolute w-full h-full top-8 lg:top-14 rounded-lg backdrop-blur-lg left-5 lg:left-8 right-0 z-0 lg:w-[40vw] lg:h-[50vh]'>
                 </span>
             </div>

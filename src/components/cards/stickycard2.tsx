@@ -18,7 +18,7 @@ const stickycard2 = (props: Props) => {
           <p className='text-gray-800/60'>User Experience UX Design, on the other hand, goes deeper into the user&apos;s interaction with your product. It is a holistic approach that considers the entire journey a user takes to solve a problem or fulfill a need. UX design involves research to understand user behaviors, needs, and motivations and uses this insight to design a coherent, contextually relevant experience that is not only functional but also user-friendly and accessible.</p>
             </div>
             <div className='sm:p-0 p-5 flex justify-center items-center'>
-            <Image src={UXUI} alt="vistacraze uiux page " className='rounded-xl'/>
+            <Image src={UXUI} alt="Kravion  uiux page " className='rounded-xl'/>
             </div>
          </div>
             </div>
@@ -30,7 +30,7 @@ const stickycard2 = (props: Props) => {
           <p className='text-gray-800/60'>User Experience UX Design, on the other hand, goes deeper into the user&apos;s interaction with your product. It is a holistic approach that considers the entire journey a user takes to solve a problem or fulfill a need. UX design involves research to understand user behaviors, needs, and motivations and uses this insight to design a coherent, contextually relevant experience that is not only functional but also user-friendly and accessible.</p>
             </div>
             <div className='sm:p-20 sm:bg-white  p-5 sm:rounded-2xl'>
-            <Image src={UXUI2} alt="vistacraze uiux page " className='rounded-xl'/>
+            <Image src={UXUI2} alt="Kravion  uiux page " className='rounded-xl'/>
             </div>
          </div>
             </div>

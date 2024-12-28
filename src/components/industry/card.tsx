@@ -7,7 +7,7 @@ const card = (props: Props) => {
   return (
       <div>
            <div className=''>
-              <Image src={Ngo} alt='vistacraze Industries page'/>
+              <Image src={Ngo} alt='Kravion  Industries page'/>
           </div>
     </div>
   )

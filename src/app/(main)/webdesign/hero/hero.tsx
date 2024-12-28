@@ -19,7 +19,7 @@ const hero = (props: Props) => {
         </div>
       </div>
       <div>
-        <Image src={Webimg} alt="vistacraze web design "/>
+        <Image src={Webimg} alt="Kravion  web design "/>
       </div>
     </div>
   )

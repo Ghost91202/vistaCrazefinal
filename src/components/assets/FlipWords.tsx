@@ -9,7 +9,7 @@ export function FlipWordsDemo() {
       <div className="text-4xl sm:text-7xl font-bold  mx-auto sm:w-2/3 text-center    text-neutral-600 dark:text-neutral-400">
         Build
         <FlipWords words={words} /> <br />
-        websites with VistaCraze.
+        websites with Kravion .
       </div>
     </div>
   );

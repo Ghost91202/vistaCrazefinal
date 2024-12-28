@@ -27,7 +27,7 @@ const Seosection3 = (props: Props) => {
               <div className=' flex gap-5 flex-col justify-between'>
                   <Image  src={Icon1} alt="" width={80}/>
                   <h1 className='lg:text-2xl font-semibold  '>Dedicated SEO Project Manager</h1>
-                  <p>At Vistacraze, you will benefit from a dedicated SEO project manager who is fully informed about your objectives and progress, ensuring you receive frequent updates.</p>
+                  <p>At Kravion , you will benefit from a dedicated SEO project manager who is fully informed about your objectives and progress, ensuring you receive frequent updates.</p>
               </div>
               <div className=' flex gap-5 flex-col justify-between'>
                   <Image  src={Icon2} alt="" width={80}/>

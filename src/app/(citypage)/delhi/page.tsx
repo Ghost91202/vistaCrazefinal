@@ -24,16 +24,16 @@ export default function Home() {
     <>
 
        <Head>
-      <title>vistacraze Digital marketing agency in Delhi</title>
-      <meta name="vistacraze DIgital marketing agency" content="This is my awesome Next.js website." />
+      <title>Kravion  Digital marketing agency in Delhi</title>
+      <meta name="Kravion  DIgital marketing agency" content="This is my awesome Next.js website." />
       <meta name="SEO DIgital marketing agency" content="next.js, SEO, web development" />
 
          <script type="application/ld+json">
         {JSON.stringify({
-          "@context": "https://www.Vistacraze.in",
+          "@context": "https://www.kravion.com",
           "@type": "WebSite",
-          "name": "vistacraze Digital marketing agency in delhi ",
-          "url": "https://www.Vistacraze.in",
+          "name": "Kravion  Digital marketing agency in delhi ",
+          "url": "https://www.kravion.com",
         })}
       </script>
       </Head>

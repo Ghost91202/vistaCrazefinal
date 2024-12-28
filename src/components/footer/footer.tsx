@@ -17,7 +17,7 @@ export default function Footer() {
       <div className='h-screen w-full  bottom-0 -z-1 fixed footerbg text-white flex p-5 xl:p-10 flex-col gap-10'>
 
               <Link href="/">
-                  <Image src={Logo.src} alt="vistaCraze logo" width={200} height={100}/>
+                  <Image src={Logo.src} alt="Kravion  logo" width={200} height={100}/>
       </Link>
 
 
@@ -74,7 +74,7 @@ export default function Footer() {
           Contacts
         </h5>
         <div className='flex flex-col gap-2'>
-          <Link href="/">vistacraze40@gmail.com</Link>
+          <Link href="/">Kravion 40@gmail.com</Link>
         <Link href="/">8543810264</Link>
         <Link href="/">Barra-8 Kanpur Uttar Pradesh</Link>
 
@@ -93,7 +93,7 @@ export default function Footer() {
       </div>
       </div>
 
-      <h6 className='flex items-center text-center  justify-center xl:pb-10'>© All Copyright Reserved by VistaCraze Marketing agency.</h6>
+      <h6 className='flex items-center text-center  justify-center xl:pb-10'>© All Copyright Reserved by Kravion  Marketing agency.</h6>
       </div>
     </div>
   )

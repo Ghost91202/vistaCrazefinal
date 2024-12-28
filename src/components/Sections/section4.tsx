@@ -33,7 +33,7 @@ export default function section4() {
             </div>
 
             <Image src={Secimg} alt=
-                "VistaCraze digital marketing agency" className=" w-screen mr-20 rounded-2xl h-screen relative -z-2 " />
+                "Kravion  digital marketing agency" className=" w-screen mr-20 rounded-2xl h-screen relative -z-2 " />
 
         </div>
 

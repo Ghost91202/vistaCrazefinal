@@ -23,7 +23,7 @@ const Stickycards = (props: Props) => {
 
                                 <h1 className='xl:text-3xl lg:text-2xl sm:text-xl text-lg sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Web Design & Development</h1>
 
-                                <p className='text-md sm:text-lg text-white/50'>Every web design project at vistacraze stands out as unique, receiving unparalleled attention and care. Our team, composed of award-winning web designers and web developers, is renowned for its ability to craft visually striking websites. These sites are not only a feast for the eyes but also excel in functionality, effectively meeting their intended objectives.</p>
+                                <p className='text-md sm:text-lg text-white/50'>Every web design project at Kravion  stands out as unique, receiving unparalleled attention and care. Our team, composed of award-winning web designers and web developers, is renowned for its ability to craft visually striking websites. These sites are not only a feast for the eyes but also excel in functionality, effectively meeting their intended objectives.</p>
 
                             </div>
                             <div className='flex flex-col gap-5'>
@@ -48,10 +48,10 @@ const Stickycards = (props: Props) => {
                             <div className='bg-black/10 border   p-5 lg:p-4 xl:p-10    rounded-2xl  w-full flex flex-col gap-5'>
 
                                 <h1 className='xl:text-3xl lg:text-2xl sm:text-xl text-lg sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>seo</h1>
-                                <p className='text-md sm:text-lg text-white/50'>Boost your online visibility with vistacraze&apos;s premier SEO services. Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement. Unleash your potential and outshine competitors with our tailored SEO solutions.</p>
+                                <p className='text-md sm:text-lg text-white/50'>Boost your online visibility with Kravion &apos;s premier SEO services. Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement. Unleash your potential and outshine competitors with our tailored SEO solutions.</p>
 
                                 <div>
-                                    <Image src={Seo1} alt='vistacraze' />
+                                    <Image src={Seo1} alt='Kravion ' />
 
                                 </div>
                                 <div className='border-t border-gray-200 pt-10'>
@@ -74,7 +74,7 @@ const Stickycards = (props: Props) => {
 
                                 <h1 className='xl:text-3xl lg:text-2xl sm:text-xl text-lg sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Brand Research & Strategy</h1>
                             </div>
-                            <p className='text-white/50 text-md sm:text-lg'>At vistacraze, our brand research and strategy services form the cornerstone of effective branding. We conduct in-depth analysis of competitors, market trends, and target audiences to inform decision-making. Our strategic framework includes developing brand personas, tone, voice, and mission statements, ensuring consistent and impactful brand communication aligned with clients&apos; business objectives.</p>
+                            <p className='text-white/50 text-md sm:text-lg'>At Kravion , our brand research and strategy services form the cornerstone of effective branding. We conduct in-depth analysis of competitors, market trends, and target audiences to inform decision-making. Our strategic framework includes developing brand personas, tone, voice, and mission statements, ensuring consistent and impactful brand communication aligned with clients&apos; business objectives.</p>
 
 
                             <div className=' gap-5 flex font-sans flex-col'>

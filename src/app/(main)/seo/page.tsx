@@ -18,14 +18,14 @@ const Home = (props: Props) => {
        <Head>
       <title>SEO page Digital marketing agency</title>
       <meta name="description" content="This is my awesome Next.js website." />
-      <meta name="Vistacraze DIgital marketing agency" content="next.js, SEO, web development" />
+      <meta name="Kravion  DIgital marketing agency" content="next.js, SEO, web development" />
 
          <script type="application/ld+json">
         {JSON.stringify({
-          "@context": "https://www.Vistacraze.in",
+          "@context": "https://www.kravion.com",
           "@type": "WebSite",
-          "name": "vistacraze Digital marketing agency  ",
-          "url": "https://www.Vistacraze.in",
+          "name": "Kravion  Digital marketing agency  ",
+          "url": "https://www.kravion.com",
         })}
       </script>
       </Head>

@@ -1,7 +1,7 @@
 // next-sitemap.config.js
 
 module.exports = {
-  siteUrl: 'https://www.vistacraze.in/',
+  siteUrl: 'https://www.Kravion.com/',
   generateRobotsTxt: true,
   changefreq: 'weekly', // Change frequency for all pages
   priority: 0.7, // Default priority for all pages
@@ -13,7 +13,7 @@ module.exports = {
   ],
   robotsTxtOptions: {
     additionalSitemaps: [
-      'https://www.vistacraze.in/sitemap.xml', // Add additional sitemaps if any
+      'https://www.Kravion.com/sitemap.xml', // Add additional sitemaps if any
     ],
   },
   transform: async (config, path) => {

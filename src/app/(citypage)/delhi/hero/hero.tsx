@@ -28,8 +28,8 @@ const Hero = (props: Props) => {
                     </Link>
                 </div>
                 <div className='sm:w-1/3 md:w-1/2 xl:w-1/3 font-semibold  items-start gap-10 flex-col justify-end hidden sm:flex pb-20'>
-                    <h1 className='sm:text-lg md:text-sm lg:text-2xl font-semibold bg-blend-color'>vistacraze</h1>
-                    <h1 className='md:text-sm lg:text-base'>We are vistacraze, Marketing Agency that will offer you transparency and creativity.</h1>
+                    <h1 className='sm:text-lg md:text-sm lg:text-2xl font-semibold bg-blend-color'>Kravion </h1>
+                    <h1 className='md:text-sm lg:text-base'>We are Kravion , Marketing Agency that will offer you transparency and creativity.</h1>
                     <h4 className='md:text-sm lg:text-base'>Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs. At Brand Vision, we understand the value of your brand. We provide a range of customized services including branding, website design & development, SEO, marketing consultation, and more</h4>
                 </div>
 

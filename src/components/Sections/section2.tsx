@@ -24,7 +24,7 @@ export default function Section() {
                 </div>
                 <div className="bg-blue-50 rounded-2xl p-10 grid grid-cols-1 justify-center lg:grid-cols-3 gap-10">
                     <div className="col-span-1 lg:col-span-1">
-                        <Image src={Map} className=" h-32 w-44 mix-blend-darken opacity-50" alt="vistaCraze digital Marketing agency" />
+                        <Image src={Map} className=" h-32 w-44 mix-blend-darken opacity-50" alt="Kravion  digital Marketing agency" />
                         <h1 className="text-cyan-400 text-xl flex lg:w-1/2 opacity-50 flex-col font-extrabold">
                             <span className="text-3xl"> 50+</span>
                             TEAM MEMBERS
@@ -32,19 +32,19 @@ export default function Section() {
                     </div>
                     <div>
                         <div className="col-span-1 lg:col-span-1">
-                            <Image src={Map2} className=" h-32 w-44 mix-blend-darken opacity-50" alt="vistaCraze digital Marketing agency" />
+                            <Image src={Map2} className=" h-32 w-44 mix-blend-darken opacity-50" alt="Kravion  digital Marketing agency" />
                             <h1 className="text-cyan-400 text-xl flex lg:w-3/4 opacity-50 flex-col font-extrabold">
                                 <span className="text-3xl"> 10+</span>
-                                CITIES WHERE VISTACRAZE PROVIDES SERVICES
+                                CITIES WHERE Kravion  PROVIDES SERVICES
                             </h1>
                         </div>
                     </div>
                     <div className="col-span-1 lg:col-span-1">
                         <div>
-                            <Image src={Map2} className=" h-32 w-44 mix-blend-darken opacity-50" alt="vistaCraze digital Marketing agency" />
+                            <Image src={Map2} className=" h-32 w-44 mix-blend-darken opacity-50" alt="Kravion  digital Marketing agency" />
                             <h1 className="text-cyan-400 text-xl flex lg:w-3/4 opacity-50 flex-col font-extrabold">
                                 <span className="text-3xl"> 10+</span>
-                                CITIES WHERE VISTACRAZE PROVIDES SERVICES
+                                CITIES WHERE Kravion  PROVIDES SERVICES
                             </h1>
                         </div>
                     </div>

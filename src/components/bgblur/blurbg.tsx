@@ -24,7 +24,7 @@ const Blurbg = (props: Props) => {
                     <h1 className='sm:text-4xl text-2xl font-semibold bottom-9 top-44'>UI/UX Design Agency</h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>User Interface and User Experience Design Agency
                     </p>
-                    <p>Vistacraze is an award-winning UI/UX Agency that focuses on creating effective designs based on research and in-depth testing.
+                    <p>Kravion  is an award-winning UI/UX Agency that focuses on creating effective designs based on research and in-depth testing.
                     </p>
                     <div className=' border border-white/40 rounded-full px-3 w-fit sm:mt-20 sm:text-md flex text-sm items-end  justify-end right-0 p-2'>
                         <Link href="#sticky">

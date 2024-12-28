@@ -20,17 +20,17 @@ Push New Limits</h1>
           <div className='grid grid-flow-row lg:grid-cols-2 grid-cols-1 xl:pb-5 gap-10 border-b'>
             <h1 className='lg:text-2xl text-2xl xl:text-3xl '>Deep Industry Experience and
               Client-Centric Approach</h1>
-            <p>At Vistacraze, we strategically utilize our deep industry expertise to develop custom website solutions tailored to each client&apos;s unique needs. Rather than adopting a one-size-fits-all approach, we meticulously design every website to align precisely with your specific business objectives and challenges. This client-centric approach ensures that every project is not just executed with precision but is also a perfect fit for your business, setting you apart in your market.</p>
+            <p>At Kravion , we strategically utilize our deep industry expertise to develop custom website solutions tailored to each client&apos;s unique needs. Rather than adopting a one-size-fits-all approach, we meticulously design every website to align precisely with your specific business objectives and challenges. This client-centric approach ensures that every project is not just executed with precision but is also a perfect fit for your business, setting you apart in your market.</p>
           </div>
           <div className='grid grid-flow-row lg:grid-cols-2 grid-cols-1 gap-10 xl:pb-5 border-b'>
             <h1 className='lg:text-2xl text-2xl xl:text-3xl'> Senior-Level
               Expertise at Every Step</h1>
-            <p>We ensure that every project is overseen by senior professionals from start to finish. Vistacraze team consists of award-winning experts in branding, web design, and user experience who bring a wealth of knowledge and creativity to each project. This level of expertise guarantees superior quality and innovative solutions that are designed not just to meet but exceed client expectations.</p>
+            <p>We ensure that every project is overseen by senior professionals from start to finish. Kravion  team consists of award-winning experts in branding, web design, and user experience who bring a wealth of knowledge and creativity to each project. This level of expertise guarantees superior quality and innovative solutions that are designed not just to meet but exceed client expectations.</p>
           </div>
           <div className='grid grid-flow-row lg:grid-cols-2 grid-cols-1 xl:pb-5 gap-10 border-b'>
             <h1 className='lg:text-2xl text-2xl xl:text-3xl'>Trend-Driven and
               Customized Designed</h1>
-            <p>At Vistacraze, we stay ahead of the curve by closely following the latest design trends, ensuring our web solutions are not only modern but also visionary. Each project is a unique creation, meticulously tailored to reflect each client&apos;s distinct brand identity, industry, and business goals. Our  custom and trend-responsive designs guarantees that your website not only stands out in your industry but also remains effective and relevant as market dynamics evolve.
+            <p>At Kravion , we stay ahead of the curve by closely following the latest design trends, ensuring our web solutions are not only modern but also visionary. Each project is a unique creation, meticulously tailored to reflect each client&apos;s distinct brand identity, industry, and business goals. Our  custom and trend-responsive designs guarantees that your website not only stands out in your industry but also remains effective and relevant as market dynamics evolve.
 
             </p>
           </div>

@@ -17,10 +17,10 @@ const Blurbg = (props: Props) => {
 
          <script type="application/ld+json">
         {JSON.stringify({
-          "@context": "https://www.Vistacraze.in",
+          "@context": "https://www.kravion.com",
           "@type": "WebSite",
           "name": " Digital marketing agency in banglore ",
-          "url": "https://www.Vistacraze.in",
+          "url": "https://www.kravion.com",
         })}
       </script>
             </Head>
@@ -35,7 +35,7 @@ const Blurbg = (props: Props) => {
 
                 <div className='absolute bottom-0  left-0 z-10 flex  justify-between bg2 w-screen gap-10 pb-20 sm:pb-0 p-10'>
                 <div className='flex flex-col text-start gap-5 lg:w-96 xl:w-1/2'>
-                    <h1 className='lg:text-5xl xl:text-7xl 2xl:text-7xl md:text-3xl md:bottom-0  text-3xl  font-semibold bottom-9 '>Let&apos;s get started with #Vistacraze</h1>
+                    <h1 className='lg:text-5xl xl:text-7xl 2xl:text-7xl md:text-3xl md:bottom-0  text-3xl  font-semibold bottom-9 '>Let&apos;s get started with #Kravion </h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>
                     </p>
 

@@ -16,17 +16,17 @@ Exceptional Design
  <div className='flex flex-col sm:p-10 p-5  gap-5 bg-white text-black  items-start justify-center rounded-3xl '>
               <h1 className=' sm:text-4xl text-start text-2xl '>Choose Your PLan</h1>
               <h2>Choose the perfect plan for your brand. Need a custom solution? DM us.</h2>
-            <Image src={chooseplan} alt='vistacraze web design '/>
+            <Image src={chooseplan} alt='Kravion  web design '/>
           </div> <div className='flex flex-col sm:p-10 p-5  gap-5 bg-white text-black  items-center justify-center rounded-3xl '>
               <h1 className=' sm:text-4xl text-2xl '>Share
 Your Vision</h1>
               <h2>Submit your ideas and watch them transform into premium products.</h2>
-            <Image src={sharevision} alt='vistacraze web design '/>
+            <Image src={sharevision} alt='Kravion  web design '/>
           </div> <div className='flex flex-col sm:p-10 p-5  gap-5 bg-white text-black  items-center justify-center rounded-3xl '>
               <h1 className=' sm:text-4xl text-2xl '>Review, Revise
 and Enjoy</h1>
               <h2>Your vision is our mission — we&apos;ll refine until you&apos;re delighted and satisfied.</h2>
-            <Image src={reviwui} alt='vistacraze web design '/>
+            <Image src={reviwui} alt='Kravion  web design '/>
           </div>
          </div>
 
