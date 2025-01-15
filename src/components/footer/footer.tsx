@@ -76,8 +76,8 @@ export default function Footer() {
         </h5>
         <div className='flex flex-col gap-2'>
           <Link href="/">info.Kravion@gmail.com</Link>
-        <Link href="/">8543810264</Link>
-        <Link href="/">Barra-8 Kanpur Uttar Pradesh</Link>
+        {/* <Link href="/"></Link> */}
+        {/* <Link href="/">Uttar Pradesh</Link> */}
 
         </div>
       </div>
