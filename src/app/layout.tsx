@@ -26,6 +26,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <meta name="p:domain_verify" content="a13a6546428fe39302ba7e6c2d6ceb6a"/>
           <NavbarDemo/>
           {children}
           <Footer/>
