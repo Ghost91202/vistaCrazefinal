@@ -34,7 +34,7 @@ const page = (props: Props) => {
               <div className=' flex flex-col gap-10'>
                <h1 className='sm:text-5xl  flex gap-2 items-center'>
                   <span className='px-2 bg-gray-700 rounded-full text-sm font-semibold text-violet-600'>WHO WE ARE</span>About our Company</h1>
-              <p className='sm:text-3xl text-lg text-white/50 '>Let&apos;s get acquainted! We&apos;re not your average digital marketing agency - we&apos;re a team of passionate individuals who eat, sleep, and breathe <span className='text-white'>creativity, innovation, and all things digital</span>. At Kravion  Marketing agency, we&apos;re on a mission to make your online <span className='text-violet-600 font-semibold'> Dreams come true</span>, one pixel at a time! We&apos;re a bunch of tech-savvy wizards, design enthusiasts, and social media mavens who believe that digital marketing should be fun, exciting, and downright awesome.</p>
+              <p className='lg:text-3xl text-lg text-white/50 '>Let&apos;s get acquainted! We&apos;re not your average digital marketing agency - we&apos;re a team of passionate individuals who eat, sleep, and breathe <span className='text-white'>creativity, innovation, and all things digital</span>. At Kravion  Marketing agency, we&apos;re on a mission to make your online <span className='text-violet-600 font-semibold'> Dreams come true</span>, one pixel at a time! We&apos;re a bunch of tech-savvy wizards, design enthusiasts, and social media mavens who believe that digital marketing should be fun, exciting, and downright awesome.</p>
 
               </div>
               <div className='flex items-center'>

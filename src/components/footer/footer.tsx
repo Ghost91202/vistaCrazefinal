@@ -25,12 +25,12 @@ export default function Footer() {
       <div className='border-b flex gap-5 flex-col border-gray-300 pb-5 sm:pb-10'>
         <h2>follow Us:</h2>
         <div className='flex items-center  gap-3'>
-          <Link href="/"><RiInstagramFill className='text-pink-500 bg-white rounded-full text-3xl p-1' /></Link>
-          <Link href="/"><TiSocialTwitter className='text-blue-500 bg-white rounded-full text-3xl p-1' /></Link>
+          <Link href="https://www.instagram.com/kravionagency/"><RiInstagramFill className='text-pink-500 bg-white rounded-full text-3xl p-1' /></Link>
+          <Link href="https://x.com/KravionAgency?t=sXFmyicst7nrSEkY_scofQ&s=09"><TiSocialTwitter className='text-blue-500 bg-white rounded-full text-3xl p-1' /></Link>
           <Link href="/"><SlSocialPintarest className='text-white bg-red-600 rounded-full text-3xl p-1' /></Link>
-          <Link href="/"><SlSocialLinkedin className='text-white bg-blue-500 rounded-md text-3xl p-1' /></Link>
-          <Link href="/"><SlSocialGithub className='text-white  text-2xl ' /></Link>
-          <Link href="/"><TiSocialFacebook className='text-blue-500 bg-white rounded-full text-3xl p-1' /></Link>
+          <Link href="https://www.linkedin.com/company/kravion/"><SlSocialLinkedin className='text-white bg-blue-500 rounded-md text-3xl p-1' /></Link>
+          {/* <Link href="/"><SlSocialGithub className='text-white  text-2xl ' /></Link> */}
+          <Link href="https://www.facebook.com/share/1B6mPsoeGJ/"><TiSocialFacebook className='text-blue-500 bg-white rounded-full text-3xl p-1' /></Link>
 
         </div>
       </div>

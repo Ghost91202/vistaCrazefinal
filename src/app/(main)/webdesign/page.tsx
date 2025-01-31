@@ -43,7 +43,7 @@ const Home = (props: Props) => {
       {/* <Section3 /> */}
       <Section4/>
       <Industries />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Faq />
     </div>
     </>

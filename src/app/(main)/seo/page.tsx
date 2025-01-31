@@ -35,7 +35,7 @@ const Home = (props: Props) => {
           <Seosection2 />
           <Seosection3 />
           <Industries/>
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Faq />
     </div>
     </>

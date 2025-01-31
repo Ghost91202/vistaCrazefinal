@@ -7,7 +7,7 @@ type Props = {}
 
 const seosection2 = (props: Props) => {
     return (
-        <div className='h-auto relative z-10 lg:h-screen bg-slate-950 text-white grid grid-flow-row grid-cols-1 p-5 lg:grid-cols-2 items-center lg:gap-10 gap-5 lg:p-20'>
+        <div className='h-auto relative z-10 lg:h-auto md:h-screen bg-slate-950 text-white grid grid-flow-row grid-cols-1 p-5 lg:grid-cols-2 items-center lg:gap-10 gap-5 lg:p-20'>
 
             <div className='flex  flex-col gap-10'>
                 <span className=' backdrop-blur-lg bg-gray-700/40 rounded-xl w-fit px-3 py-1 text-sm '>
