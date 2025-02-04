@@ -32,9 +32,9 @@ const page = (props: Props) => {
           </div>
           <div  className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 p-10' >
               <div className=' flex flex-col gap-10'>
-               <h1 className='sm:text-5xl  flex gap-2 items-center'>
+               <h1 className='sm:text-3xl  flex gap-2 items-center'>
                   <span className='px-2 bg-gray-700 rounded-full text-sm font-semibold text-violet-600'>WHO WE ARE</span>About our Company</h1>
-              <p className='lg:text-3xl text-lg text-white/50 '>Let&apos;s get acquainted! We&apos;re not your average digital marketing agency - we&apos;re a team of passionate individuals who eat, sleep, and breathe <span className='text-white'>creativity, innovation, and all things digital</span>. At Kravion  Marketing agency, we&apos;re on a mission to make your online <span className='text-violet-600 font-semibold'> Dreams come true</span>, one pixel at a time! We&apos;re a bunch of tech-savvy wizards, design enthusiasts, and social media mavens who believe that digital marketing should be fun, exciting, and downright awesome.</p>
+              <p className='lg:text-xl text-lg text-white/50 '>Kravion Digital Marketing Agency is a premier digital marketing firm headquartered in India, specializing in data-driven strategies to elevate brands across key cities, including Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Established on January 10, 2024, by Founder & CEO Karan Sharma and Co-Founder Avantika Nigam, Kravion has rapidly emerged as a trusted partner for businesses seeking tailored digital solutions. The agency combines creativity, technology, and analytics to deliver measurable growth for clients in competitive markets.</p>
 
               </div>
               <div className='flex items-center'>
@@ -48,9 +48,9 @@ const page = (props: Props) => {
 
       </div>
        <div className='flex flex-col gap-10 p-10'>
-           <h1 className='sm:text-5xl  flex gap-2 items-center'>
+           <h1 className='sm:text-3xl  flex gap-2 items-center'>
                   <span className='px-2 bg-gray-700 rounded-full text-sm font-semibold text-violet-600'>ABOUT FOUNDER</span>Meet The Founder</h1>
-                  <h1 className='text-white/50 sm:text-3xl text-xl '>Karan Sharma, <span className='text-white'>the heart</span> of Kravion  Marketing agency.  Karan&apos;s passion for innovation and dedication to clients have guided our journey. His strategic vision, client-centered approach, and knack for creative solutions shape our commitment to excellence.</h1>
+                  <h1 className='text-white/50 sm:text-xl text-xl '>Kravion Digital Marketing Agency is a premier digital marketing firm headquartered in Noida India, specializing in data-driven strategies to elevate brands across key cities, including Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Established on January 10, 2024, by Founder & CEO Karan Sharma and Co-Founder Avantika Nigam, Kravion has rapidly emerged as a trusted partner for businesses seeking tailored digital solutions. The agency combines creativity, technology, and analytics to deliver measurable growth for clients in competitive markets.</h1>
         </div>
     </div>
     </>

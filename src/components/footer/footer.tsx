@@ -52,7 +52,7 @@ export default function Footer() {
         </h5>
         <div className='flex flex-col gap-2'>
 
-        <Link href="/webdesign">Web Design </Link>
+        <Link href="/webdesign">res n m  </Link>
         <Link href="/uiux">Branding</Link>
         <Link href="/uiux">UI UX</Link>
         {/* <Link href="/">Consultattion and Audit</Link> */}
