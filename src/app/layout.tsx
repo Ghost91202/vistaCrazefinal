@@ -8,8 +8,32 @@ import Footer from "@/components/footer/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kravion  Digital Marketing Agency",
-  description: "SEO, Google Ads, Facebook Ads, YouTube Ads",
+  title: {
+    default: "Kravion Digital Marketing Agency | SEO & Google Ads Experts",
+    template: "%s | Kravion Digital Marketing Agency" // For child pages
+  },
+  description: "Kravion Digital Marketing Agency: Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services. Get more traffic and conversions today!",
+  keywords: ["SEO Services", "Google Ads Agency", "Facebook Ads", "YouTube Ads", "Digital Marketing Company"],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://kravion.com", // Replace with your domain
+    title: "Kravion Digital Marketing Agency | SEO & Google Ads Experts",
+    description: "Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services.",
+    images: [
+      {
+        url: "/fevicon.png", // Add an OpenGraph image for social sharing
+      },
+    ],
+  },
+  robots: {
+    index: true, // Allow Google to index this page
+    follow: true, // Allow Google to follow links
+  },
 };
 
 export default function RootLayout({
