@@ -52,7 +52,7 @@ export default function Footer() {
         </h5>
         <div className='flex flex-col gap-2'>
 
-        <Link href="/webdesign">res n m  </Link>
+        <Link href="/webdesign">Web Development</Link>
         <Link href="/uiux">Branding</Link>
         <Link href="/uiux">UI UX</Link>
         {/* <Link href="/">Consultattion and Audit</Link> */}
@@ -72,12 +72,12 @@ export default function Footer() {
       </div>
       <div className='flex flex-col gap-2 sm:gap-10'>
         <h5 className='text-lg font-semibold'>
-          Contacts
+          Contact Us
         </h5>
         <div className='flex flex-col gap-2'>
           <Link href="/">info.Kravion@gmail.com</Link>
-        {/* <Link href="/"></Link> */}
-        {/* <Link href="/">Uttar Pradesh</Link> */}
+        <Link href="/">+91 7068669909</Link>
+        <Link href="/">Uttar Pradesh</Link>
 
         </div>
       </div>
