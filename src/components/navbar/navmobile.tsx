@@ -52,10 +52,10 @@ const RightDrawer: React.FC = () => {
               SEO <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
             </Link>
           </div>
-          <Link href="/about" className="flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
+          <Link href="/About" className="flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
             About <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
           </Link>
-          <Link href="/contact" className="flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
+          <Link href="/" className="flex items-center bg-white/10 backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
             Contact <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
           </Link>
         </div>

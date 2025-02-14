@@ -1,0 +1,16 @@
+# robots.txt for Kravion Digital Marketing Agency
+User-agent: *
+Allow: /
+
+# Block crawling of unnecessary or sensitive directories
+Disallow: /admin/
+Disallow: /test/
+Disallow: /private/
+
+# Block crawling of specific file types (optional)
+Disallow: /*.pdf$
+Disallow: /*.jpg$
+Disallow: /*.png$
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
