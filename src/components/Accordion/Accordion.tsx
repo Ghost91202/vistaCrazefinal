@@ -19,18 +19,18 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
   };
 
   return (
-    <div className=" w-96 border-1  rounded-xl ">
+    <div className=" w-96 border-1 m-2   rounded-xl ">
       {items.map((item, index) => (
-        <div key={index} className=" border-gray-400 border-2 rounded-lg ">
+        <div key={index} className=" border-gray-400 border m-2 rounded-lg ">
           <button
-            className="w-full text-left py-4 xl:text-base text-sm lg:text-md  px-2 flex justify-between items-center"
+            className="w-full text-left py-4 xl:text-base text-sm lg:text-base  px-2 flex justify-between items-center"
             onClick={() => handleToggle(index)}
           >
-            <span className='text-xl '>{item.title}</span>
-            <span className='text-3xl '>{activeIndex === index ? '-' : '+'}</span>
+            <span className='text-base '>{item.title}</span>
+            <span className='text-xl '>{activeIndex === index ? '-' : '+'}</span>
           </button>
           {activeIndex === index && (
-            <div className="p-4 xl:text-base w-96 bg-white text-black text-sm lg:text-md ">
+            <div className="p-4 xl:text-sm w-96 bg-white text-black text-base lg:text-base ">
               {item.content}
             </div>
           )}

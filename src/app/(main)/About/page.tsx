@@ -88,10 +88,10 @@ const AboutPage = (props: Props) => {
 </Head>
 
       {/* Main Content */}
-      <div className="relative z-10 mb-[100vh] gap-16 text-center bg-white flex-col flex items-center  text-black backdrop-blur-3xl">
+      <div className="relative z-10 mb-[100vh] gap-16 lg:text-center bg-white flex-col flex lg:items-center  text-black backdrop-blur-3xl">
         {/* About Section */}
         <Image src={Aboutimg} alt="About the kravion " className=' w-screen h-screen absolute'/>
-        <div className=" gap-10 absolute text-white top-32  align-center  items-center text-center justify-center flex flex-col">
+        <div className=" gap-10 absolute text-white top-32  lg:align-center  lg:items-center lg:text-center justify-center flex flex-col">
             <h1 className="flex items-center gap-2 text-2xl font-bold sm:text-4xl">
 
               About Our Company
