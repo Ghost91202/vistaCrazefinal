@@ -80,7 +80,7 @@ const RightDrawer: React.FC = () => {
             </div>
 
             <Link
-              href="/about"
+              href="/About"
               className="flex items-center justify-between p-3 rounded-lg bg-white/10 hover:bg-white/20 hover:text-violet-400 transition-all duration-200 group"
               onClick={handleLinkClick}
             >

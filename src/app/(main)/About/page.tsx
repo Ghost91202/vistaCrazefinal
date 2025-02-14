@@ -74,7 +74,7 @@ const AboutPage = (props: Props) => {
       </Head>
 
       {/* Main Content */}
-      <div className="relative min-h-screen bg-white text-black">
+      <div className="relative z-10 min-h-screen bg-white text-black">
         {/* Hero Section */}
         <div className="relative h-screen">
           <Image
