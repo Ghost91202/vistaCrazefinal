@@ -13,24 +13,79 @@ const AboutPage = (props: Props) => {
     <>
       {/* SEO and Metadata */}
       <Head>
-        <title>About Kravion Digital Marketing Agency</title>
-        <meta
-          name="description"
-          content="Learn about Kravion Digital Marketing Agency, a leading digital marketing firm in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam."
-        />
-        <meta
-          name="keywords"
-          content="digital marketing agency, Kanpur, Noida, Delhi, Bangalore, Chandigarh, Kravion, SEO, PPC, social media marketing"
-        />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://www.kravion.com",
-            "@type": "WebSite",
-            "name": "Digital Marketing Agency in Bangalore",
-            "url": "https://www.kravion.com",
-          })}
-        </script>
-      </Head>
+  {/* Optimized Title with Primary Keywords */}
+  <title>About Kravion - Top Digital Marketing Agency in Kanpur, Noida, Delhi, Bangalore & Chandigarh</title>
+
+  {/* Enhanced Meta Description with Focus Keywords */}
+  <meta
+    name="description"
+    content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
+  />
+
+  {/* Keywords Meta Tag (Optional, as most search engines don't use it anymore) */}
+  <meta
+    name="keywords"
+    content="digital marketing agency, Kanpur, Noida, Delhi, Bangalore, Chandigarh, Kravion, SEO services, PPC advertising, social media marketing, online marketing agency"
+  />
+
+  {/* Canonical Link to Avoid Duplicate Content */}
+  <link rel="canonical" href="https://www.kravion.com/about" />
+
+  {/* Open Graph Tags for Social Media Sharing */}
+  <meta property="og:title" content="About Kravion - Top Digital Marketing Agency in Kanpur, Noida, Delhi, Bangalore & Chandigarh" />
+  <meta
+    property="og:description"
+    content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.kravion.com/about" />
+  <meta property="og:image" content="https://www.kravion.com/images/og-about.jpg" />
+  <meta property="og:site_name" content="Kravion Digital Marketing Agency" />
+
+  {/* Twitter Card Tags for Twitter Sharing */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Kravion - Top Digital Marketing Agency in Kanpur, Noida, Delhi, Bangalore & Chandigarh" />
+  <meta
+    name="twitter:description"
+    content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
+  />
+  <meta name="twitter:image" content="https://www.kravion.com/images/twitter-about.jpg" />
+  <meta name="twitter:site" content="@KravionAgency" />
+
+  {/* Structured Data (JSON-LD) for Better Search Engine Understanding */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Kravion Digital Marketing Agency",
+      "url": "https://www.kravion.com",
+      "description": "Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. We specialize in SEO, PPC, social media marketing, and more to help businesses grow online.",
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Karan Sharma"
+        },
+        {
+          "@type": "Person",
+          "name": "Avantika Nigam"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kanpur",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "208001",
+        "addressCountry": "India"
+      },
+      "sameAs": [
+        "https://www.facebook.com/KravionAgency",
+        "https://www.twitter.com/KravionAgency",
+        "https://www.linkedin.com/company/KravionAgency",
+        "https://www.instagram.com/kravionagency/"
+      ]
+    })}
+  </script>
+</Head>
 
       {/* Main Content */}
       <div className="relative z-10 mb-[100vh] gap-16 text-center bg-white flex-col flex items-center  text-black backdrop-blur-3xl">
@@ -41,7 +96,7 @@ const AboutPage = (props: Props) => {
 
               About Our Company
             </h1>
-            <p className="text-lg lg:text-xl w-3/4  ">
+            <p className="text-lg lg:text-xl lg:w-3/4  p-10">
               Kravion Digital Marketing Agency is a premier digital marketing firm headquartered in India, specializing in data-driven strategies to elevate brands across key cities, including Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Established on January 10, 2024, by Founder & CEO Karan Sharma and Co-Founder Avantika Nigam, Kravion has rapidly emerged as a trusted partner for businesses seeking tailored digital solutions. The agency combines creativity, technology, and analytics to deliver measurable growth for clients in competitive markets.
             </p>
 
@@ -98,11 +153,11 @@ const AboutPage = (props: Props) => {
 
             Meet The Founders
           </h1>
-          <h2 className="text-xl sm:text-xl">
+          <h2 className="text-xl sm:text-xl p-10">
             At the heart of Kravion Digital Marketing Agency are two passionate visionaries who have redefined the digital marketing landscape with their expertise, innovation, and commitment to client success. Together, they have built Kravion into a trusted name for businesses in Kanpur, Noida, Delhi, Bangalore, and Chandigarh.
           </h2>
           <h1 className="text-2xl sm:text-3xl">Karan Sharma – Founder & CEO</h1>
-          <p className="text-base sm:text-xl">
+          <p className="text-base sm:text-xl ">
             Karan Sharma is a seasoned digital marketing expert with over 8 years of experience in crafting data-driven strategies that deliver measurable results. As the driving force behind Kravion, Karan brings a unique blend of creativity and technical expertise to the table. His vision is to empower businesses of all sizes to thrive in the digital age by leveraging cutting-edge tools and tailored solutions.
             <br /><br />
             Karan&apos;s journey began with a deep fascination for technology and its potential to transform businesses. Over the years, he has honed his skills in SEO, PPC, and social media marketing, helping brands achieve unprecedented growth. His leadership at Kravion is marked by a relentless focus on innovation, transparency, and client satisfaction.
