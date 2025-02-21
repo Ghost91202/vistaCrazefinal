@@ -19,7 +19,7 @@ const Seosection3 = (props: Props) => {
             Serach Engine Optimization Services
               </span>
               <h1 className=' lg:text-6xl   font-semibold lg:w-2/3 text-3xl '>
-                  <TextReveal text="Why choose Vistcraze as your SEO Agency?"/>
+                  <TextReveal text="Why choose Kravion as your SEO Agency?"/>
 
               </h1>
           </div>
