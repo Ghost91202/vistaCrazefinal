@@ -88,7 +88,7 @@ export default function Footer() {
       <Link href="/">Kanpur</Link>
       <Link href="/">Delhi</Link>
       <Link href="/">Bangalore</Link>
-      <Link href="/">Lacknow</Link>
+      <Link href="/">Lucknow</Link>
       <Link href="/">Chennai</Link>
       <Link href="/">Mumbai</Link>
       </div>

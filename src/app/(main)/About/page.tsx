@@ -15,7 +15,7 @@ const AboutPage = (props: Props) => {
         <title>About Kravion - Top Digital Marketing Agency in Kanpur, Noida, Delhi, Bangalore & Chandigarh</title>
         <meta
           name="description"
-          content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
+          content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
         />
         <meta
           name="keywords"
@@ -25,7 +25,7 @@ const AboutPage = (props: Props) => {
         <meta property="og:title" content="About Kravion - Top Digital Marketing Agency in Kanpur, Noida, Delhi, Bangalore & Chandigarh" />
         <meta
           property="og:description"
-          content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
+          content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.kravion.com/about" />
@@ -35,7 +35,7 @@ const AboutPage = (props: Props) => {
         <meta name="twitter:title" content="About Kravion - Top Digital Marketing Agency in Kanpur, Noida, Delhi, Bangalore & Chandigarh" />
         <meta
           name="twitter:description"
-          content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
+          content="Kravion is a leading digital marketing agency in India. Founded by Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
         />
         <meta name="twitter:image" content="https://www.kravion.com/images/twitter-about.jpg" />
         <meta name="twitter:site" content="@KravionAgency" />
@@ -79,7 +79,7 @@ const AboutPage = (props: Props) => {
         <div className="relative h-screen">
           <Image
             src={Aboutimg}
-            alt="About Kravion"
+            alt="About Kravon"
             fill
             className="object-cover"
             priority
@@ -89,7 +89,7 @@ const AboutPage = (props: Props) => {
               About Our Company
             </h1>
             <p className="text-lg lg:text-xl text-white max-w-4xl">
-              Kravion Digital Marketing Agency is a premier digital marketing firm headquartered in India, specializing in data-driven strategies to elevate brands across key cities, including Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Established on January 10, 2024, by Founder & CEO Karan Sharma and Co-Founder Avantika Nigam, Kravion has rapidly emerged as a trusted partner for businesses seeking tailored digital solutions.
+              Kravion Digital Marketing Agency is a premier digital marketing firm headquartered in India, specializing in data-driven strategies to elevate brands across key cities, including Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Established on January 10, 2024, by Founder & CEO Avantika Nigam, Kravion has rapidly emerged as a trusted partner for businesses seeking tailored digital solutions.
             </p>
           </div>
         </div>
