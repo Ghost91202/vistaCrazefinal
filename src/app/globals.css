@@ -154,3 +154,7 @@ background: rgb(0, 117, 255);
   background: linear-gradient(0deg, rgba(2, 0, 36, 1) 27%, rgba(12, 12, 250, 0) 95%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#0c0cfa", GradientType=1);
 }
+
+h1,h2, .font{
+  font-family: "Tinos", serif;
+}

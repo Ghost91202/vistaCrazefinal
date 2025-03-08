@@ -5,15 +5,22 @@ import { ThemeProvider } from "@/provider/theme-provider";
 import NavbarDemo from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter( { subsets: [ "latin" ] } );
 
 export const metadata: Metadata = {
   title: {
     default: "Kravion Digital Marketing Agency | SEO & Google Ads Experts",
-    template: "%s | Kravion Digital Marketing Agency" // For child pages
+    template: "%s | Kravion Digital Marketing Agency",
   },
-  description: "Kravion Digital Marketing Agency: Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services. Get more traffic and conversions today!",
-  keywords: ["SEO Services", "Google Ads Agency", "Facebook Ads", "YouTube Ads", "Digital Marketing Company"],
+  description:
+    "Kravion Digital Marketing Agency: Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services. Get more traffic and conversions today!",
+  keywords: [
+    "SEO Services",
+    "Google Ads Agency",
+    "Facebook Ads",
+    "YouTube Ads",
+    "Digital Marketing Company",
+  ],
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.png",
@@ -21,28 +28,37 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://kravion.com", // Replace with your domain
+    url: "https://kravion.com",
     title: "Kravion Digital Marketing Agency | SEO & Google Ads Experts",
-    description: "Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services.",
+    description:
+      "Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services.",
     images: [
       {
-        url: "/fevicon.png", // Add an OpenGraph image for social sharing
+        url: "/fevicon.png",
       },
     ],
   },
   robots: {
-    index: true, // Allow Google to index this page
-    follow: true, // Allow Google to follow links
+    index: true,
+    follow: true,
   },
 };
 
-export default function RootLayout({
+export default function RootLayout( {
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}> ) {
   return (
-    <html lang="en" className="bg-white w-screen overflow-x-hidden ">
+    <html lang="en" className="bg-white w-screen overflow-x-hidden">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -50,10 +66,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <meta name="p:domain_verify" content="a13a6546428fe39302ba7e6c2d6ceb6a"/>
-          <NavbarDemo/>
+          <meta name="p:domain_verify" content="a13a6546428fe39302ba7e6c2d6ceb6a" />
+          <NavbarDemo />
           {children}
-          <Footer/>
+          <Footer />
         </ThemeProvider>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1DCDT8Q0X"></script>
         <script
@@ -66,8 +82,11 @@ export default function RootLayout({
             `,
           }}
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4031481397691091"
-     crossOrigin="anonymous"></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4031481397691091"
+          crossOrigin="anonymous"
+        ></script>
       </body>
     </html>
   );
