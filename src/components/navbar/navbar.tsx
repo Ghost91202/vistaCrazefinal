@@ -2,9 +2,7 @@
 import React, { useState } from "react";
 import {  Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
-
 import Link from "next/link";
-
 import Image from "next/image";
 import Fevicon from "../../../public/Untitled design-4.png"
 

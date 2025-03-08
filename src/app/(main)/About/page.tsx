@@ -43,9 +43,9 @@ const AboutPage = (props: Props) => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "Kravion Digital Marketing Agency",
+            "name": "Kravion Digital Marketing Company",
             "url": "https://www.kravion.com",
-            "description": "Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. We specialize in SEO, PPC, social media marketing, and more to help businesses grow online.",
+            "description": "Kravion is a leading digital marketing Company in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. We specialize in SEO, PPC, social media marketing, and more to help businesses grow online.",
             "founder": [
               {
                 "@type": "Person",
@@ -58,16 +58,16 @@ const AboutPage = (props: Props) => {
             ],
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Kanpur",
+              "addressLocality": "Noida",
               "addressRegion": "Uttar Pradesh",
-              "postalCode": "208001",
+              "postalCode": "201307",
               "addressCountry": "India"
             },
             "sameAs": [
               "https://www.facebook.com/KravionAgency",
               "https://www.twitter.com/KravionAgency",
               "https://www.linkedin.com/company/KravionAgency",
-              "https://www.instagram.com/kravionagency/"
+              "https://www.instagram.com/kravion_partners/"
             ]
           })}
         </script>

@@ -18,24 +18,16 @@ import Drawer2 from "@/components/drawer/drawer2";
 
 
 export default function Home() {
-
-
-
-
-
   return (
     <main className="w-[100vw] overflow-x-hidden">
       <div className=" text-white">
         <Blurbg />
         <Stickycards />
         <div className="h-auto relative z-10  bg-black text-gray-950 ">
-
           <div className="  h-auto sm:pt-20 pt-10 p-5 gap-5 text-center items-center  sm:gap-40 justify-center flex flex-col  font-bold">
             <div>
               <div className="flex flex-col gap-10">
-
                 <div className=" flex flex-col sm:flex-row h-auto gap-10 sm:gap-20 items-start sm:items-center sm:justify-center">
-
                   <h1 className=" text-white text-start  sm:text-6xl font-sans text-3xl ">Digital marketing
                     <br />
                     <span className="text-violet-600 ">

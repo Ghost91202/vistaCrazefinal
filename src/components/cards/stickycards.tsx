@@ -55,7 +55,6 @@ const Stickycards = (props: Props) => {
 
                                 </div>
                                 <div className='border-t border-gray-200 pt-10'>
-
                                     <Link href='/' className=' border rounded-full border-gray-600 bg-violet-700 sm:text-md px-3 text-xs  w-44 text-white font-medium p-2 '>see plans </Link>
                                 </div>
                             </div>
