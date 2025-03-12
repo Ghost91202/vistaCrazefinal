@@ -45,7 +45,7 @@ const Home = (props: Props) => {
     content="Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. Founded by Karan Sharma and Avantika Nigam, we specialize in SEO, PPC, social media marketing, and more to help businesses grow online."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kravion.com/about" />
+  <meta property="og:url" content="https://www.kravion.com/webdesign" />
   <meta property="og:image" content="https://www.kravion.com/images/og-about.jpg" />
   <meta property="og:site_name" content="Kravion Digital Marketing Agency" />
 
@@ -65,7 +65,7 @@ const Home = (props: Props) => {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Kravion Digital Marketing Agency",
-      "url": "https://www.kravion.com",
+      "url": "https://www.kravion.com/webdesign",
       "description": "Kravion is a leading digital marketing agency in Kanpur, Noida, Delhi, Bangalore, and Chandigarh. We specialize in SEO, PPC, social media marketing, and more to help businesses grow online.",
       "founder": [
         {
@@ -87,7 +87,7 @@ const Home = (props: Props) => {
       "sameAs": [
         "https://www.facebook.com/KravionAgency",
         "https://www.twitter.com/KravionAgency",
-        "https://www.linkedin.com/company/KravionAgency"
+        "https://www.instagram.com/kravion_partners"
       ]
     })}
   </script>

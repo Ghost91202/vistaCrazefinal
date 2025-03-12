@@ -72,7 +72,7 @@ const industries = (props: Props) => {
               </div>
               <div className='bg-gray-100 p-2 rounded-md flex flex-col items-center justify-center'>
                   <div className='p-5 flex flex-col gap-5'>
-                      <h1 className='text-md font-semibold'>startUps</h1>
+                      <h1 className='text-md font-semibold'>StartUps</h1>
                       <p className=' font-medium'>Specializing  in helping  startUps start their journey</p>
                   </div>
               </div>

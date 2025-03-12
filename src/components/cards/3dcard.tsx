@@ -13,10 +13,13 @@ export function ThreeDCardDemo() {
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                     translateZ="50"
-                    className="text-4xl font-mono font-bold text-neutral-600 dark:text-white"
+                    className=" font text-neutral-600 flex items-center gap-2 dark:text-white"
                 >
-                    <TbBrandApplePodcast className="text-4xl" />
-                    Branding & Logo
+                    <TbBrandApplePodcast className="text-5xl" />
+                    <h1 className="text-4xl font">
+                        Branding & Logo
+                    </h1>
+
                 </CardItem>
 
                 <CardItem translateZ="100" className="w-full mt-4">

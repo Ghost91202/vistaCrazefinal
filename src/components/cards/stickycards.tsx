@@ -12,7 +12,7 @@ const Stickycards = (props: Props) => {
     return (
         <div className='bg-black relative z-10  sm:mt-0 font-sans  h-auto'>
             <div className='  flex flex-col gap-10 sm:gap-20 sm:pt-40  items-center sm:p-20 '>
-                 <div className='text-4xl  sm:text-9xl  text-white font-bold font-mono  opacity-20 '>
+                 <div className='text-4xl  sm:text-5xl  text-white font '>
                         OUR SERVICES
                     </div>
                 <div className="xl:h-fit h-auto flex flex-col gap-5   relative ">
@@ -24,19 +24,20 @@ const Stickycards = (props: Props) => {
                                 <h1 className='xl:text-3xl lg:text-2xl sm:text-xl text-lg sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Web Design & Development</h1>
 
                                 <p className='text-md sm:text-lg text-white/50'>Every web design project at Kravion  stands out as unique, receiving unparalleled attention and care. Our team, composed of award-winning web designers and web developers, is renowned for its ability to craft visually striking websites. These sites are not only a feast for the eyes but also excel in functionality, effectively meeting their intended objectives.</p>
-
-                            </div>
+                             </div>
                             <div className='flex flex-col gap-5'>
                                 <div className='lg:gap-3 xl:gap-5 flex font-sans  flex-col'>
-                                    <div className='flex gap-2 text-white/50'>
+                                    <div className=' w-fit gap-2 flex flex-col text-white/50'>
                                         <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs   p-1'>WordPress</Link>
                                         <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs  p-1'>Webflow</Link>
                                         <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs  p-1'>Ui/Ux</Link>
+                                        <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs  p-1'>Custom Design</Link>
+                                        <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs  p-1'>Testing</Link>
+                                        <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs hover:text-violet-600  p-1'>And More</Link>
                                     </div>
 
-                                    <div className='flex gap-2 text-white/50'> <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs  p-1'>Custom Design</Link>
-                                        <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs  p-1'>Testing</Link>
-                                        <Link href='/' className=' border rounded-full border-gray-600 sm:text-md px-3 text-xs text-slate-500  p-1'>And More</Link></div>
+                                    <div className='flex gap-2 text-white/50'>
+                                      </div>
                                 </div>
                                 <div className='w-full flex justify-between border-t border-gray-200 text-white xl:pt-10 p-2'>
                                     <Link href='/' className=' rounded-full  sm:text-md px-3 text-xs bg-violet-700 text-white/50/80 p-1'>Web Design Service </Link>
@@ -47,7 +48,7 @@ const Stickycards = (props: Props) => {
                         <div className='flex flex-col  w-full gap-5 lg:gap-5 xl:gap-10'>
                             <div className='bg-black/10 border   p-5 lg:p-4 xl:p-10    rounded-2xl  w-full flex flex-col gap-5'>
 
-                                <h1 className='xl:text-3xl lg:text-2xl sm:text-xl text-lg sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>seo</h1>
+                                <h1 className='xl:text-3xl lg:text-2xl sm:text-xl text-lg sm:font-bold border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-4 hover:border-l-4 group'>Seo</h1>
                                 <p className='text-md sm:text-lg text-white/50'>Boost your online visibility with Kravion &apos;s premier SEO services. Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement. Unleash your potential and outshine competitors with our tailored SEO solutions.</p>
 
                                 <div>
@@ -60,10 +61,7 @@ const Stickycards = (props: Props) => {
                             </div>
                             <div className='bg-black/70 backdrop-blur-3xl pt-3 pl-3  rounded-2xl '>
                                 <Image src={B2B} alt='' className=' rounded-2xl' />
-                                <div className='flex flex-col items-end absolute bottom-5 left-5'>
-                                    <Link href='/' className=' border rounded-full border-gray-600 sm:text-md text-xs bg-black/10  px-3 text-white/50 '>Feature work </Link>
-                                    <h1 className='sm:text-md px-3 text-xs border-l-2 border-purple-500  group-hover:border-l-purple-600 pl-2 text-white hover:border-l-4 group'>Web Design & Development</h1>
-                                </div>
+
                             </div>
 
                         </div>
@@ -76,7 +74,7 @@ const Stickycards = (props: Props) => {
                             <p className='text-white/50 text-md sm:text-lg'>At Kravion , our brand research and strategy services form the cornerstone of effective branding. We conduct in-depth analysis of competitors, market trends, and target audiences to inform decision-making. Our strategic framework includes developing brand personas, tone, voice, and mission statements, ensuring consistent and impactful brand communication aligned with clients&apos; business objectives.</p>
 
 
-                            <div className=' gap-5 flex font-sans flex-col'>
+                            <div className=' gap-2 flex font-sans flex-col'>
                                 <div className='flex flex-col gap-2 text-white/50'>
                                     <Link href='/' className=' border rounded-full w-fit border-gray-600 sm:text-md px-3 text-xs  p-1'>Brand Positioning</Link>
 

@@ -47,22 +47,22 @@ export default function Home() {
               </div>
               <div className="h-full  w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
                 <div className="h-full w-full bg-violet-600 group hover:bg-violet-600 flex flex-col gap-5 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex gap-2 sm:flex-colitems-start justify-start ">
+                  <div className="flex gap-2 items-center justify-start ">
                     <MdModeStandby className="text-5xl" />
-                    <h1 className="text-3xl font-sans">
+                    <h1 className="text-3xl font">
                       Google Ads
                     </h1>
 
                   </div>
                   <p className="text-md sm:text-lg font-light  text-start">Paid media is all about strategically investing in advertising to broaden your brand&apos;s visibility and reach as well as generating leads.</p>
-                  <Button className="w-32    hover:border-none mt-10">
+                  <Button className="w-32 hover:border-none mt-10">
                     Read More
                   </Button>
                 </div>
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500  lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex gap-2 sm:flex-colitems-start justify-start ">
+                  <div className="flex gap-2 items-center justify-start ">
                     <CgDesignmodo className="text-5xl group-hover:text-white" />
-                    <h1 className="text-3xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font group-hover:text-white">
                       Web Design
                     </h1>
 
@@ -73,9 +73,9 @@ export default function Home() {
                   </Button>
                 </div>
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex gap-2 sm:flex-col items-start justify-start ">
+                  <div className="flex  gap-2  items-center justify-start ">
                     <TbArrowsRandom className="text-5xl group-hover:text-white" />
-                    <h1 className="text-3xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font group-hover:text-white">
                       SEO Services
                     </h1>
 
@@ -86,9 +86,9 @@ export default function Home() {
                   </Button>
                 </div>
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex gap-2 sm:flex-col items-start justify-start ">
+                  <div className="flex gap-2 items-center justify-start ">
                     <PiMetaLogoDuotone className="text-5xl group-hover:text-white" />
-                    <h1 className="text-3xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font group-hover:text-white">
                       Meta Marketing
                     </h1>
 
@@ -102,9 +102,9 @@ export default function Home() {
                 </div>
                 <ThreeDCardDemo />
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
-                  <div className="flex gap-2 sm:flex-col items-start justify-start ">
+                  <div className="flex gap-2 items-center font justify-start ">
                     <GiIronCross className="text-5xl group-hover:text-white" />
-                    <h1 className="text-3xl font-sans group-hover:text-white">
+                    <h1 className="text-3xl font group-hover:text-white">
                       CRO
                     </h1>
 
