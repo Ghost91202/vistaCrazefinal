@@ -95,10 +95,10 @@ const RightDrawer: React.FC = () => {
               <span>Contact</span>
               <IoIosArrowRoundForward className="text-2xl transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
             </Link>
-            <Link href="#" className="text-white sm:flex hidden border rounded-md gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+            <Link href="#" className="flex items-center justify-between p-3 rounded-lg bg-white/10 hover:bg-white/20 hover:text-violet-400 transition-all duration-200 group">
               <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-violet-500 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-violet-600"></span>
               </span>
 
               <Meeting title="Schedule a Call" /></Link>
