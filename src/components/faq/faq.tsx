@@ -6,7 +6,7 @@ import { useSwipeable } from "react-swipeable";
 import Accordion from "../Accordion/Accordion";
 
 const Tabs: React.FC = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [ activeTab, setActiveTab ] = useState( 0 );
 
   const tabs = [
     { label: "All" },
@@ -15,10 +15,10 @@ const Tabs: React.FC = () => {
     { label: "Digital Marketing" },
   ];
 
-  const swipeHandlers = useSwipeable({
-    onSwipedLeft: () => setActiveTab((prev) => Math.min(prev + 1, tabs.length - 1)),
-    onSwipedRight: () => setActiveTab((prev) => Math.max(prev - 1, 0)),
-  });
+  const swipeHandlers = useSwipeable( {
+    onSwipedLeft: () => setActiveTab( ( prev ) => Math.min( prev + 1, tabs.length - 1 ) ),
+    onSwipedRight: () => setActiveTab( ( prev ) => Math.max( prev - 1, 0 ) ),
+  } );
 
   // FAQ Data for Each Tab
   const faqData = {
@@ -115,29 +115,28 @@ const Tabs: React.FC = () => {
         <p>
           Curious about how Kravion, a leading digital marketing agency, can help your business grow? Explore our FAQ section to learn more about our services, processes, and expertise in SEO, PPC, branding, and website design.
         </p>
-        <Link href="/" className="border-b w-fit pb-2 hover:text-blue-500">
+        <Link href="/" className="border-b w-fit pb-2 hover:text-violet-500">
           Let&apos;s Discuss
         </Link>
       </div>
       <div className="ring-offset-transparent">
         <div className="flex border-b xl:text-base text-xs border-gray-200">
-          {tabs.map((tab, index) => (
+          {tabs.map( ( tab, index ) => (
             <button
               key={index}
-              className={`py-2 lg:px-3 px-2 xl:px-4 ${
-                activeTab === index ? "border-b-2 border-blue-500" : ""
-              }`}
-              onClick={() => setActiveTab(index)}
+              className={`py-2 lg:px-3 px-2 xl:px-4 ${ activeTab === index ? "border-b-2 border-violet-500" : ""
+                }`}
+              onClick={() => setActiveTab( index )}
             >
               {tab.label}
             </button>
-          ))}
+          ) )}
         </div>
         <div className="p-4 ring-offset-transparent">
           {activeTab === 0 && (
             <div className="grid grid-flow-row lg:grid-cols-2 xl:grid-cols-2 gap-4">
-              <Accordion items={faqData.all.slice(0, 2)} />
-              <Accordion items={faqData.all.slice(2, 4)} />
+              <Accordion items={faqData.all.slice( 0, 2 )} />
+              <Accordion items={faqData.all.slice( 2, 4 )} />
             </div>
           )}
           {activeTab === 1 && (

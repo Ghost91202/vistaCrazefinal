@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Webimg from "../../../../../public/uiux.svg"
 type Props = {}
 
-const hero = (props: Props) => {
+const hero = ( props: Props ) => {
   return (
     <div className='bg-black relative z-10 z-1 text-white h-screen  grid grid-flow-row grid-cols-1 sm:grid-cols-2 sm:p-20 items-center justify-center p-5 sm:gap-10'>
       <div className='flex flex-col sm:mt-0 mt-20 gap-5 sm:gap-10'>
@@ -19,7 +19,7 @@ const hero = (props: Props) => {
         </div>
       </div>
       <div>
-        <Image src={Webimg} alt="Kravion  web design "/>
+        <Image src={Webimg} alt="Kravion  web design " />
       </div>
     </div>
   )

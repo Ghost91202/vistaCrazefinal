@@ -5,20 +5,20 @@ export function CardStackDemo() {
     return (
         <div className="h-[40rem] flex flex-col items-center justify-center w-full">
             <h1 className="flex flex-col sm:mt-0 -mt-[20vw] mb-16 mr-20 -ml-[40vw] -rotate-45 float-left sm:text-4xl font-bold">Real reviews,
-                <br /><span className="bg-blue-600 text-white flex items-center justify-center p-2 ">Real Clients</span></h1>
+                <br /><span className="bg-violet-600 text-white flex items-center justify-center p-2 ">Real Clients</span></h1>
             <CardStack items={CARDS} />
         </div>
     );
 }
 
 // Small utility to highlight the content of specific section of a testimonial content
-export const Highlight = ({
+export const Highlight = ( {
     children,
     className,
 }: {
     children: React.ReactNode;
     className?: string;
-}) => {
+} ) => {
     return (
         <span
             className={cn(

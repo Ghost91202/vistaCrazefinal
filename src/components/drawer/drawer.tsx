@@ -23,7 +23,7 @@ interface ButtonWithSliderProps {
   lastdesc: string;
 }
 
-const ButtonWithSlider: React.FC<ButtonWithSliderProps> = ({
+const ButtonWithSlider: React.FC<ButtonWithSliderProps> = ( {
   button,
   title,
   desc1,
@@ -40,16 +40,16 @@ const ButtonWithSlider: React.FC<ButtonWithSliderProps> = ({
   submenu5,
   subdesc5,
   lastdesc,
-}) => {
-  const [showSlider, setShowSlider] = useState(false);
+} ) => {
+  const [ showSlider, setShowSlider ] = useState( false );
 
   const handleButtonClick = () => {
-    setShowSlider(!showSlider);
+    setShowSlider( !showSlider );
   };
 
   return (
     <div>
-      <div className="bg-blue-800 flex flex-col justify-center items-center p-10 text-white">
+      <div className="bg-violet-800 flex flex-col justify-center items-center p-10 text-white">
         <button
           onClick={handleButtonClick}
           className="font-serif ring-transparent border-none flex gap-5 text-2xl text-white items-center lg:text-4xl"

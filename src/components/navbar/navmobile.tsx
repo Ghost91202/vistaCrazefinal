@@ -5,14 +5,14 @@ import { IoIosMenu, IoIosArrowRoundForward } from "react-icons/io";
 import Link from "next/link";
 import Meeting from "../meeting"
 const RightDrawer: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [ isOpen, setIsOpen ] = useState( false );
 
   const toggleDrawer = () => {
-    setIsOpen(!isOpen);
+    setIsOpen( !isOpen );
   };
 
   const handleLinkClick = () => {
-    setIsOpen(false);
+    setIsOpen( false );
   };
 
   return (
@@ -27,9 +27,8 @@ const RightDrawer: React.FC = () => {
 
       {/* Drawer */}
       <div
-        className={`fixed z-50 top-0 right-0 w-64 h-screen bg-black/95 text-white shadow-lg transform ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out backdrop-blur-sm`}
+        className={`fixed z-50 top-0 right-0 w-64 h-screen bg-black/95 text-white shadow-lg transform ${ isOpen ? "translate-x-0" : "translate-x-full"
+          } transition-transform duration-300 ease-in-out backdrop-blur-sm`}
       >
         <div className="p-6 flex flex-col gap-6">
           {/* Close Button */}

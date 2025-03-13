@@ -5,7 +5,7 @@ import React from 'react'
 
 type Props = {}
 
-const section3 = (props: Props) => {
+const section3 = ( props: Props ) => {
     return (
         <div className='flex flex-col relative z-10 bg-white text-black gap-10 p-5 lg:p-20 xl:p-20'>
             <div className='flex xl:flex-row justify-between gap-10 flex-col  lg:flex-row'>

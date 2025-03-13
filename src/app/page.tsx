@@ -12,7 +12,7 @@ import Stickycards from "@/components/cards/stickycards";
 import Blurbg from "@/components/hero/homehero";
 import Industries from "@/components/industry/industries";
 import Testimonials from "@/components/testimonials/testimonials";
-import  Tabs  from "@/components/faq/faq";
+import Tabs from "@/components/faq/faq";
 import "./globals.css"
 import Drawer2 from "@/components/drawer/drawer2";
 

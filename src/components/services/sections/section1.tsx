@@ -3,7 +3,7 @@
 export default function section1() {
 
     return (
-        <div className="  bg-blue-800 flex flex-col gap-10 lg:h-auto lg:p-20 items-center text-white">
+        <div className="  bg-violet-800 flex flex-col gap-10 lg:h-auto lg:p-20 items-center text-white">
             <div>
                 <div className=" flex flex-col gap-5">
                     <div className=" flex gap-2 ">
@@ -17,7 +17,7 @@ export default function section1() {
 
                         <button>
                             Schedule a call
-                         </button>
+                        </button>
                     </div>
                 </div>
             </div>

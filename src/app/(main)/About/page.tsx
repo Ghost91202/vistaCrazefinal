@@ -95,8 +95,8 @@ const AboutPage = (props: Props) => {
         </div>
 
         {/* Accordion Section */}
-        <div className="container mx-auto px-6 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="container mx-auto px-6 sm:py-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-8">
             <Accordion
               items={[
                 {
