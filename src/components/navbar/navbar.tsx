@@ -96,7 +96,7 @@ function Navbar({ className }: { className?: string }) {
             <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
           </span>
 
-          <Meeting title="schedule a Call"/></Link>
+          <Meeting title="Schedule a Call"/></Link>
 
         <div className="sm:hidden flex">
 

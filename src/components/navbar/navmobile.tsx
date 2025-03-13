@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { IoIosMenu, IoIosArrowRoundForward } from "react-icons/io";
 import Link from "next/link";
-
+import Meeting from "../meeting"
 const RightDrawer: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -95,6 +95,13 @@ const RightDrawer: React.FC = () => {
               <span>Contact</span>
               <IoIosArrowRoundForward className="text-2xl transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
             </Link>
+            <Link href="#" className="text-white sm:flex hidden border rounded-md gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+              </span>
+
+              <Meeting title="Schedule a Call" /></Link>
           </nav>
         </div>
       </div>

@@ -4,6 +4,7 @@ import BgIMG from "../../../public/heroimg.png"
 import BgIMG1 from "../../../public/heroimg1.jpg"
 import "./style.css"
 import Link from 'next/link'
+import Meeting from "../meeting"
 type Props = {}
 
 const Blurbg = (props: Props) => {
@@ -22,7 +23,7 @@ const Blurbg = (props: Props) => {
                     </p>
 
                     <Link href="/" className='text-sm  sm:text-md bg-violet-600 rounded-md px-3 w-fit sm:mb-10 p-2'>
-                       Request a Proposal
+                      <Meeting title="Schedule a Call"/>
                     </Link>
                 </div>
                 <div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 justify-center backdrop-blur-xl p-5 sm:p-10 rounded-xl bg-white/5 gap-10 sm:gap-5  items-center'>
