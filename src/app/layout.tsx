@@ -9,7 +9,7 @@ const inter = Inter( { subsets: [ "latin" ] } );
 
 export const metadata: Metadata = {
   title: {
-    default: "Kravion Digital Marketing Agency | SEO & Google Ads Experts",
+    default: "Kravion Partners",
     template: "%s | Kravion Digital Marketing Agency",
   },
   description:
