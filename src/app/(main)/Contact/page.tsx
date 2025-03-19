@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import BgIMG1 from "../../../../public/violet-texture_1253-162.jpg"
+import BgIMG1 from "../../../../public/14579711_5488082.jpg"
 import Link from 'next/link'
 import NavbarDemo from '@/components/navbar/navbar'
 import Head from 'next/head'
