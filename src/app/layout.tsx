@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://kravion.com",
-    title: "Kravion Digital Marketing Agency | SEO & Google Ads Experts",
+    title: "Kravion Digital Marketing Agency",
     description:
       "Boost your online presence with expert SEO, Google Ads, Facebook Ads, and YouTube Ads services.",
     images: [
@@ -82,6 +82,7 @@ export default function RootLayout( {
             `,
           }}
         />
+
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4031481397691091"
